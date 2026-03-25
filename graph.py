@@ -26,7 +26,7 @@ def load_graph(csv_path):
         for row in csv.DictReader(f):
             w = int(row['weight'])
             if w >= MIN_WEIGHT:
-                G.add_edge(row['name1'], row['name2'], weight=w)
+                G.add_edge(row['character1'], row['character2'], weight=w)
     return G
 
 

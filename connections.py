@@ -1,116 +1,97 @@
-import csv
+import pandas as pd
+import numpy as np
 import os
-import sys
-from itertools import combinations
-from collections import defaultdict
 import spacy
 
 
 def load_characters(filepath):
-    """
-    Returns two dicts mapping to canonical name:
-      full_name_lookup  : 'Geralt of Rivia' -> 'Geralt of Rivia'
-      firstname_lookup  : 'Geralt'          -> 'Geralt of Rivia'
-    First-name entries are only added when the first name is unique across all characters.
-    """
-    names = []
     with open(filepath, 'r', encoding='utf-8') as f:
-        for line in f:
-            name = line.strip()
-            if name:
-                names.append(name)
+        names = [line.strip() for line in f if line.strip() and line.strip() != 'character']
 
-    full_lookup = {n: n for n in names}
-
-    firstname_map = defaultdict(list)
+    firstname_count = {}
     for name in names:
-        firstname_map[name.split()[0]].append(name)
+        firstname = name.split()[0]
+        firstname_count[firstname] = firstname_count.get(firstname, 0) + 1
 
-    firstname_lookup = {
-        fw: chars[0]
-        for fw, chars in firstname_map.items()
-        if len(chars) == 1 and fw not in full_lookup
-    }
+    rows = []
+    for name in names:
+        firstname = name.split()[0]
+        unique_firstname = firstname if firstname_count[firstname] == 1 else None
+        rows.append({"character": name, "character_firstname": unique_firstname})
 
-    return full_lookup, firstname_lookup
-
-
-def filter_entities(ents, full_lookup, firstname_lookup):
-    found = set()
-    for ent in ents:
-        if ent in full_lookup:
-            found.add(full_lookup[ent])
-        elif ent in firstname_lookup:
-            found.add(firstname_lookup[ent])
-    return found
+    return pd.DataFrame(rows)
 
 
-def cooccurrences(sentence_chars):
-    counts = defaultdict(int)
-    for chars in sentence_chars:
-        for a, b in combinations(sorted(chars), 2):
-            counts[(a, b)] += 1
-    return counts
+def ner(file_name):
+    nlp = spacy.load("en_core_web_sm")
+    book_text = open(file_name, encoding='utf-8').read()
+    book_doc = nlp(book_text)
+    return book_doc
 
 
-def build_all_connections(books_dir, characters_file, output_dir='.'):
-    full_lookup, firstname_lookup = load_characters(characters_file)
+def get_ne_list_per_sentence(spacy_doc):
+    sent_entity_df = []
+    for sent in spacy_doc.sents:
+        entity_list = [ent.text for ent in sent.ents]
+        sent_entity_df.append({"sentence": sent, "entities": entity_list})
+    return pd.DataFrame(sent_entity_df)
 
-    nlp = spacy.load('en_core_web_sm')
-    nlp.max_length = 2_000_000
+
+def filter_entity(ent_list, character_df):
+    return [ent for ent in ent_list
+            if ent in list(character_df.character)
+            or ent in list(character_df.character_firstname)]
+
+
+def create_relationships(df, window_size):
+    relationships = []
+    for i in range(df.index[-1]):
+        end_i = min(i + window_size, df.index[-1])
+        char_list = sum((df.loc[i: end_i].character_entities), [])
+        char_unique = [char_list[i] for i in range(len(char_list))
+                       if (i == 0) or char_list[i] != char_list[i - 1]]
+        if len(char_unique) > 1:
+            for idx, a in enumerate(char_unique[:-1]):
+                b = char_unique[idx + 1]
+                relationships.append({"character1": a, "character2": b})
+
+    relationship_df = pd.DataFrame(relationships)
+    relationship_df = pd.DataFrame(np.sort(relationship_df.values, axis=1),columns=relationship_df.columns)
+    relationship_df["weight"] = 1
+    relationship_df = relationship_df.groupby(["character1", "character2"],sort=False,as_index=False).sum()
+    return relationship_df
+
+
+def build_connections(window_size=5):
+    character_df = load_characters(os.path.join('data', 'characters.csv'))
 
     book_files = sorted(
-        os.path.join(books_dir, f)
-        for f in os.listdir(books_dir)
+        os.path.join('books', f)
+        for f in os.listdir('books')
         if f.endswith('.txt')
     )
-    if not book_files:
-        print('ERROR: no .txt files found in', books_dir)
-        sys.exit(1)
 
-    totals = defaultdict(int)
+    all_relationships = []
 
-    for book_idx, book_path in enumerate(book_files):
-        book_name = os.path.basename(book_path)
-        print(f'[{book_idx + 1}/{len(book_files)}] {book_name}')
+    for book_path in book_files:
+        print(f'{os.path.basename(book_path)}')
 
-        with open(book_path, 'r', encoding='utf-8') as f:
-            text = f.read()
+        book_doc = ner(book_path)
+        sent_entity_df = get_ne_list_per_sentence(book_doc)
+        sent_entity_df['character_entities'] = sent_entity_df['entities'].apply(lambda ent_list: filter_entity(ent_list, character_df))
 
-        doc = nlp(text)
+        relationship_df = create_relationships(sent_entity_df, window_size)
+        all_relationships.append(relationship_df)
 
-        sentence_chars = []
-        for sent in doc.sents:
-            ents = [ent.text for ent in sent.ents if ent.label_ == 'PERSON']
-            found = filter_entities(ents, full_lookup, firstname_lookup)
-            sentence_chars.append(found)
+    final_df = pd.concat(all_relationships, ignore_index=True)
+    final_df = final_df.groupby(["character1", "character2"], sort=False, as_index=False).sum()
+    final_df = final_df.sort_values("weight", ascending=False)
 
-        windows = [
-            sentence_chars[i] | sentence_chars[i + 1]
-            for i in range(len(sentence_chars) - 1)
-        ]
-        for pair, cnt in cooccurrences(windows).items():
-            totals[pair] += cnt
+    out_path = os.path.join('data', 'connections.csv')
+    final_df.to_csv(out_path, index=False)
 
-    os.makedirs(output_dir, exist_ok=True)
-
-    rows = sorted(
-        ((a, b, w) for (a, b), w in totals.items()),
-        key=lambda x: -x[2],
-    )
-    out_path = os.path.join(output_dir, 'connections.csv')
-    with open(out_path, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.writer(f)
-        writer.writerow(['name1', 'name2', 'weight'])
-        writer.writerows(rows)
-    print(f'  {out_path}  ({len(rows)} connections)')
-
-    return totals
+    return final_df
 
 
 if __name__ == '__main__':
-    build_all_connections(
-        books_dir='books',
-        characters_file='characters_list.txt',
-        output_dir='data',
-    )
+    build_connections()
