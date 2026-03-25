@@ -7,6 +7,10 @@ pkgs.mkShell {
         networkx
         matplotlib
         scipy
+        numpy
+        pandas
+        spacy
+        spacy-models.en_core_web_sm
       ]))
   ];
 }

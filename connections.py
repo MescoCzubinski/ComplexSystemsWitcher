@@ -1,49 +1,48 @@
-import re
 import csv
 import os
 import sys
 from itertools import combinations
 from collections import defaultdict
+import spacy
 
 
 def load_characters(filepath):
-    canonical = []
-
+    """
+    Returns two dicts mapping to canonical name:
+      full_name_lookup  : 'Geralt of Rivia' -> 'Geralt of Rivia'
+      firstname_lookup  : 'Geralt'          -> 'Geralt of Rivia'
+    First-name entries are only added when the first name is unique across all characters.
+    """
+    names = []
     with open(filepath, 'r', encoding='utf-8') as f:
         for line in f:
             name = line.strip()
-            canonical.append(name)
+            if name:
+                names.append(name)
 
-    canonical.sort(key=len, reverse=True)
-    name_normalizer = {n.lower(): n for n in canonical}
+    full_lookup = {n: n for n in names}
 
-    first_word_map = defaultdict(list)
-    for name in canonical:
-        fw = name.split()[0]
-        if len(fw) >= 4:
-            first_word_map[fw.lower()].append(name)
+    firstname_map = defaultdict(list)
+    for name in names:
+        firstname_map[name.split()[0]].append(name)
 
-    for fw_lower, chars in first_word_map.items():
-        if len(chars) == 1:
-            full_name = chars[0]
-            if len(full_name.split()) > 1:
-                if fw_lower not in name_normalizer:
-                    name_normalizer[fw_lower] = full_name
+    firstname_lookup = {
+        fw: chars[0]
+        for fw, chars in firstname_map.items()
+        if len(chars) == 1 and fw not in full_lookup
+    }
 
-    return canonical, name_normalizer
+    return full_lookup, firstname_lookup
 
 
-def build_combined_pattern(name_normalizer):
-    terms = sorted(name_normalizer.keys(), key=len, reverse=True)
-    escaped = [re.escape(t) for t in terms]
-    pattern = r'\b(' + '|'.join(escaped) + r')\b'
-    return re.compile(pattern, re.IGNORECASE)
-
-
-def split_into_sentences(text):
-    text = text.replace('\r\n', '\n').replace('\r', '\n')
-    parts = re.split(r'(?<=[.!?…])\s+', text)
-    return [p.strip() for p in parts if len(p.strip()) > 10]
+def filter_entities(ents, full_lookup, firstname_lookup):
+    found = set()
+    for ent in ents:
+        if ent in full_lookup:
+            found.add(full_lookup[ent])
+        elif ent in firstname_lookup:
+            found.add(firstname_lookup[ent])
+    return found
 
 
 def cooccurrences(sentence_chars):
@@ -55,8 +54,10 @@ def cooccurrences(sentence_chars):
 
 
 def build_all_connections(books_dir, characters_file, output_dir='.'):
-    characters, name_normalizer = load_characters(characters_file)
-    pattern = build_combined_pattern(name_normalizer)
+    full_lookup, firstname_lookup = load_characters(characters_file)
+
+    nlp = spacy.load('en_core_web_sm')
+    nlp.max_length = 2_000_000
 
     book_files = sorted(
         os.path.join(books_dir, f)
@@ -76,17 +77,19 @@ def build_all_connections(books_dir, characters_file, output_dir='.'):
         with open(book_path, 'r', encoding='utf-8') as f:
             text = f.read()
 
-        sentences = split_into_sentences(text)
+        doc = nlp(text)
+
         sentence_chars = []
-        for sent in sentences:
-            found = set()
-            for m in pattern.finditer(sent):
-                can = name_normalizer.get(m.group(1).lower())
-                if can:
-                    found.add(can)
+        for sent in doc.sents:
+            ents = [ent.text for ent in sent.ents if ent.label_ == 'PERSON']
+            found = filter_entities(ents, full_lookup, firstname_lookup)
             sentence_chars.append(found)
 
-        for pair, cnt in cooccurrences(sentence_chars).items():
+        windows = [
+            sentence_chars[i] | sentence_chars[i + 1]
+            for i in range(len(sentence_chars) - 1)
+        ]
+        for pair, cnt in cooccurrences(windows).items():
             totals[pair] += cnt
 
     os.makedirs(output_dir, exist_ok=True)
@@ -103,3 +106,11 @@ def build_all_connections(books_dir, characters_file, output_dir='.'):
     print(f'  {out_path}  ({len(rows)} connections)')
 
     return totals
+
+
+if __name__ == '__main__':
+    build_all_connections(
+        books_dir='books',
+        characters_file='characters_list.txt',
+        output_dir='data',
+    )

@@ -89,4 +89,4 @@ if __name__ == '__main__':
     csv_path = os.path.join(CONNECTIONS_DIR, 'connections.csv')
     out_path = os.path.join(CONNECTIONS_DIR, 'graph.png')
     G = load_graph(csv_path)
-    draw_graph(G, 'Witcher character co-occurrence  (window = 1 sentence)', out_path)
+    draw_graph(G, 'Witcher character co-occurrence  (window = 2 sentences)', out_path)

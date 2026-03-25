@@ -3,9 +3,6 @@ import os
 import networkx as nx
 import numpy as np
 
-DATA_DIR = 'data'
-MIN_WEIGHT = 5
-TOP_N = 10
 MATRIX_SUBGRAPH_SIZE = 15
 
 
@@ -14,23 +11,13 @@ def load_graph(csv_path):
     with open(csv_path, newline='', encoding='utf-8') as f:
         for row in csv.DictReader(f):
             w = int(row['weight'])
-            if w >= MIN_WEIGHT:
-                G.add_edge(row['name1'], row['name2'], weight=w)
+            G.add_edge(row['name1'], row['name2'], weight=w)
     return G
 
 
 def section(title):
     print(f'\n{"═" * 60}')
     print(f'  {title}')
-    print(f'{"═" * 60}')
-
-
-def top_table(label, scores, n=TOP_N):
-    ranked = sorted(scores.items(), key=lambda x: -x[1])
-    print(f'\n  Top {n} — {label}:')
-    for i, (name, val) in enumerate(ranked[:n], 1):
-        print(f'    {i:>2}. {name:<40}  {val:.6f}')
-    return ranked
 
 
 def print_matrix(matrix, labels, title):
@@ -43,71 +30,104 @@ def print_matrix(matrix, labels, title):
         print(f'  {row_label:>{col_w}}  {row}')
 
 
-if __name__ == '__main__':
-    G = load_graph(os.path.join(DATA_DIR, 'connections.csv'))
 
-    # ── 1. Rząd i rozmiar ────────────────────────────────────────────────────
+def get_order_and_size(G):
+    return {'nodes': G.number_of_nodes(), 'edges': G.number_of_edges()}
+
+def print_order_and_size(data):
     section('1. Rząd i rozmiar grafu')
-    print(f'  Rząd  (liczba wierzchołków): {G.number_of_nodes()}')
-    print(f'  Rozmiar (liczba krawędzi):   {G.number_of_edges()}')
+    print(f'  Rząd  (liczba wierzchołków): {data["nodes"]}')
+    print(f'  Rozmiar (liczba krawędzi):   {data["edges"]}')
 
-    # ── 2. Centralności wierzchołków ─────────────────────────────────────────
-    section('2. Miary centralności wierzchołków')
+def save_order_and_size(data, path):
+    with open(path, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(['metric', 'value'])
+        writer.writerow(['nodes', data['nodes']])
+        writer.writerow(['edges', data['edges']])
 
-    degree_c     = nx.degree_centrality(G)
-    closeness_c  = nx.closeness_centrality(G, distance='weight')
+
+def get_node_centrality(G):
+    degree_c      = nx.degree_centrality(G)
+    closeness_c   = nx.closeness_centrality(G, distance='weight')
     betweenness_c = nx.betweenness_centrality(G, weight='weight', normalized=True)
+    return degree_c, closeness_c, betweenness_c
 
-    top_deg = top_table('Stopień (degree centrality)',      degree_c)
-    top_clo = top_table('Bliskość (closeness centrality)',  closeness_c)
-    top_bet = top_table('Pośrednictwo (betweenness centrality)', betweenness_c)
-
-    print(f'\n  Wszystkie wartości (sortowane malejąco po stopniu):')
-    all_nodes = sorted(degree_c, key=lambda n: -degree_c[n])
-    print(f'  {"Wierzchołek":<40} {"Stopień":>10} {"Bliskość":>10} {"Pośrednictwo":>14}')
+def print_node_centrality(degree_c, closeness_c, betweenness_c):
+    section('2. Miary centralności wierzchołków')
+    top_deg = sorted(degree_c.items(), key=lambda x: -x[1])
+    print(f'\n  {"Wierzchołek":<40} {"Stopień":>10} {"Bliskość":>10} {"Pośrednictwo":>14}')
     print(f'  {"-"*40} {"-"*10} {"-"*10} {"-"*14}')
-    for n in all_nodes:
-        print(f'  {n:<40} {degree_c[n]:>10.4f} {closeness_c[n]:>10.4f} {betweenness_c[n]:>14.6f}')
+    for node, _ in top_deg:
+        print(f'  {node:<40} {degree_c[node]:>10.4f} {closeness_c[node]:>10.4f} {betweenness_c[node]:>14.6f}')
 
-    # ── 3. Centralność krawędzi ───────────────────────────────────────────────
-    section('3. Pośrednictwo krawędzi (edge betweenness centrality)')
+def save_node_centrality(degree_c, closeness_c, betweenness_c, path):
+    with open(path, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(['node', 'degree', 'closeness', 'betweenness'])
+        for node, _ in sorted(degree_c.items(), key=lambda x: -x[1]):
+            writer.writerow([node, degree_c[node], closeness_c[node], betweenness_c[node]])
 
+
+def get_edge_centrality(G):
     edge_bet = nx.edge_betweenness_centrality(G, weight='weight', normalized=True)
+    return sorted(edge_bet.items(), key=lambda x: -x[1])
 
-    print(f'\n  Top {TOP_N} krawędzi:')
-    ranked_edges = sorted(edge_bet.items(), key=lambda x: -x[1])
-    for i, ((u, v), val) in enumerate(ranked_edges[:TOP_N], 1):
-        print(f'    {i:>2}. {u} — {v:<50}  {val:.6f}')
-
-    print(f'\n  Wszystkie krawędzie (sortowane malejąco):')
-    print(f'  {"Krawędź":<80} {"Pośrednictwo":>14}')
+def print_edge_centrality(ranked_edges):
+    section('3. Pośrednictwo krawędzi (edge betweenness centrality)')
+    print(f'\n  {"Krawędź":<80} {"Pośrednictwo":>14}')
     print(f'  {"-"*80} {"-"*14}')
     for (u, v), val in ranked_edges:
-        edge_str = f'{u} — {v}'
-        print(f'  {edge_str:<80} {val:>14.6f}')
+        print(f'  {u} — {v:<{78 - len(u)}} {val:>14.6f}')
 
-    # ── 4. Najważniejsze wierzchołki i krawędzie ─────────────────────────────
+def save_edge_centrality(ranked_edges, path):
+    with open(path, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(['node1', 'node2', 'betweenness'])
+        for (u, v), val in ranked_edges:
+            writer.writerow([u, v, val])
+
+
+def get_most_important(degree_c, closeness_c, betweenness_c, ranked_edges):
+    return {
+        'top_deg': sorted(degree_c.items(), key=lambda x: -x[1])[0],
+        'top_clo': sorted(closeness_c.items(), key=lambda x: -x[1])[0],
+        'top_bet': sorted(betweenness_c.items(), key=lambda x: -x[1])[0],
+        'top_edge': ranked_edges[0],
+    }
+
+def print_most_important(data):
     section('4. Najważniejsze wierzchołki i krawędzie')
+    print(f'\n  Najważniejszy wierzchołek wg stopnia:      {data["top_deg"][0]}')
+    print(f'  Najważniejszy wierzchołek wg bliskości:    {data["top_clo"][0]}')
+    print(f'  Najważniejszy wierzchołek wg pośrednictwa: {data["top_bet"][0]}')
+    (u, v), _ = data['top_edge']
+    print(f'\n  Najważniejsza krawędź wg pośrednictwa:     {u} — {v}')
 
-    print(f'\n  Najważniejszy wierzchołek wg stopnia:      {top_deg[0][0]}')
-    print(f'  Najważniejszy wierzchołek wg bliskości:    {top_clo[0][0]}')
-    print(f'  Najważniejszy wierzchołek wg pośrednictwa: {top_bet[0][0]}')
-    print(f'\n  Najważniejsza krawędź wg pośrednictwa:     {ranked_edges[0][0][0]} — {ranked_edges[0][0][1]}')
+def save_most_important(data, path):
+    (eu, ev), _ = data['top_edge']
+    with open(path, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(['metric', 'value'])
+        writer.writerow(['top_node_degree',      data['top_deg'][0]])
+        writer.writerow(['top_node_closeness',   data['top_clo'][0]])
+        writer.writerow(['top_node_betweenness', data['top_bet'][0]])
+        writer.writerow(['top_edge_betweenness', f'{eu} — {ev}'])
 
-    # ── 5. Macierze ───────────────────────────────────────────────────────────
-    section(f'5. Macierz sąsiedztwa i incydencji  (podgraf: top {MATRIX_SUBGRAPH_SIZE} wg stopnia)')
 
-    top_nodes = [n for n, _ in top_deg[:MATRIX_SUBGRAPH_SIZE]]
+def get_matrices(G, degree_c):
+    top_nodes = [n for n, _ in sorted(degree_c.items(), key=lambda x: -x[1])[:MATRIX_SUBGRAPH_SIZE]]
     SG = G.subgraph(top_nodes)
     sg_nodes = list(SG.nodes())
     sg_edges = list(SG.edges())
-
-    # Adjacency matrix
     adj = nx.to_numpy_array(SG, nodelist=sg_nodes)
+    inc = nx.incidence_matrix(SG, nodelist=sg_nodes, edgelist=sg_edges).toarray().astype(int)
+    return sg_nodes, sg_edges, adj, inc
+
+def print_matrices(sg_nodes, sg_edges, adj, inc):
+    section(f'5. Macierz sąsiedztwa i incydencji  (podgraf: top {MATRIX_SUBGRAPH_SIZE} wg stopnia)')
     print_matrix(adj.astype(int), sg_nodes, 'Macierz sąsiedztwa (A):')
 
-    # Incidence matrix
-    inc = nx.incidence_matrix(SG, nodelist=sg_nodes, edgelist=sg_edges).toarray().astype(int)
     edge_labels = [f'{u[:6]}–{v[:6]}' for u, v in sg_edges]
     print(f'\n  Macierz incydencji (B)  [{len(sg_nodes)} wierzchołków × {len(sg_edges)} krawędzi]:')
     col_w = 14
@@ -116,3 +136,33 @@ if __name__ == '__main__':
     for i, node in enumerate(sg_nodes):
         row = '  '.join(f'{inc[i, j]:>{col_w}}' for j in range(len(sg_edges)))
         print(f'  {node:<40}  {row}')
+
+def save_matrices(sg_nodes, sg_edges, adj, inc, adj_path, inc_path):
+    with open(adj_path, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow([''] + sg_nodes)
+        for i, node in enumerate(sg_nodes):
+            writer.writerow([node] + list(adj[i].astype(int)))
+
+    with open(inc_path, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow([''] + [f'{u}—{v}' for u, v in sg_edges])
+        for i, node in enumerate(sg_nodes):
+            writer.writerow([node] + list(inc[i]))
+
+
+if __name__ == '__main__':
+    G = load_graph(os.path.join('data', 'connections.csv'))
+
+    print_order_and_size(get_order_and_size(G))
+
+    degree_c, closeness_c, betweenness_c = get_node_centrality(G)
+    # print_node_centrality(degree_c, closeness_c, betweenness_c)
+
+    ranked_edges = get_edge_centrality(G)
+    # print_edge_centrality(ranked_edges)
+
+    print_most_important(get_most_important(degree_c, closeness_c, betweenness_c, ranked_edges))
+
+    # print_matrices(*get_matrices(G, degree_c))
+

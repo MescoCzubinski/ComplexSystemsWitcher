@@ -1,2413 +1,599 @@
 name1,name2,weight
-Dandelion,Geralt of Rivia,130
-Ciri,Geralt of Rivia,113
-Ciri,Yennefer of Vengerberg,98
-Geralt of Rivia,Sword of Destiny minor characters,87
-Lady de Lisemore,Yennefer of Vengerberg,81
-Geralt of Rivia,Yennefer of Vengerberg,75
-Geralt of Rivia,Little Yaxa,48
-Geralt of Rivia,"Something Ends, Something Begins minor characters",47
-Ciri,Little Yaxa,41
-Ciri,Lady de Lisemore,38
-Ciri,Sword of Destiny minor characters,38
-Ciri,Triss Merigold,36
-Geralt of Rivia,Milva,36
-Triss Merigold,Yennefer of Vengerberg,34
-Foltest,King of the Wild Hunt,33
-Cahir Mawr Dyffryn aep Ceallach,Geralt of Rivia,32
-Geralt of Rivia,White Lady,30
-Cahir Mawr Dyffryn aep Ceallach,Milva,29
-Dandelion,Milva,28
-Ciri,Kelpie (horse),28
-Blood of Elves minor characters,Geralt of Rivia,27
-Fisher King (lover of Nimue),King of the Wild Hunt,27
-Geralt of Rivia,King of the Wild Hunt,26
-Ciri,"Something Ends, Something Begins minor characters",26
-Cahir Mawr Dyffryn aep Ceallach,Ceallach aep Gruffyd,26
-King of the Wild Hunt,Vizimir II,25
-Calanthe,Pavetta,25
-Dandelion,"Something Ends, Something Begins minor characters",25
-Dandelion,Little Yaxa,25
-Geralt of Rivia,Triss Merigold,25
-Blood of Elves minor characters,Ciri,24
-Essi Daven,Geralt of Rivia,20
-Blood of Elves minor characters,Sword of Destiny minor characters,20
-Henselt,King of the Wild Hunt,20
-Calanthe,Geralt of Rivia,19
-Rience,Vilgefortz,18
-Cahir Mawr Dyffryn aep Ceallach,Dandelion,17
-Forest Gramps,Geralt of Rivia,16
-Geralt of Rivia,Yarpen Zigrin,16
-Geralt of Rivia,Zoltan Chivay,16
-Dandelion,Zoltan Chivay,16
-Blood of Elves minor characters,Calanthe,15
-Vilgefortz,Yennefer of Vengerberg,15
-Ciri,Yarpen Zigrin,15
-Demavend III,King of the Wild Hunt,15
-Cahir Mawr Dyffryn aep Ceallach,Sword of Destiny minor characters,15
-Fringilla Vigo,Geralt of Rivia,15
-Sword of Destiny minor characters,White Lady,14
-Little Yaxa,Yennefer of Vengerberg,14
-Calanthe,Ciri,14
-Ciri,Pavetta,14
-Ciri,Vilgefortz,14
-White Lady,Yennefer of Vengerberg,13
-King of the Wild Hunt,Niedamir,13
-King of the Wild Hunt,Venzlav,13
-Ciri,White Lady,13
-Ciri,Nenneke,13
-Ciri,Jarre,13
-Geralt of Rivia,Lord Strept,12
-"Something Ends, Something Begins minor characters",Yennefer of Vengerberg,12
-Blood of Elves minor characters,Yennefer of Vengerberg,12
-Keira Metz,Triss Merigold,12
-Kayleigh,Mistle,12
-Milva,Zoltan Chivay,12
-Geralt of Rivia,Roach,11
-Geralt of Rivia,Mousesack,11
-Lydia van Bredevoort,Vilgefortz,11
-Philippa Eilhart,Yennefer of Vengerberg,11
-Philippa Eilhart,Triss Merigold,11
-Esterad Thyssen,King of the Wild Hunt,11
-Ciri,Skomlik,11
-Giselher,Kayleigh,11
-Dandelion,Pegasus,11
-Geralt of Rivia,Nenneke,10
-Blood of Elves minor characters,"Something Ends, Something Begins minor characters",10
-Geralt of Rivia,Lady de Lisemore,10
-Geralt of Rivia,Pavetta,10
-Braenn,Geralt of Rivia,10
-Eskel,Geralt of Rivia,10
-Geralt of Rivia,Vesemir,10
-Eskel,Vesemir,10
-Foltest,Henselt,10
-Geralt of Rivia,Vilgefortz,10
-Ciri,Mistle,10
-Kayleigh,Reef,10
-Asse,Reef,10
-Percival Schuttenbach,Zoltan Chivay,10
-Sword of Destiny minor characters,Zoltan Chivay,10
-Ciri,Emhyr var Emreis,10
-Crach an Craite,Yennefer of Vengerberg,10
-Little Yaxa,Sword of Destiny minor characters,9
-Blue Knight,White Lady,9
-Geralt of Rivia,Nivellen,9
-Little Yaxa,"Something Ends, Something Begins minor characters",9
-Geralt of Rivia,Stregobor,9
-Iola,Nenneke,9
-Dorregaray,Yennefer of Vengerberg,9
-Ciri,King of the Wild Hunt,9
-Lady de Lisemore,Little Yaxa,9
-Dandelion,Rience,9
-Dandelion,Shani,9
-Ciri,Dandelion,9
-Ciri,Lara Dorren,9
-Cahir Mawr Dyffryn aep Ceallach,Rience,9
-Demavend III,Henselt,9
-Vattier de Rideaux,Vilgefortz,9
+Geralt of Rivia,Yennefer of Vengerberg,204
+Cahir Mawr Dyffryn aep Ceallach,Geralt of Rivia,84
+Essi Daven,Geralt of Rivia,35
+Geralt of Rivia,Milva,26
+Philippa Eilhart,Yennefer of Vengerberg,25
+Nenneke,Yennefer of Vengerberg,23
+Braenn,Geralt of Rivia,23
+Cahir Mawr Dyffryn aep Ceallach,Ceallach aep Gruffyd,23
+Geralt of Rivia,Roach,22
+Dorregaray,Yennefer of Vengerberg,22
+Geralt of Rivia,Philippa Eilhart,21
+Giselher,Kayleigh,21
+Geralt of Rivia,Nenneke,20
+Philippa Eilhart,Sabrina Glevissig,18
+Keira Metz,Sabrina Glevissig,18
+Geralt of Rivia,Nivellen,17
+Dorregaray,Geralt of Rivia,16
+Geralt of Rivia,Vesemir,15
+Falwick,Geralt of Rivia,14
+Boholt,Geralt of Rivia,14
+Fringilla Vigo,Geralt of Rivia,13
+Geralt of Rivia,Mousesack,12
+Cahir Mawr Dyffryn aep Ceallach,Milva,12
+Bert Brigden,Ola Harsheim,12
+Esterad Thyssen,Zuleyka,12
+Dhun,Geralt of Rivia,11
+Geralt of Rivia,Lambert,11
+Lambert,Vesemir,11
+Cregennan of Lod,Lara Dorren,11
+Giselher,Iskra,10
+Fringilla Vigo,Philippa Eilhart,10
+Fringilla Vigo,Yennefer of Vengerberg,10
+Jarre,Lucienne,10
+Geralt of Rivia,Yarpen Zigrin,9
+Sabrina Glevissig,Yennefer of Vengerberg,9
+Stefan Skellen,Vattier de Rideaux,9
 Giselher,Mistle,9
-Cahir Mawr Dyffryn aep Ceallach,Ciri,9
-Francesca Findabair,Yennefer of Vengerberg,9
-Condwiramurs Tilly,Nimue verch Wledyr ap Gwyn,9
-Avallac'h,Ciri,9
-Blue Knight,Geralt of Rivia,8
-Falwick,Geralt of Rivia,8
-Forest Gramps,Little Yaxa,8
-Geralt of Rivia,Renfri Vellga,8
-Calanthe,Eist Tuirseach,8
-Dhun,Nettly,8
-Ethain,King of the Wild Hunt,8
-Yarpen Zigrin,Yennefer of Vengerberg,8
-Dandelion,Forest Gramps,8
-Dainty Biberveldt,Geralt of Rivia,8
-Blue Knight,Little Yaxa,8
-Dandelion,Essi Daven,8
-Eskel,Triss Merigold,8
-Blue Knight,Triss Merigold,8
-Philippa Eilhart,Vilgefortz,8
-Eurneid,Iola,8
-Codringher,Geralt of Rivia,8
-Emhyr var Emreis,King of the Wild Hunt,8
-Philippa Eilhart,Sabrina Glevissig,8
-Cregennan of Lod,Lara Dorren,8
-Keira Metz,Sabrina Glevissig,8
-Emhyr var Emreis,Vilgefortz,8
-Francesca Findabair,Philippa Eilhart,8
-Giselher,Reef,8
-Forest Gramps,Milva,8
-Maria Louisa La Valette,Milva,8
-Figgis Merluzzo,Munro Bruys,8
-Geralt of Rivia,Vissegerd,8
-Cahir Mawr Dyffryn aep Ceallach,"Something Ends, Something Begins minor characters",8
-Assire var Anahid,Fringilla Vigo,8
-Ciri,Philippa Eilhart,8
-Jarre,Lucienne,8
-Herwig,King of the Wild Hunt,8
-Forest Gramps,White Lady,7
-Blood of Elves minor characters,Little Yaxa,7
-Little Yaxa,White Lady,7
-Blood of Elves minor characters,White Lady,7
-Chireadan,Geralt of Rivia,7
-King of the Wild Hunt,Lord Strept,7
-Dorregaray,Geralt of Rivia,7
-Boholt,Geralt of Rivia,7
-King of the Wild Hunt,"Something Ends, Something Begins minor characters",7
-Boholt,Sword of Destiny minor characters,7
-Dainty Biberveldt,Dandelion,7
-Agloval,Sh'eenaz,7
-Braenn,Freixenet,7
-Lord Strept,Yurga,7
-Aevenien,Ithlinne,7
-Triss Merigold,Vesemir,7
-Geralt of Rivia,Philippa Eilhart,7
-Tissaia de Vries,Yennefer of Vengerberg,7
-Effenberg,Talbot,7
-Demavend III,Foltest,7
-Fiona,Riannon,7
-Baron of Casadei,Lord Strept,7
-Ciri,Kayleigh,7
-Mistle,Sword of Destiny minor characters,7
-Little Yaxa,Milva,7
-Blood of Elves minor characters,Milva,7
-Assire var Anahid,Lady de Lisemore,7
-Caleb Stratton,Yazon Varda,7
-Munro Bruys,Yazon Varda,7
-Milva,"Something Ends, Something Begins minor characters",7
-Blood of Elves minor characters,Lara Dorren,7
-Esterad Thyssen,Zuleyka,7
-Nenneke,Triss Merigold,7
-Jarre,Pike (person),7
-Field Marshal Windbag,Menno Coehoorn,7
-Iola,Shani,7
-Field Marshal Windbag,Geralt of Rivia,6
-Hereward,Prince Voorhis,6
-Crach an Craite,Eist Tuirseach,6
-Baron of Casadei,Geralt of Rivia,6
-Dorregaray,Lord Strept,6
-Dorregaray,King of the Wild Hunt,6
-Geralt of Rivia,Slow,6
-Little Yaxa,Lord Strept,6
-Dandelion,Yennefer of Vengerberg,6
+Geralt of Rivia,Toruviel,8
+Boholt,Dorregaray,8
+Agloval,Geralt of Rivia,8
+Geralt of Rivia,Niedamir,7
+Geralt of Rivia,Gyllenstiern,7
+Gyllenstiern,Niedamir,7
+Braenn,Mona (dryad),7
+Paulie Dahlberg,Regan Dahlberg,7
+Jarre,Yennefer of Vengerberg,7
+Codringher,Geralt of Rivia,7
+Keira Metz,Yennefer of Vengerberg,7
+Figgis Merluzzo,Munro Bruys,7
+Dacre Silifant,Ola Harsheim,7
+Dorregaray,Radcliffe,7
+Chireadan,Geralt of Rivia,6
+Krepp,Neville,6
+Boholt,Niedamir,6
+Niedamir,Yennefer of Vengerberg,6
+Boholt,Yennefer of Vengerberg,6
 Freixenet,Geralt of Rivia,6
-Eithné,Geralt of Rivia,6
-Ervyll,King of the Wild Hunt,6
-Ciri,Prince Voorhis,6
-Rience,"Something Ends, Something Begins minor characters",6
-Little Yaxa,Triss Merigold,6
-"Something Ends, Something Begins minor characters",Triss Merigold,6
-Lambert,Triss Merigold,6
-Triss Merigold,Yarpen Zigrin,6
-Paulie Dahlberg,Yarpen Zigrin,6
-Lady de Lisemore,Philippa Eilhart,6
-Blood of Elves minor characters,Philippa Eilhart,6
-Nenneke,Yennefer of Vengerberg,6
-Demavend III,Meve,6
-Blood of Elves minor characters,Blue Knight,6
-Ciri,Tissaia de Vries,6
-Margarita Laux-Antille,Yennefer of Vengerberg,6
-Sabrina Glevissig,Vilgefortz,6
-Keira Metz,Yennefer of Vengerberg,6
-Elen of Kaedwen,Fiona,6
-Cahir Mawr Dyffryn aep Ceallach,Vilgefortz,6
-Blood of Elves minor characters,Cahir Mawr Dyffryn aep Ceallach,6
-Dandelion,White Lady,6
-Emhyr var Emreis,Vattier de Rideaux,6
-Baron of Casadei,Lutz,6
-Asse,Mistle,6
-Asse,Kayleigh,6
-Dandelion,Percival Schuttenbach,6
-Ciri,Falka,6
-Rience,Vattier de Rideaux,6
-Margarita Laux-Antille,Triss Merigold,6
-Fringilla Vigo,Yennefer of Vengerberg,6
-Emhyr var Emreis,Little Yaxa,6
-Jarre,Melfi,6
-Duke de Ruyter,Hereward,5
-Lady de Lisemore,White Lady,5
-Calanthe,King of the Wild Hunt,5
-Calanthe,Roegner of Ebbing,5
-King of the Wild Hunt,Roegner of Ebbing,5
-Mousesack,Pavetta,5
-King of the Wild Hunt,Little Yaxa,5
-Dhun,Geralt of Rivia,5
-Dezmod,King of the Wild Hunt,5
-Geralt of Rivia,Niedamir,5
-Boholt,Lord Strept,5
-"Something Ends, Something Begins minor characters",Yarpen Zigrin,5
-Boholt,Dorregaray,5
-Gyllenstiern,Lord Strept,5
-"Something Ends, Something Begins minor characters",White Lady,5
-Dandelion,Sword of Destiny minor characters,5
-Agloval,Duke de Ruyter,5
-Agloval,Geralt of Rivia,5
+Geralt of Rivia,Paulie Dahlberg,6
+Geralt of Rivia,Olsen,6
+Vilgefortz,Yennefer of Vengerberg,6
+Jarre,Nenneke,6
+Iskra,Kayleigh,6
+Keira Metz,Philippa Eilhart,6
+Margarita Laux-Antille,Philippa Eilhart,6
+Geralt of Rivia,Zoltan Chivay,6
+Cahir Mawr Dyffryn aep Ceallach,Vattier de Rideaux,6
+Carthia van Canten,Vattier de Rideaux,6
+Dacre Silifant,Til Echrade,6
+Adam Pangratt,Julia Abatemarco,6
+Ola Harsheim,Til Echrade,6
+Mona (dryad),Morenn (Braenn's daughter),6
+Geralt of Rivia,Krepp,5
+Essi Daven,Yennefer of Vengerberg,5
 Agloval,Essi Daven,5
-Dandelion,King of the Wild Hunt,5
-Braenn,Little Yaxa,5
-King of the Wild Hunt,White Lady,5
-Little Yaxa,Yurga,5
-Geralt of Rivia,Yurga,5
-Lambert,Vesemir,5
-Ciri,Eskel,5
-Geralt of Rivia,Lambert,5
-Lady de Lisemore,"Something Ends, Something Begins minor characters",5
-Ciri,Vesemir,5
-Dandelion,Philippa Eilhart,5
+Eskel,Geralt of Rivia,5
 Henselt,Meve,5
-Emhyr var Emreis,White Lady,5
-Keira Metz,Philippa Eilhart,5
-Francesca Findabair,Vilgefortz,5
-Elen of Kaedwen,Riannon,5
-Lady de Lisemore,Stella Congreve,5
-Stefan Skellen,Vattier de Rideaux,5
-Remiz,Skomlik,5
-Iskra,Kayleigh,5
-Ciri,Giselher,5
-Giselher,Iskra,5
-Little Yaxa,Mistle,5
-Falka,Giselher,5
-Falka,Mistle,5
-Cahir Mawr Dyffryn aep Ceallach,Mawr var Anahid,5
-Dyffryn,Mawr var Anahid,5
-Francesca Findabair,Triss Merigold,5
+Philippa Eilhart,Radcliffe,5
+Molnar Giancardi,Yennefer of Vengerberg,5
+Geralt of Rivia,Sabrina Glevissig,5
+Skomlik,Vercta,5
 Assire var Anahid,Philippa Eilhart,5
 Figgis Merluzzo,Yazon Varda,5
-Field Marshal Windbag,Zoltan Chivay,5
-Emiel Regis Rohellec Terzieff-Godefroy,Geralt of Rivia,5
-Emhyr var Emreis,Fringilla Vigo,5
-Fringilla Vigo,Triss Merigold,5
-Lara Dorren,Riannon,5
-Falka,Goidemar,5
-Ciri,Vysogota of Corvo,5
-Carthia van Canten,Vattier de Rideaux,5
-Bert Brigden,Ola Harsheim,5
-Gedovius Troyden,Gemma,5
-Galahad,Lady de Lisemore,5
-Ciri,Nimue verch Wledyr ap Gwyn,5
-Milton,Ograbek,5
-Okultich,Pike (person),5
-Dandelion,Yarpen Zigrin,5
-Geralt of Rivia,Prince Voorhis,4
-Nenneke,"Something Ends, Something Begins minor characters",4
-Aridea,Fredefalk Vellga,4
-Civril,Nohorn,4
-Blood of Elves minor characters,Renfri Vellga,4
-Rainfarn,Windhalm of Attre,4
-Eist Tuirseach,Pavetta,4
-Calanthe,Mousesack,4
-Eskel,Little Yaxa,4
-Lord Strept,Niedamir,4
-Eyck of Denesle,Geralt of Rivia,4
-Geralt of Rivia,Gyllenstiern,4
-Boholt,Yennefer of Vengerberg,4
-Lady de Lisemore,Yarpen Zigrin,4
-Boholt,Niedamir,4
-Gyllenstiern,King of the Wild Hunt,4
-Istredd,Yennefer of Vengerberg,4
-Blue Knight,Dandelion,4
-Dainty Biberveldt,Vimme Vivaldi,4
-Geralt of Rivia,Sh'eenaz,4
-Duke de Ruyter,Little Yaxa,4
-Blue Knight,Essi Daven,4
-Dandelion,Sh'eenaz,4
-Blood of Elves minor characters,Dandelion,4
-Ciri,Kistrin,4
-Blood of Elves minor characters,King of the Wild Hunt,4
-Blue Knight,Ciri,4
-Rayla,White Lady,4
-Eist Tuirseach,King of the Wild Hunt,4
-Triss Merigold,White Lady,4
-Eskel,Lambert,4
-Artaud Terranova,Vilgefortz,4
-Fercart,Vilgefortz,4
-Paulie Dahlberg,Regan Dahlberg,4
-King of the Wild Hunt,Philippa Eilhart,4
-Geralt of Rivia,Rience,4
-Henselt,Vizimir II,4
-Foltest,Vizimir II,4
-Foltest,Triss Merigold,4
-King of the Wild Hunt,Triss Merigold,4
-Jarre,Nenneke,4
-Jarre,Yennefer of Vengerberg,4
-Lady de Lisemore,Sword of Destiny minor characters,4
-Aplegatt,King of the Wild Hunt,4
-Codringher,Emhyr var Emreis,4
-Blood of Elves minor characters,Lady de Lisemore,4
-Margarita Laux-Antille,Tissaia de Vries,4
-Sabrina Glevissig,Yennefer of Vengerberg,4
-Philippa Eilhart,"Something Ends, Something Begins minor characters",4
-Francesca Findabair,Tissaia de Vries,4
-Marti Södergren,Sabrina Glevissig,4
-Geralt of Rivia,Lydia van Bredevoort,4
-Little Yaxa,Vilgefortz,4
-Blood of Elves minor characters,Falka,4
-Radcliffe,Triss Merigold,4
-Sabrina Glevissig,Triss Merigold,4
-Emhyr var Emreis,Geralt of Rivia,4
-Lady de Lisemore,Seven gnomes,4
-Kayleigh,Skomlik,4
-Kayleigh,Sword of Destiny minor characters,4
-Iskra,Sword of Destiny minor characters,4
-Kayleigh,Little Yaxa,4
-Falka,Reef,4
-Mistle,Reef,4
-Cahir Mawr Dyffryn aep Ceallach,Dyffryn,4
-Ceallach aep Gruffyd,Mawr var Anahid,4
-Margarita Laux-Antille,Philippa Eilhart,4
-Assire var Anahid,Francesca Findabair,4
-Milva,Roach,4
-Ceallach aep Gruffyd,Dandelion,4
-Blood of Elves minor characters,Riannon,4
-Dandelion,Vissegerd,4
-Blood of Elves minor characters,Emhyr var Emreis,4
-Milva,Sword of Destiny minor characters,4
-Keira Metz,Margarita Laux-Antille,4
-Margarita Laux-Antille,Sabrina Glevissig,4
-Fringilla Vigo,Sabrina Glevissig,4
-Assire var Anahid,Triss Merigold,4
-Cerro,Lara Dorren,4
-Falka,King of the Wild Hunt,4
-Ciri,Riannon,4
-Fringilla Vigo,Philippa Eilhart,4
-Jarre,Triss Merigold,4
-Dacre Silifant,Ola Harsheim,4
-King of the Wild Hunt,Prince Voorhis,4
-Duke de Ruyter,Guiscard Vermuellen,4
-Ciri,Crach an Craite,4
-Sigrdrifa,Yennefer of Vengerberg,4
-Fringilla Vigo,Lady de Lisemore,4
-Klaproth,Pike (person),4
-Klaproth,Okultich,4
-Adam Pangratt,Julia Abatemarco,4
-Yarpen Zigrin,Zoltan Chivay,4
-Ciri,Galahad,4
-Annika,Caldemeyn,4
-Agloval,Prince Voorhis,4
-King of the Wild Hunt,Sword of Destiny minor characters,3
-Ostrit,Sword of Destiny minor characters,3
-Little Yaxa,Roach,3
-Duke de Ruyter,Prince Voorhis,3
-Nenneke,Prince Voorhis,3
-Lord Strept,Prince Voorhis,3
-Caldemeyn,Geralt of Rivia,3
-Nohorn,Tavik,3
-Fifteen,Nohorn,3
-Renfri Vellga,White Lady,3
-Renfri Vellga,Stregobor,3
-Aridea,Stregobor,3
-Brick,Geralt of Rivia,3
-King of the Wild Hunt,Lady de Lisemore,3
-Prince Voorhis,Rainfarn,3
-Prince Voorhis,Windhalm of Attre,3
-Calanthe,Drogodar,3
-Calanthe,Little Yaxa,3
-Cerro,King of the Wild Hunt,3
-Eist Tuirseach,Vissegerd,3
-Eist Tuirseach,Mousesack,3
-Fifteen,Roegner of Ebbing,3
-Blood of Elves minor characters,Prince Voorhis,3
-Geralt of Rivia,Lille,3
-Geralt of Rivia,Toruviel,3
-Little Yaxa,Nenneke,3
-Chireadan,Errdil,3
-Lord Strept,Yennefer of Vengerberg,3
-Lady de Lisemore,Lord Strept,3
-Krepp,Neville,3
-Niedamir,Sword of Destiny minor characters,3
-Gyllenstiern,Niedamir,3
-Sword of Destiny minor characters,Yennefer of Vengerberg,3
-Boholt,Eyck of Denesle,3
-Eyck of Denesle,King of the Wild Hunt,3
-Blood of Elves minor characters,Dorregaray,3
-King of the Wild Hunt,Yennefer of Vengerberg,3
-Geralt of Rivia,Istredd,3
-Geralt of Rivia,Herbolth,3
-Dudu,Little Yaxa,3
-Essi Daven,Little Yaxa,3
-Duke de Ruyter,Essi Daven,3
-Duke de Ruyter,Lord Strept,3
-Pike (person),Sword of Destiny minor characters,3
-Kistrin,Prince Voorhis,3
-Geralt of Rivia,Kistrin,3
-Baron of Casadei,Freixenet,3
-Baron of Casadei,Ciri,3
-Braenn,Ciri,3
-Ciri,Eithné,3
-Ciri,Sandy Frogmorton,3
-"Something Ends, Something Begins minor characters",Sword of Destiny minor characters,3
-Baron of Casadei,Radcliffe,3
-Donimir of Troy,Sword of Destiny minor characters,3
-Blue Knight,"Something Ends, Something Begins minor characters",3
-Sword of Destiny minor characters,Triss Merigold,3
-Foltest,Keira Metz,3
-Artaud Terranova,Yennefer of Vengerberg,3
-Fercart,Yennefer of Vengerberg,3
-Geralt of Rivia,Paulie Dahlberg,3
-Little Yaxa,Yarpen Zigrin,3
-Blood of Elves minor characters,Yarpen Zigrin,3
-Regan Dahlberg,Yarpen Zigrin,3
-Boatbug,Geralt of Rivia,3
-Geralt of Rivia,Olsen,3
-Philippa Eilhart,Vizimir II,3
-Dandelion,Triss Merigold,3
-Foltest,Lord Strept,3
-Foltest,Meve,3
-Meve,Vizimir II,3
-Emhyr var Emreis,Foltest,3
-Ciri,Slow,3
-"Something Ends, Something Begins minor characters",Vilgefortz,3
-Fercart,Radcliffe,3
-Radcliffe,Yennefer of Vengerberg,3
-Ciri,Iola,3
-King of the Wild Hunt,Meve,3
-Codringher,Rience,3
-Henselt,Sabrina Glevissig,3
-King of the Wild Hunt,Vilgefortz,3
-Ciri,Codringher,3
-Blood of Elves minor characters,Codringher,3
-Blood of Elves minor characters,Ithlinne,3
-Ciri,Margarita Laux-Antille,3
-Triss Merigold,Vilgefortz,3
-Adalia,Calanthe,3
-Falka,Fiona,3
-Falka,Lara Dorren,3
-Blood of Elves minor characters,Triss Merigold,3
-Dorregaray,Triss Merigold,3
-Philippa Eilhart,Tissaia de Vries,3
-Ambassador de Ruyter,Esterad Thyssen,3
-Ambassador de Ruyter,King of the Wild Hunt,3
-Emhyr var Emreis,Henselt,3
-Emhyr var Emreis,"Something Ends, Something Begins minor characters",3
-Stefan Skellen,Vilgefortz,3
-Blood of Elves minor characters,Vilgefortz,3
+Munro Bruys,Yazon Varda,5
+Falka,Giselher,5
+Andres Vierny,Chloe Stitz,5
+Julia Abatemarco,Lorenzo Molla,5
+Geralt of Rivia,Reynart de Bois-Fresnes,5
+Jarre,Milton,5
+Braenn,Freixenet,5
+Freixenet,Morenn (Braenn's daughter),5
+Matholm,Sulivoy,5
+Herwig,Loki an Craite,5
+Falwick,Nenneke,4
+Galarr,Toruviel,4
+Filavandrel aén Fidháil,Toruviel,4
+Krepp,Yennefer of Vengerberg,4
+Yarpen Zigrin,Yennefer of Vengerberg,4
+Dorregaray,Niedamir,4
+Artaud Terranova,Yennefer of Vengerberg,4
+Everett,Geralt of Rivia,4
+Geralt of Rivia,Shani,4
+Esterad Thyssen,Niedamir,4
+Fercart,Radcliffe,4
+Toruviel,Yaevinn,4
+Dorregaray,Philippa Eilhart,4
+Keira Metz,Radcliffe,4
+Caleb Stratton,Yazon Varda,4
+Figgis Merluzzo,Percival Schuttenbach,4
+Munro Bruys,Percival Schuttenbach,4
+Ceallach aep Gruffyd,Geralt of Rivia,4
+Kayleigh,Mistle,4
+Corbett,Dagorad,4
+Neratin Ceka,Til Echrade,4
+Bert Brigden,Dacre Silifant,4
+Adam Pangratt,Lorenzo Molla,4
+Bert Brigden,Til Echrade,4
+Dacre Silifant,Stefan Skellen,4
+Bertram Skellen,Stefan Skellen,4
+Braenn,Morenn (Braenn's daughter),4
+Matholm,Yves,4
+Sulivoy,Yves,4
+Freixenet,Freya (Skelliger),4
+Freixenet,Mona (dryad),4
+Dorregaray,Freixenet,4
+Nimir,Vyr,3
+Geralt of Rivia,Haxo,3
+Filavandrel aén Fidháil,Geralt of Rivia,3
+Geralt of Rivia,Vratimir,3
+Laurelnose,Yennefer of Vengerberg,3
+Gyllenstiern,Yennefer of Vengerberg,3
+Dorregaray,Gyllenstiern,3
+Istredd,Yennefer of Vengerberg,3
+Geralt of Rivia,Venzlav,3
+Ervyll,Venzlav,3
+Geralt of Rivia,Yannick Brass,3
+Henselt,Vizimir II,3
+Carduin,Philippa Eilhart,3
+Margarita Laux-Antille,Yennefer of Vengerberg,3
+Geralt of Rivia,Vilgefortz,3
+Aen Saevherne,Lara Dorren,3
+Philippa Eilhart,Vilgefortz,3
+Fabio Sachs,Jarre,3
+Kayleigh,Skomlik,3
+Kayleigh,Lutz,3
 Iskra,Mistle,3
-Blood of Elves minor characters,Kayleigh,3
-Asse,Falka,3
-Asse,Giselher,3
-Iskra,Reef,3
-Emhyr var Emreis,Stefan Skellen,3
-Lady de Lisemore,Milva,3
-Ceallach aep Gruffyd,Dyffryn,3
-Francesca Findabair,Sabrina Glevissig,3
-Assire var Anahid,"Something Ends, Something Begins minor characters",3
-Falka,Sword of Destiny minor characters,3
-Little Yaxa,Pegasus,3
-Caleb Stratton,Figgis Merluzzo,3
+Cahir Mawr Dyffryn aep Ceallach,Roach,3
 Percival Schuttenbach,Yazon Varda,3
-Milva,Pegasus,3
-Pegasus,Roach,3
-Pegasus,Zoltan Chivay,3
-Caleb Stratton,Zoltan Chivay,3
-Yazon Varda,Zoltan Chivay,3
-Percival Schuttenbach,"Something Ends, Something Begins minor characters",3
-Adalia,Muriel,3
-Cahir Mawr Dyffryn aep Ceallach,Vattier de Rideaux,3
-Cahir Mawr Dyffryn aep Ceallach,Lord Strept,3
-Lord Strept,Stefan Skellen,3
-Fringilla Vigo,"Something Ends, Something Begins minor characters",3
-Ciri,Milva,3
-Dandelion,Roach,3
-Rience,Yennefer of Vengerberg,3
-Ciri,Francesca Findabair,3
-Fringilla Vigo,Keira Metz,3
-Assire var Anahid,Sabrina Glevissig,3
-Pavetta,Yennefer of Vengerberg,3
-Goidemar,King of the Wild Hunt,3
-Goidemar,Riannon,3
-King of the Wild Hunt,Riannon,3
-Houtborg triplets,Riannon,3
-Falka,Riannon,3
-Amavet,Fiona,3
-Calanthe,Lara Dorren,3
-Fringilla Vigo,Little Yaxa,3
-Ciri,Fringilla Vigo,3
-Nimue verch Wledyr ap Gwyn,Yennefer of Vengerberg,3
-Geralt of Rivia,Pegasus,3
-Geralt of Rivia,Meve,3
-King of the Wild Hunt,Zuleyka,3
-Andres Vierny,Chloe Stitz,3
-Andres Vierny,Neratin Ceka,3
-Bert Brigden,Dacre Silifant,3
-Boreas Mun,Neratin Ceka,3
-Baron of Casadei,Falka,3
-Esterhazy,Sword of Destiny minor characters,3
-Ciri,Esterhazy,3
-Gedovius Troyden,King of the Wild Hunt,3
-Emhyr var Emreis,Esterad Thyssen,3
-"Something Ends, Something Begins minor characters",Zuleyka,3
+Geralt of Rivia,Percival Schuttenbach,3
+Percival Schuttenbach,Zoltan Chivay,3
+Assire var Anahid,Yennefer of Vengerberg,3
+Cahir Mawr Dyffryn aep Ceallach,Mawr var Anahid,3
+Chloe Stitz,Neratin Ceka,3
+Chloe Stitz,Til Echrade,3
+Dacre Silifant,Neratin Ceka,3
+Andres Vierny,Stigward,3
 Esterad Thyssen,Guiscard Vermuellen,3
-Adam Pangratt,Lorenzo Molla,3
-"Something Ends, Something Begins minor characters",Tankred Thyssen,3
-Prince Voorhis,Tankred Thyssen,3
-Guthlaf,Yennefer of Vengerberg,3
-Guthlaf,Sven (Guthlaf's father),3
-Boreas Mun,Dacre Silifant,3
+Bert Brigden,Boreas Mun,3
 Boreas Mun,Ola Harsheim,3
-Dacre Silifant,Til Echrade,3
-Ciri,Rience,3
-Arthur Tailles,King of the Wild Hunt,3
-Lady de Lisemore,Nimue verch Wledyr ap Gwyn,3
-Fisher King (lover of Nimue),Nimue verch Wledyr ap Gwyn,3
-King of the Wild Hunt,Nimue verch Wledyr ap Gwyn,3
-Geralt of Rivia,Reynart de Bois-Fresnes,3
-Dandelion,Prince Voorhis,3
-Dandelion,Fringilla Vigo,3
-Little Yaxa,Weasel,3
-Avallac'h,Eredin Bréacc Glas,3
-Ciri,Ihuarraquax,3
-King of the Wild Hunt,Kistrin,3
-Jarre,"Something Ends, Something Begins minor characters",3
-Julia Abatemarco,Lorenzo Molla,3
-Field Marshal Windbag,Milo Vanderbeck,3
-Eurneid,Nenneke,3
-Bertram Skellen,Stefan Skellen,3
-Dandelion,Herwig,3
-Crach an Craite,Loki an Craite,3
-Freixenet,Kashka,3
-Freixenet,Mona (dryad),3
-Freixenet,Morenn (Braenn's daughter),3
-Kashka,Mona (dryad),3
-Kashka,Morenn (Braenn's daughter),3
-Devereux,Matholm,3
-Devereux,Sulivoy,3
-Devereux,Yves,3
-Matholm,Sulivoy,3
-Matholm,Yves,3
-Sulivoy,Yves,3
-Dorregaray,Radcliffe,3
-Dandelion,Freixenet,3
-Agloval,Freixenet,3
-Herwig,Loki an Craite,3
-Foltest,Geralt of Rivia,2
-Geralt of Rivia,Ostrit,2
-Lord Strept,Ostrit,2
-Nivellen,Vereena,2
-Hereward,Nenneke,2
-Falwick,Hereward,2
-Caldemeyn,Irion,2
-Aridea,Prince Voorhis,2
-Fredefalk Vellga,Prince Voorhis,2
-Aridea,Geralt of Rivia,2
-Little Yaxa,Seven gnomes,2
-Geralt of Rivia,Tavik,2
-Renfri Vellga,"Something Ends, Something Begins minor characters",2
-Audoen,King of the Wild Hunt,2
-Renfri Vellga,Sword of Destiny minor characters,2
-Calanthe,Lady de Lisemore,2
-Calanthe,Lord Strept,2
-Drogodar,Geralt of Rivia,2
-Eist Tuirseach,Little Yaxa,2
-Bran Tuirseach,King of the Wild Hunt,2
-Crach an Craite,King of the Wild Hunt,2
-King of the Wild Hunt,Mousesack,2
-Drogodar,Eist Tuirseach,2
-King of the Wild Hunt,Vridank,2
-Crach an Craite,Little Yaxa,2
-Draig Bon-Dhu,Eist Tuirseach,2
-Lord Strept,Pavetta,2
-Crach an Craite,Pavetta,2
-Pavetta,Vissegerd,2
-Fifteen,King of the Wild Hunt,2
-Eist Tuirseach,Geralt of Rivia,2
-Mousesack,"Something Ends, Something Begins minor characters",2
-Mousesack,Rainfarn,2
-Geralt of Rivia,Roegner of Ebbing,2
-Blood of Elves minor characters,Crach an Craite,2
-Geralt of Rivia,Pike (person),2
-Blue Knight,Forest Gramps,2
-Dhun,Field Marshal Windbag,2
-Slow,Sword of Destiny minor characters,2
-Geralt of Rivia,Nettly,2
-Dhun,Lille,2
-Lille,Nettly,2
-Galarr,Toruviel,2
-Blood of Elves minor characters,Toruviel,2
-Filavandrel aén Fidháil,Torque,2
-Filavandrel aén Fidháil,Toruviel,2
-Sword of Destiny minor characters,Toruviel,2
-Ethain,Geralt of Rivia,2
-Beau Berrant,Chireadan,2
-Krepp,Yennefer of Vengerberg,2
-Brick,Sword of Destiny minor characters,2
-White Lady,Yarpen Zigrin,2
-Boholt,King of the Wild Hunt,2
-Dorregaray,Niedamir,2
-Dorregaray,Eyck of Denesle,2
-Slow,Yarpen Zigrin,2
-Dorregaray,Little Yaxa,2
-Eyck of Denesle,Little Yaxa,2
-Eyck of Denesle,Lord Strept,2
-Boholt,Little Yaxa,2
-Lord Strept,"Something Ends, Something Begins minor characters",2
-Eyck of Denesle,Niedamir,2
-King of the Wild Hunt,Yarpen Zigrin,2
-Eyck of Denesle,Gyllenstiern,2
-Little Yaxa,Pike (person),2
-Dainty Biberveldt,Dudu,2
-King of the Wild Hunt,Rhyd,2
-Dainty Biberveldt,"Something Ends, Something Begins minor characters",2
+Fringilla Vigo,Keira Metz,3
+Margarita Laux-Antille,Sabrina Glevissig,3
+Freya (Skelliger),Morenn (Braenn's daughter),3
+Freixenet,Matholm,3
+Matholm,Morenn (Braenn's daughter),3
+Herwig,Nenneke,3
+Geralt of Rivia,Velerad,2
+Butcher of Blaviken,Geralt of Rivia,2
+Dragomir,Trigla,2
+Eltibald,Geralt of Rivia,2
+Geralt of Rivia,Libushe,2
+Geralt of Rivia,Nimir,2
+Geralt of Rivia,Vyr,2
+Geralt of Rivia,Rainfarn,2
+Fodcat,Lord Strept,2
+Fodcat,Wieldhill,2
+Lord Strept,Wieldhill,2
+Rainfarn,Windhalm of Attre,2
+Geralt of Rivia,Torque,2
+Beau Berrant,Geralt of Rivia,2
+Geoffrey Monck,Geralt of Rivia,2
+Dennis Cranmer,Geralt of Rivia,2
+Niedamir,Yarpen Zigrin,2
+Kennet,Yarpen Zigrin,2
+Geralt of Rivia,Herbolth,2
+Rhundurin,Vimme Vivaldi,2
 Geralt of Rivia,Vespula,2
-Duke de Ruyter,Geralt of Rivia,2
-Dandelion,Duke de Ruyter,2
-Agloval,Dandelion,2
-Duke de Ruyter,Zelest,2
-Dandelion,Veverka,2
-Essi Daven,Yennefer of Vengerberg,2
-Little Yaxa,Sh'eenaz,2
-Agloval,White Lady,2
-Sh'eenaz,White Lady,2
-Braenn,Forest Gramps,2
-Braenn,Kistrin,2
-Ervyll,Little Yaxa,2
-Eithné,"Something Ends, Something Begins minor characters",2
-Ciri,Lord Strept,2
-Ciri,Freixenet,2
-Eithné,Little Yaxa,2
-Ervyll,Viraxas,2
-Eithné,White Lady,2
-Eithné,Venzlav,2
-Blood of Elves minor characters,Eithné,2
-Ervyll,Kistrin,2
-Braenn,Mona (dryad),2
-Ciri,Levecque,2
-Junghans,Levecque,2
-Geralt of Rivia,Levecque,2
-Levecque,Sword of Destiny minor characters,2
-Little Yaxa,Prince Voorhis,2
-Blood of Elves minor characters,Yurga,2
-Blood of Elves minor characters,Lord Strept,2
-"Something Ends, Something Begins minor characters",Yurga,2
-Calanthe,Dandelion,2
-Baron of Casadei,Dandelion,2
-Dandelion,Torque,2
-Dandelion,Lady de Lisemore,2
-Geralt of Rivia,Vera Loewenhaupt,2
-Geralt of Rivia,Rayla,2
-Little Yaxa,Rience,2
-Ciri,Lambert,2
-"Something Ends, Something Begins minor characters",Vesemir,2
-Little Yaxa,Vesemir,2
-Fercart,Foltest,2
-Geralt of Rivia,Yannick Brass,2
-King of the Wild Hunt,Radovid III,2
-Nenneke,Sword of Destiny minor characters,2
-Linus Pitt,White Lady,2
+Dudu,Geralt of Rivia,2
+Dalia,Gaspard Drouhard,2
+Dalia,Mestvin,2
+Gaspard Drouhard,Mestvin,2
+Geralt of Rivia,Zelest,2
+Juan Pablo Vassermiller,Mitzi,2
+Geralt of Rivia,Morenn (Braenn's daughter),2
+King of the Wild Hunt,Venzlav,2
+Ervyll,Levecque,2
+Levecque,Venzlav,2
+Atlan Kerk,Dagobert,2
+Atlan Kerk,Vanielle,2
+Dagobert,Vanielle,2
+Fercart,Keira Metz,2
+Artaud Terranova,Fercart,2
+Fercart,Yennefer of Vengerberg,2
+Paulie Dahlberg,Xavier Moran,2
+Paulie Dahlberg,Yannick Brass,2
+Regan Dahlberg,Xavier Moran,2
+Regan Dahlberg,Yannick Brass,2
+Xavier Moran,Yannick Brass,2
+Geralt of Rivia,Vilfrid Wenck,2
+Xavier Moran,Yarpen Zigrin,2
+Paulie Dahlberg,Yarpen Zigrin,2
+Paulie Dahlberg,Roach,2
+Everett,Olsen,2
 Boatbug,Olsen,2
-Everett,Little Yaxa,2
 Stran,Vitek,2
-Shani,"Something Ends, Something Begins minor characters",2
-King of the Wild Hunt,Rience,2
-Philippa Eilhart,Rience,2
-Rience,Shani,2
-Esterad Thyssen,Niedamir,2
-Emhyr var Emreis,Vissegerd,2
-Foltest,Vissegerd,2
-Calanthe,Foltest,2
-Calanthe,Meve,2
-Foltest,White Lady,2
-Medell,Virfuril,2
-Slow,Yennefer of Vengerberg,2
-Myhrman,Rience,2
-Lydia van Bredevoort,Tissaia de Vries,2
-Tissaia de Vries,Vilgefortz,2
-Artaud Terranova,Little Yaxa,2
+Everett,Vitek,2
+Meve,Vizimir II,2
 Carduin,Fercart,2
-Carduin,Philippa Eilhart,2
 Carduin,Radcliffe,2
-Philippa Eilhart,Radcliffe,2
-Artaud Terranova,Tissaia de Vries,2
-Rience,Sword of Destiny minor characters,2
-Duke de Ruyter,Foltest,2
-Duke de Ruyter,King of the Wild Hunt,2
-Iola,Yennefer of Vengerberg,2
-Jarre,White Lady,2
-Jarre,Lady de Lisemore,2
-Hrosvitha,Iola,2
-Iola,"Something Ends, Something Begins minor characters",2
-Eurneid,Myrrha,2
-Iola,Myrrha,2
-Pavetta,Prince Voorhis,2
-Aplegatt,White Lady,2
-Aplegatt,Ciri,2
-Codringher,Little Yaxa,2
-Codringher,White Lady,2
-Codringher,Dandelion,2
-Codringher,"Something Ends, Something Begins minor characters",2
-Codringher,King of the Wild Hunt,2
-Calanthe,Codringher,2
-Adalia,Dagorad,2
-Adalia,King of the Wild Hunt,2
-Dagorad,King of the Wild Hunt,2
-Calanthe,Ebbing quadruplets,2
-Calanthe,Prince Voorhis,2
-Little Yaxa,Pavetta,2
-Blue Knight,Field Marshal Windbag,2
-Aplegatt,Vizimir II,2
-Aplegatt,"Something Ends, Something Begins minor characters",2
-Demavend III,Vizimir II,2
-Toruviel,Yaevinn,2
-Molnar Giancardi,Yennefer of Vengerberg,2
-Ciri,Molnar Giancardi,2
-Little Yaxa,Margarita Laux-Antille,2
-Bernie Hofmeier,Dandelion,2
-Geralt of Rivia,Sabrina Glevissig,2
-Blood of Elves minor characters,Marti Södergren,2
-Dorregaray,Philippa Eilhart,2
-Dorregaray,Ethain,2
-Geralt of Rivia,Marti Södergren,2
-Agnes of Glanville,Aurora Henson,2
-Agnes of Glanville,Nina Fioravanti,2
+Fercart,Philippa Eilhart,2
+Gonzalez Akerspaark,Horm Akerspaark,2
+Aplegatt,King of the Wild Hunt,2
+Bernie Hofmeier,Geralt of Rivia,2
+Gerhart of Aelle,Yennefer of Vengerberg,2
+Aurora Henson,Geoffrey Monck,2
+Aurora Henson,Herbert Stammelford,2
+Aurora Henson,Ivo Richert,2
+Aurora Henson,Radmir,2
+Geoffrey Monck,Herbert Stammelford,2
+Geoffrey Monck,Ivo Richert,2
+Geoffrey Monck,Radmir,2
+Herbert Stammelford,Ivo Richert,2
+Herbert Stammelford,Radmir,2
+Ivo Richert,Radmir,2
+Klara Larissa de Winter,Nina Fioravanti,2
+Augusta Wagner,Ilona Laux-Antille,2
+Augusta Wagner,Jada Glevissig,2
 Augusta Wagner,Leticia Charbonneau,2
-Geoffrey Monck,Lara Dorren,2
-Falka,Pavetta,2
-Fiona,Pavetta,2
+Augusta Wagner,Yiolenta Suarez,2
+Ilona Laux-Antille,Jada Glevissig,2
+Ilona Laux-Antille,Leticia Charbonneau,2
+Ilona Laux-Antille,Yiolenta Suarez,2
+Jada Glevissig,Leticia Charbonneau,2
+Jada Glevissig,Yiolenta Suarez,2
+Leticia Charbonneau,Yiolenta Suarez,2
+Aen Saevherne,Cregennan of Lod,2
+Geoffrey Monck,Immanuel Benavent,2
+Geoffrey Monck,Nina Fioravanti,2
+Immanuel Benavent,Nina Fioravanti,2
+Geralt of Rivia,Triss Merigold,2
+Triss Merigold,Yennefer of Vengerberg,2
+Elen of Kaedwen,Fiona,2
+Geralt of Rivia,Keira Metz,2
+Carduin,Dorregaray,2
+Sabrina Glevissig,Vilgefortz,2
 Radcliffe,Sabrina Glevissig,2
-Keira Metz,Radcliffe,2
-Duke de Ruyter,Nitert,2
-Dorregaray,Sword of Destiny minor characters,2
-Dorregaray,White Lady,2
 Fercart,Francesca Findabair,2
-Demavend III,Radcliffe,2
-Tissaia de Vries,Triss Merigold,2
-King of the Wild Hunt,Sabrina Glevissig,2
-Sabrina Glevissig,Tissaia de Vries,2
-Field Marshal Windbag,Forest Gramps,2
-Dandelion,Foltest,2
-Bronibor,Emhyr var Emreis,2
-Emhyr var Emreis,Ervyll,2
-Emhyr var Emreis,Lord Strept,2
-Centurion (innkeeper),Digod,2
-Ardal aep Dahy,Prince Voorhis,2
-Emhyr var Emreis,Lady de Lisemore,2
-Dervla Tryffin Broinne,Emhyr var Emreis,2
-Skomlik,"Something Ends, Something Begins minor characters",2
-Blood of Elves minor characters,Vercta,2
-Skomlik,Vercta,2
-Sword of Destiny minor characters,Vercta,2
-Ciri,Iskra,2
-Giselher,Sword of Destiny minor characters,2
-Asse,Ciri,2
-Asse,Iskra,2
-Falka,Kayleigh,2
-Emhyr var Emreis,Yennefer of Vengerberg,2
-Emhyr var Emreis,Shilard Fitz-Oesterlen,2
-Francesca Findabair,Little Yaxa,2
-Little Yaxa,Tuzik,2
+Meve,Sabrina Glevissig,2
+Fercart,Marquard,2
+Marquard,Radcliffe,2
+Eskel,Lambert,2
+Eskel,Vesemir,2
+Remiz,Skomlik,2
+Baron of Casadei,Lutz,2
+Lutz,Skomlik,2
+Fauve,Sirssa,2
+Keira Metz,Margarita Laux-Antille,2
+Francesca Findabair,Sabrina Glevissig,2
+Assire var Anahid,Francesca Findabair,2
+Sabrina Glevissig,Sigismund Dijkstra,2
+Keira Metz,Sheala de Tancarville,2
+Milva,Roach,2
+Caleb Stratton,Figgis Merluzzo,2
 Caleb Stratton,Munro Bruys,2
-Caleb Stratton,Percival Schuttenbach,2
-Figgis Merluzzo,Percival Schuttenbach,2
-Munro Bruys,Percival Schuttenbach,2
-Forest Gramps,Percival Schuttenbach,2
-Forest Gramps,Zoltan Chivay,2
-Percival Schuttenbach,Sword of Destiny minor characters,2
-Figgis Merluzzo,Zoltan Chivay,2
-"Something Ends, Something Begins minor characters",Yazon Varda,2
-Field Marshal Windbag,"Something Ends, Something Begins minor characters",2
-Ceallach aep Gruffyd,Geralt of Rivia,2
-Little Yaxa,Zoltan Chivay,2
-Geralt of Rivia,Percival Schuttenbach,2
-Dandelion,Daniel Etcheverry,2
-Dandelion,Emhyr var Emreis,2
-Ciri,Vissegerd,2
-Adalia,Ciri,2
-Ciri,Muriel,2
-Calanthe,Emhyr var Emreis,2
-Milva,Slow,2
-Lord Strept,Vattier de Rideaux,2
-Assire var Anahid,Emhyr var Emreis,2
-Fringilla Vigo,Milva,2
-Codringher,Millet,2
-Cahir Mawr Dyffryn aep Ceallach,Roach,2
-Cahir Mawr Dyffryn aep Ceallach,Pike (person),2
-Dandelion,Pike (person),2
-Emiel Regis Rohellec Terzieff-Godefroy,Maria Louisa La Valette,2
-Emiel Regis Rohellec Terzieff-Godefroy,Milva,2
-Mistle,White Lady,2
-Blue Knight,Ida Emean aep Sivney,2
-Ida Emean aep Sivney,Yennefer of Vengerberg,2
-Blue Knight,Lady de Lisemore,2
-Keira Metz,Vilgefortz,2
-Blue Knight,Fringilla Vigo,2
-Aen Saevherne,Blue Knight,2
-Francesca Findabair,Fringilla Vigo,2
+Roach,Zoltan Chivay,2
+Maria Louisa La Valette,Milva,2
+Dandelion,Geralt of Rivia,2
+Adalia,Muriel,2
+Ceallach aep Gruffyd,Mawr var Anahid,2
+Aen Saevherne,Yennefer of Vengerberg,2
 Assire var Anahid,Keira Metz,2
-Assire var Anahid,Margarita Laux-Antille,2
-Ciri,Sabrina Glevissig,2
-Assire var Anahid,Lara Dorren,2
-Cerro,Riannon,2
-Cerro,Falka,2
-King of the Wild Hunt,Lara Dorren,2
-Adela,Fiona,2
-Ciri,Fiona,2
-Amavet,Lara Dorren,2
-Calanthe,Riannon,2
-Corbett,Dagorad,2
-Assire var Anahid,Ciri,2
-Ciri,Connor,2
-Dandelion,Nimue verch Wledyr ap Gwyn,2
-Vesemir,Yarpen Zigrin,2
-Kelpie (horse),Vysogota of Corvo,2
-Mistle,Vera Loewenhaupt,2
-Baron of Casadei,Giselher,2
-Meve,White Lady,2
-Cahir Mawr Dyffryn aep Ceallach,White Lady,2
-Cahir Mawr Dyffryn aep Ceallach,Little Yaxa,2
-Little Yaxa,Vattier de Rideaux,2
+Assire var Anahid,Sabrina Glevissig,2
+Francesca Findabair,Yennefer of Vengerberg,2
+Houtborg triplets,Lara Dorren,2
+Fiona,Goidemar,2
+Adela,Goidemar,2
+Adela,Philippa Eilhart,2
+Goidemar,Philippa Eilhart,2
+Adalia,Philippa Eilhart,2
+Corbett,Elen of Kaedwen,2
+Dagorad,Elen of Kaedwen,2
+Adalia,Dagorad,2
+Connor,Yennefer of Vengerberg,2
+Figgis Merluzzo,Geralt of Rivia,2
+Geralt of Rivia,Munro Bruys,2
+Geralt of Rivia,Yazon Varda,2
+Cahir Mawr Dyffryn aep Ceallach,Dyffryn,2
+Dyffryn,Mawr var Anahid,2
+Freya (Skelliger),Fringilla Vigo,2
+Falka,Kayleigh,2
+Vattier de Rideaux,Vilgefortz,2
 Dacre Silifant,Joanna Selborne,2
+Andres Vierny,Dufficey Kriel,2
+Andres Vierny,Neratin Ceka,2
 Andres Vierny,Til Echrade,2
-Chloe Stitz,Neratin Ceka,2
+Chloe Stitz,Dufficey Kriel,2
 Dufficey Kriel,Neratin Ceka,2
-Neratin Ceka,Til Echrade,2
-Lord Strept,Neratin Ceka,2
+Dufficey Kriel,Til Echrade,2
+Boreas Mun,Neratin Ceka,2
+Andres Vierny,Boreas Mun,2
+Andres Vierny,Dede Vargas,2
 Boreas Mun,Chloe Stitz,2
-Andres Vierny,Sword of Destiny minor characters,2
-Boreas Mun,Lord Strept,2
-Ola Harsheim,Seven gnomes,2
-Baron of Casadei,Windsor Imbra,2
-Falka,Windsor Imbra,2
-Little Yaxa,Stavro,2
-Blood of Elves minor characters,Stavro,2
-Geralt of Rivia,Novosad,2
-Novosad,Yirrel,2
-Aen Saevherne,Avallac'h,2
-Lara Dorren,Pavetta,2
-Anna Henrietta,Lady de Lisemore,2
-King of the Wild Hunt,Radovid I,2
-Benda,Gedovius Troyden,2
-Benda,Gemma,2
-Esterad Thyssen,"Something Ends, Something Begins minor characters",2
-Carthia van Canten,Emhyr var Emreis,2
+Boreas Mun,Dede Vargas,2
+Chloe Stitz,Dede Vargas,2
+Rupert (The Tower of the Swallow),Stavro,2
+Geralt of Rivia,Weasel,2
+King of the Wild Hunt,Zuleyka,2
+Carthia van Canten,Neratin Ceka,2
+Guiscard Vermuellen,Zuleyka,2
 Esterad Thyssen,Tankred Thyssen,2
-Duke de Ruyter,Esterad Thyssen,2
-Duke de Ruyter,Gaudemunda Thyssen,2
-Esterad Thyssen,Gaudemunda Thyssen,2
-Gaudemunda Thyssen,Guiscard Vermuellen,2
-Guiscard Vermuellen,"Something Ends, Something Begins minor characters",2
-Guthlaf,Lady de Lisemore,2
-Crach an Craite,Sigrdrifa,2
-Crach an Craite,Hjalmar an Craite,2
-Blue Knight,Philippa Eilhart,2
-Boreas Mun,Til Echrade,2
-Ola Harsheim,Til Echrade,2
-Bert Brigden,Til Echrade,2
-Rience,Seven gnomes,2
-Andres Vierny,Stigward,2
-Ardal aep Dahy,Duke de Ruyter,2
-Bert Brigden,Boreas Mun,2
-Neratin Ceka,Sword of Destiny minor characters,2
-Falka,Rispat La Pointe,2
+Esterad Thyssen,Yennefer of Vengerberg,2
+Radcliffe,Yennefer of Vengerberg,2
+Bert Brigden,Neratin Ceka,2
+Joanna Selborne,Lady de Lisemore,2
+Ardal aep Dahy,Vilgefortz,2
 Eurneid,Katje,2
-Iola,Katje,2
-Boreas Mun,Sword of Destiny minor characters,2
-Dacre Silifant,Stefan Skellen,2
-Boreas Mun,Rience,2
-Eurneid,Iola the Second,2
-Galahad,King of the Wild Hunt,2
-Condwiramurs Tilly,Little Yaxa,2
-Little Yaxa,Nimue verch Wledyr ap Gwyn,2
-Condwiramurs Tilly,Lady de Lisemore,2
-Condwiramurs Tilly,Fisher King (lover of Nimue),2
-Condwiramurs Tilly,King of the Wild Hunt,2
-Ciri,Forest Gramps,2
-Emhyr var Emreis,Stella Congreve,2
-Ciri,Fisher King (lover of Nimue),2
-Condwiramurs Tilly,"Something Ends, Something Begins minor characters",2
-Nimue verch Wledyr ap Gwyn,"Something Ends, Something Begins minor characters",2
-Anna Henrietta,Reynart de Bois-Fresnes,2
-Baron of Casadei,Milva,2
-Avallac'h,"Something Ends, Something Begins minor characters",2
-Auberon Muircetach,King of the Wild Hunt,2
-Auberon Muircetach,Ciri,2
-Ciri,Eredin Bréacc Glas,2
-Jarre,Milton,2
-Klaproth,Melfi,2
-Melfi,Okultich,2
-Melfi,Pike (person),2
-Field Marshal Windbag,Jarre,2
-Field Marshal Windbag,King of the Wild Hunt,2
-King of the Wild Hunt,Pike (person),2
-Kelpie (horse),"Something Ends, Something Begins minor characters",2
-Ciri,Millet,2
-Condwiramurs Tilly,White Lady,2
-Ithlinne,White Lady,2
-Foltest,John of Attre,2
-Little Yaxa,Marti Södergren,2
-Iola,Marti Södergren,2
-Marti Södergren,Shani,2
-Bronibor,Jarre,2
-Iola,Jarre,2
-Calanthe,Dagorad,2
-Demavend III,Francesca Findabair,2
-Demavend III,Philippa Eilhart,2
-Baron of Casadei,Fitz-Oesterlen (cadet),2
-Falka,Lady de Lisemore,2
-Goulue,Nycklar,2
+Bert Brigden,Stigward,2
+Boreas Mun,Dacre Silifant,2
+Geralt of Rivia,Nimue verch Wledyr ap Gwyn,2
+Anna Henrietta,Cahir Mawr Dyffryn aep Ceallach,2
+Rience,Yennefer of Vengerberg,2
+Geralt of Rivia,Jean Catillon,2
+Anna Henrietta,Geralt of Rivia,2
+Fringilla Vigo,Sabrina Glevissig,2
+Auberon Muircetach,Geralt of Rivia,2
+Jarre,Pike (person),2
+Klaproth,Okultich,2
+Dennis Cranmer,Sheldon Skaggs,2
+Dennis Cranmer,Jarre,2
+Incarvilia Hildebrandt,Milton,2
+Elan Trahe,Kees van Lo,2
+Jarre,Katje,2
+Jarre,Myrrha,2
+Katje,Myrrha,2
+Aillil Mawr Dyffryn aep Ceallach,Cahir Mawr Dyffryn aep Ceallach,2
+Ceallach aep Gruffyd,Dheran Mawr Dyffryn aep Ceallach,2
+Corbett,Roegner of Ebbing,2
+Dagorad,Roegner of Ebbing,2
 Geralt of Rivia,Margarita Laux-Antille,2
-Chevron Knight,White Lady,2
-"Something Ends, Something Begins minor characters",Zoltan Chivay,2
-King of the Wild Hunt,Zoltan Chivay,2
-Dandelion,Eskel,2
-Eskel,Nenneke,2
+Regan Dahlberg,Yazon Varda,2
+Vesemir,Yarpen Zigrin,2
+Dorregaray,Nenneke,2
+Herwig,Yennefer of Vengerberg,2
+Freya (Skelliger),Geralt of Rivia,2
+Matholm,Sigismund Dijkstra,2
+Matholm,Venzlav,2
+Sigismund Dijkstra,Sulivoy,2
+Sigismund Dijkstra,Venzlav,2
+Sulivoy,Venzlav,2
+Freya (Skelliger),Mona (dryad),2
+Freya (Skelliger),Matholm,2
+Matholm,Mona (dryad),2
+Braenn,Dorregaray,2
+Freixenet,Radcliffe,2
+Freixenet,Ragnar an Craite,2
+Matholm,Ragnar an Craite,2
+Morenn (Braenn's daughter),Ragnar an Craite,2
+Braenn,Freya (Skelliger),2
+Ragnar an Craite,Yves,2
+Dorregaray,Yarpen Zigrin,2
+Freixenet,Yarpen Zigrin,2
+Dorregaray,Loki an Craite,2
+Geralt of Rivia,Mona (dryad),2
+Loki an Craite,Radcliffe,2
 Nenneke,Vesemir,2
-Chireadan,Yarpen Zigrin,2
-Braenn,Kashka,2
-Mona (dryad),Morenn (Braenn's daughter),2
-Dandelion,Dorregaray,2
-Freixenet,Freya (Skelliger),2
-Merle,Villentretenmerth,2
-Dorregaray,Freixenet,2
-Caldemeyn,Dandelion,2
-Dandelion,Villentretenmerth,2
+Agloval,Sh'eenaz,2
 Agloval,Villentretenmerth,2
-Freixenet,Sh'eenaz,2
 Sh'eenaz,Villentretenmerth,2
-Herwig,Nenneke,2
-Fisher King (lover of Nimue),Herwig,2
-Dandelion,Galahad,2
-Galahad,"Something Ends, Something Begins minor characters",2
-Ostrit,Velerad,1
-Ostrit,Segelin,1
-Segelin,Velerad,1
-Foltest,Little Yaxa,1
-Foltest,Ostrit,1
-Little Yaxa,Ostrit,1
-Foltest,Velerad,1
-Geralt of Rivia,Iola,1
-Little Yaxa,Nivellen,1
-Fenne,Nivellen,1
-Fenne,White Lady,1
-Nivellen,White Lady,1
-Ilka,Primula,1
-Ilka,Venimira,1
-Primula,Venimira,1
-Dainty Biberveldt,White Lady,1
-Blue Knight,Duke de Ruyter,1
-Blue Knight,Hereward,1
-Blue Knight,Prince Voorhis,1
-Geralt of Rivia,Hereward,1
-Duke de Ruyter,Falwick,1
-Butcher of Blaviken,Geralt of Rivia,1
-Butcher of Blaviken,Prince Voorhis,1
-Falwick,Nenneke,1
-Duke de Ruyter,Ermellia,1
-Dragomir,Trigla,1
-Borg,Carrypebble,1
-Borg,Karelka,1
-Carrypebble,Karelka,1
-Caldemeyn,Carrypebble,1
-Carrypebble,Geralt of Rivia,1
-Geralt of Rivia,Idi,1
-Idi,King of the Wild Hunt,1
-Lady de Lisemore,Silvena,1
-Evermir,Fialka,1
-Bernika,Prince Voorhis,1
-Little Yaxa,Stregobor,1
-Aridea,"Something Ends, Something Begins minor characters",1
-Fredefalk Vellga,"Something Ends, Something Begins minor characters",1
-Fredefalk Vellga,Renfri Vellga,1
-Eltibald,Geralt of Rivia,1
-Eltibald,Stregobor,1
-Nohorn,Renfri Vellga,1
-Fifteen,Sword of Destiny minor characters,1
-Lady de Lisemore,Renfri Vellga,1
-Caldemeyn,Lady de Lisemore,1
-Audoen,Lord Strept,1
-Geralt of Rivia,Libushe,1
-Libushe,Renfri Vellga,1
-Libushe,Little Yaxa,1
-Aridea,Butcher of Blaviken,1
-Aridea,Forest Gramps,1
-Butcher of Blaviken,Forest Gramps,1
-Butcher of Blaviken,Stregobor,1
-Forest Gramps,Stregobor,1
-Renfri Vellga,Seven gnomes,1
-King of the Wild Hunt,Renfri Vellga,1
-King of the Wild Hunt,Stregobor,1
-Aridea,Renfri Vellga,1
-Centurion (innkeeper),Geralt of Rivia,1
-Abergard,Nohorn,1
-Blood of Elves minor characters,Civril,1
-Caldemeyn,Renfri Vellga,1
-Baron of Casadei,Stregobor,1
-Audoen,Geralt of Rivia,1
-Civril,Renfri Vellga,1
-Geralt of Rivia,Nimir,1
-Geralt of Rivia,Vyr,1
-Nimir,Vyr,1
-Fifteen,Haxo,1
-Fifteen,Pavetta,1
-Haxo,Pavetta,1
-Lady de Lisemore,Roegner of Ebbing,1
-Haxo,"Something Ends, Something Begins minor characters",1
-Geralt of Rivia,Haxo,1
-Baron of Casadei,Eylembert of Tigg,1
-Eist Tuirseach,White Lady,1
-Bran Tuirseach,Crach an Craite,1
-Bran Tuirseach,Mousesack,1
-Fodcat,Lord Strept,1
-Fodcat,Tinglant,1
-Fodcat,Vissegerd,1
-Fodcat,Wieldhill,1
-Lord Strept,Tinglant,1
-Lord Strept,Vissegerd,1
-Lord Strept,Wieldhill,1
-Tinglant,Vissegerd,1
-Tinglant,Wieldhill,1
-Vissegerd,Wieldhill,1
-Cerro,Vridank,1
-Crach an Craite,Vissegerd,1
-Little Yaxa,Vissegerd,1
-Draig Bon-Dhu,Geralt of Rivia,1
-Blue Knight,Pavetta,1
-Drogodar,Vissegerd,1
-Calanthe,Sword of Destiny minor characters,1
-Mousesack,Vissegerd,1
-Blue Knight,Vissegerd,1
-"Something Ends, Something Begins minor characters",Vissegerd,1
-Pavetta,Windhalm of Attre,1
-Crach an Craite,Rainfarn,1
-Baron of Casadei,Calanthe,1
-Calanthe,Rainfarn,1
-Eist Tuirseach,Rainfarn,1
-Calanthe,Ravix of Fourhorn,1
+Galahad,Herwig,2
+Geralt of Rivia,Primula,1
+Nivellen,Roach,1
+Butcher of Blaviken,Nenneke,1
+Falwick,Hereward,1
+Bernika,Evermir,1
+Fredefalk Vellga,Geralt of Rivia,1
+Geralt of Rivia,Marilka,1
+Haxo,Rainfarn,1
+Draig Bon-Dhu,Mousesack,1
+Rainfarn,Roegner of Ebbing,1
 Geralt of Rivia,Ravix of Fourhorn,1
-Baron of Casadei,King of the Wild Hunt,1
-Baron of Casadei,Roegner of Ebbing,1
-Fifteen,Geralt of Rivia,1
-Fifteen,Mousesack,1
-Mousesack,Roegner of Ebbing,1
-Calanthe,White Lady,1
-Eist Tuirseach,Sword of Destiny minor characters,1
-Drogodar,Fodcat,1
-Drogodar,Mousesack,1
-Fodcat,Geralt of Rivia,1
-Fodcat,Mousesack,1
-Baron of Casadei,Pavetta,1
-Crach an Craite,Mousesack,1
-Rainfarn,Sword of Destiny minor characters,1
-Drunken ferryman,Forest Gramps,1
-Drunken ferryman,Geralt of Rivia,1
-Drunken ferryman,Pike (person),1
-Forest Gramps,Pike (person),1
-Nettly,"Something Ends, Something Begins minor characters",1
-Dhun,"Something Ends, Something Begins minor characters",1
-Blood of Elves minor characters,Nettly,1
-Galarr,Vanadain,1
-Toruviel,Vanadain,1
+Rainfarn,Ravix of Fourhorn,1
+Eist Tuirseach,Geralt of Rivia,1
+Adalia,Geralt of Rivia,1
+Mousesack,Rainfarn,1
+Dhun,Lille,1
+Filavandrel aén Fidháil,Galarr,1
+Geralt of Rivia,Vanadain,1
 Galarr,Geralt of Rivia,1
-Torque,White Lady,1
-Filavandrel aén Fidháil,White Lady,1
-Geralt of Rivia,Torque,1
-Filavandrel aén Fidháil,Lille,1
-Filavandrel aén Fidháil,Geralt of Rivia,1
-Geralt of Rivia,Vratimir,1
-Chireadan,Ethain,1
-Chireadan,King of the Wild Hunt,1
-Heribert,King of the Wild Hunt,1
-Ambassador de Ruyter,Beau Berrant,1
-Ambassador de Ruyter,Chireadan,1
-Chireadan,"Something Ends, Something Begins minor characters",1
-Beau Berrant,Errdil,1
-Beau Berrant,Geralt of Rivia,1
-Errdil,Geralt of Rivia,1
-Errdil,Vratimir,1
-Chireadan,Neville,1
-Chireadan,Little Yaxa,1
-Chireadan,Sword of Destiny minor characters,1
-Laurelnose,Little Yaxa,1
-Laurelnose,Yennefer of Vengerberg,1
-Geoffrey Monck,Geralt of Rivia,1
-Krepp,"Something Ends, Something Begins minor characters",1
-Geralt of Rivia,Krepp,1
-Eskel,Forest Gramps,1
-Errdil,Yennefer of Vengerberg,1
-Beau Berrant,Little Yaxa,1
-Geralt of Rivia,Neville,1
-Dennis Cranmer,Hereward,1
-Dennis Cranmer,Prince Voorhis,1
-Falwick,Field Marshal Windbag,1
-Falwick,Prince Voorhis,1
-Field Marshal Windbag,Prince Voorhis,1
-Falwick,Sword of Destiny minor characters,1
-Dennis Cranmer,Sword of Destiny minor characters,1
-Falwick,White Lady,1
-Dennis Cranmer,Geralt of Rivia,1
-Brick,White Lady,1
-Crinfrid Reavers,Geralt of Rivia,1
-Gyllenstiern,Yarpen Zigrin,1
+Til Echrade,Torque,1
+Geralt of Rivia,Lille,1
+Til Echrade,Yennefer of Vengerberg,1
+Chireadan,Vratimir,1
+Cerberus,Geralt of Rivia,1
+Vratimir,Yennefer of Vengerberg,1
+Beau Berrant,Yennefer of Vengerberg,1
+Laurelnose,Vratimir,1
+Chireadan,Yennefer of Vengerberg,1
+Neville,Yennefer of Vengerberg,1
+Boholt,Gyllenstiern,1
 Boholt,Yarpen Zigrin,1
-Niedamir,Yarpen Zigrin,1
-Boholt,Crinfrid Reavers,1
-Kennet,Yennefer of Vengerberg,1
-Sorrel,White Lady,1
-Sorrel,Yarpen Zigrin,1
-Niedamir,Yennefer of Vengerberg,1
-Niedamir,White Lady,1
-Dorregaray,Gyllenstiern,1
-King of the Wild Hunt,Sambuk,1
-Eyck of Denesle,Seven gnomes,1
-Eyck of Denesle,Yennefer of Vengerberg,1
-Eyck of Denesle,Lady de Lisemore,1
-Kennet,Yarpen Zigrin,1
-Gyllenstiern,"Something Ends, Something Begins minor characters",1
-Kennet,Lord Strept,1
-Eyck of Denesle,Sword of Destiny minor characters,1
-Eyck of Denesle,Yarpen Zigrin,1
-Boholt,Lady de Lisemore,1
-Dorregaray,Lady de Lisemore,1
-Blood of Elves minor characters,Boholt,1
-Lady de Lisemore,Villentretenmerth,1
-Villentretenmerth,Yennefer of Vengerberg,1
-Eyck of Denesle,Field Marshal Windbag,1
+Gyllenstiern,Kennet,1
 Geralt of Rivia,Villentretenmerth,1
-Forest Gramps,Istredd,1
-Forest Gramps,Yennefer of Vengerberg,1
-Herbolth,Lord Strept,1
-Istredd,"Something Ends, Something Begins minor characters",1
-Blood of Elves minor characters,Istredd,1
-Blood of Elves minor characters,Herbolth,1
-Bang,Dainty Biberveldt,1
-Dainty Biberveldt,Slow,1
-Dainty Biberveldt,Lord Strept,1
-Blue Knight,Rhyd,1
-Dandelion,Vimme Vivaldi,1
-Dainty Biberveldt,Seven gnomes,1
-Arno Hardbottom,Dainty Biberveldt,1
-Arno Hardbottom,Vimme Vivaldi,1
-Bang,"Something Ends, Something Begins minor characters",1
-Rhundurin,Vimme Vivaldi,1
-Dainty Biberveldt,Vespula,1
-Dandelion,Dudu,1
-Dainty Biberveldt,Little Yaxa,1
-Dandelion,Field Marshal Windbag,1
-Budibog,Dandelion,1
-Duke de Ruyter,Sh'eenaz,1
-Dalia,Dandelion,1
-Dalia,Gaspard Drouhard,1
-Dalia,Mestvin,1
-Dandelion,Gaspard Drouhard,1
-Dandelion,Mestvin,1
-Gaspard Drouhard,Mestvin,1
-Essi Daven,Lady de Lisemore,1
-Essi Daven,White Lady,1
-Gerard Troyden,Lord Strept,1
-Geralt of Rivia,Zelest,1
-Dandelion,Ethain,1
-Blood of Elves minor characters,Essi Daven,1
-Essi Daven,Sword of Destiny minor characters,1
-Agloval,"Something Ends, Something Begins minor characters",1
-Agloval,Yennefer of Vengerberg,1
-Sh'eenaz,"Something Ends, Something Begins minor characters",1
-Sh'eenaz,Yennefer of Vengerberg,1
-Agloval,Pike (person),1
-Blue Knight,Sh'eenaz,1
-Duke de Ruyter,White Lady,1
-Agloval,Little Yaxa,1
-Dandelion,Ebbing quadruplets,1
-Dandelion,Gritzi,1
-Dandelion,Juan Pablo Vassermiller,1
-Dandelion,Mitzi,1
-Dandelion,Putzi,1
-Ebbing quadruplets,Gritzi,1
-Ebbing quadruplets,Juan Pablo Vassermiller,1
-Ebbing quadruplets,Mitzi,1
-Ebbing quadruplets,Putzi,1
-Gritzi,Juan Pablo Vassermiller,1
-Gritzi,Mitzi,1
-Gritzi,Putzi,1
-Juan Pablo Vassermiller,Mitzi,1
-Juan Pablo Vassermiller,Putzi,1
-Mitzi,Putzi,1
-Cynthia (ballad subject),Dandelion,1
+Geralt of Rivia,Istredd,1
+Vespula,Yennefer of Vengerberg,1
+Ther Lukokian,Vimme Vivaldi,1
+Dalia,Teleri Drouhard,1
+Gaspard Drouhard,Teleri Drouhard,1
+Mestvin,Teleri Drouhard,1
+Geralt of Rivia,Teleri Drouhard,1
+Duke de Ruyter,Essi Daven,1
+Akeretta,Veverka,1
+Duke de Ruyter,Geralt of Rivia,1
+Essi Daven,Sh'eenaz,1
+Geralt of Rivia,Sh'eenaz,1
 Cynthia (ballad subject),Geralt of Rivia,1
-Cynthia (ballad subject),Little Yaxa,1
-Fifteen,Forest Gramps,1
-Blood of Elves minor characters,Freixenet,1
-Freixenet,"Something Ends, Something Begins minor characters",1
-Blood of Elves minor characters,Braenn,1
-Alvina,Lady de Lisemore,1
-Braenn,Vesemir,1
-Braenn,Sirssa,1
-Freixenet,Little Yaxa,1
-Drunken ferryman,"Something Ends, Something Begins minor characters",1
-Ervyll,"Something Ends, Something Begins minor characters",1
-Freixenet,King of the Wild Hunt,1
-Eithné,Forest Gramps,1
-Geralt of Rivia,Venzlav,1
-Venzlav,White Lady,1
-Kistrin,Little Yaxa,1
-Geralt of Rivia,Morenn (Braenn's daughter),1
-Blood of Elves minor characters,Morenn (Braenn's daughter),1
-Eithné,Yennefer of Vengerberg,1
-Calanthe,Eithné,1
-Ervyll,Forest Gramps,1
-Forest Gramps,Freixenet,1
-Ervyll,Junghans,1
-Ervyll,Levecque,1
-Ervyll,Venzlav,1
-Junghans,Venzlav,1
-Levecque,Venzlav,1
-Levecque,Little Yaxa,1
-Brick,Junghans,1
-Brick,Levecque,1
-Junghans,Sword of Destiny minor characters,1
-Blood of Elves minor characters,Levecque,1
-Geralt of Rivia,Junghans,1
-Forest Gramps,Lady de Lisemore,1
-Little Yaxa,Mousesack,1
-Calanthe,Kistrin,1
-Ciri,Mousesack,1
-Geralt of Rivia,Visenna,1
-White Lady,Yurga,1
-Atlan Kerk,Axel Esparza,1
-Atlan Kerk,Dagobert,1
-Atlan Kerk,Lord Strept,1
-Atlan Kerk,Triss Merigold,1
-Atlan Kerk,Vanielle,1
-Atlan Kerk,Yurga,1
-Axel Esparza,Dagobert,1
-Axel Esparza,Lord Strept,1
-Axel Esparza,Triss Merigold,1
-Axel Esparza,Vanielle,1
-Axel Esparza,Yurga,1
-Dagobert,Lord Strept,1
-Dagobert,Triss Merigold,1
-Dagobert,Vanielle,1
-Dagobert,Yurga,1
-Lord Strept,Triss Merigold,1
-Lord Strept,Vanielle,1
-Triss Merigold,Vanielle,1
-Triss Merigold,Yurga,1
-Vanielle,Yurga,1
-Geralt of Rivia,Lawdbor,1
-Belohun,Geralt of Rivia,1
-Belohun,King of the Wild Hunt,1
-Dandelion,Ironware,1
-Baron of Casadei,Field Marshal Windbag,1
-Baron of Casadei,Blood of Elves minor characters,1
-Dezmod,Sambuk,1
-Donimir of Troy,Pike (person),1
-Dandelion,Vera Loewenhaupt,1
-Gruzila,Mama Lantieri,1
-Pegasus,Rience,1
-Pegasus,"Something Ends, Something Begins minor characters",1
-Mama Lantieri,"Something Ends, Something Begins minor characters",1
-Butcher of Blaviken,Rience,1
-Bang,Blue Knight,1
+Geralt of Rivia,Kistrin,1
+Brick,Venzlav,1
+Ervyll,King of the Wild Hunt,1
+King of the Wild Hunt,Levecque,1
+Geralt of Rivia,Lytta Neyd,1
+Dandelion,Radcliffe,1
 Eskel,Roach,1
-Nicodemus de Boot,Triss Merigold,1
-Vesemir,White Lady,1
-Blue Knight,Lambert,1
-Lambert,Little Yaxa,1
-Eskel,White Lady,1
-Eskel,Lord Strept,1
-Fercart,Keira Metz,1
-Artaud Terranova,Fercart,1
 Geralt of Rivia,Regan Dahlberg,1
 Geralt of Rivia,Xavier Moran,1
-Paulie Dahlberg,Xavier Moran,1
-Paulie Dahlberg,Yannick Brass,1
-Regan Dahlberg,Xavier Moran,1
-Regan Dahlberg,Yannick Brass,1
-Xavier Moran,Yannick Brass,1
-Geralt of Rivia,Henselt,1
-Geralt of Rivia,Vilfrid Wenck,1
-Henselt,Vilfrid Wenck,1
-King of the Wild Hunt,Vilfrid Wenck,1
-Ciri,Henselt,1
-Henselt,Yarpen Zigrin,1
-Roach,Yarpen Zigrin,1
-Xavier Moran,Yarpen Zigrin,1
-Ciri,Schrader,1
-Paulie Dahlberg,"Something Ends, Something Begins minor characters",1
-Ciri,Paulie Dahlberg,1
-Ciri,Regan Dahlberg,1
-Blue Knight,Paulie Dahlberg,1
-Blue Knight,Yarpen Zigrin,1
-Little Yaxa,Paulie Dahlberg,1
-Aelirenn,Geralt of Rivia,1
-Aelirenn,White Lady,1
-Paulie Dahlberg,Triss Merigold,1
-Ciri,Yannick Brass,1
-Sword of Destiny minor characters,Yannick Brass,1
-Paulie Dahlberg,Roach,1
-Everett,Foltest,1
-Everett,King of the Wild Hunt,1
-Blood of Elves minor characters,Olsen,1
-Geralt of Rivia,Linus Pitt,1
-Linus Pitt,"Something Ends, Something Begins minor characters",1
-Boatbug,Everett,1
-Boatbug,Little Yaxa,1
-Olsen,Slow,1
-Little Yaxa,Olsen,1
-Boatbug,Sword of Destiny minor characters,1
-Everett,Geralt of Rivia,1
-Everett,"Something Ends, Something Begins minor characters",1
-Foltest,Rience,1
-Geralt of Rivia,Shani,1
-King of the Wild Hunt,Nicodemus de Boot,1
-Nicodemus de Boot,Vizimir II,1
-Blue Knight,Foltest,1
-Crach an Craite,Vizimir II,1
-Ebbing quadruplets,Ethain,1
-Blood of Elves minor characters,Field Marshal Windbag,1
-Henselt,Slow,1
-Foltest,Vilgefortz,1
-Blood of Elves minor characters,Foltest,1
-Meve,Vissegerd,1
-Calanthe,Ervyll,1
-Esterad Thyssen,Vizimir II,1
-Ervyll,Niedamir,1
-King of the Wild Hunt,Vissegerd,1
-Vissegerd,Vizimir II,1
-Foltest,Medell,1
-Foltest,Virfuril,1
-Henselt,Medell,1
-Henselt,Virfuril,1
-Medell,Meve,1
-Medell,Vizimir II,1
-Meve,Virfuril,1
-Virfuril,Vizimir II,1
-Duke de Ruyter,Windhalm of Attre,1
-Menno Coehoorn,Sword of Destiny minor characters,1
+Vilfrid Wenck,Yarpen Zigrin,1
+Linus Pitt,Olsen,1
+Boatbug,Geralt of Rivia,1
+Ori Reuven,Philippa Eilhart,1
+Ervyll,Henselt,1
 Geralt of Rivia,Myhrman,1
-Sword of Destiny minor characters,Toublanc Michelet,1
-Flavius Michelet,Lodovico Michelet,1
-Flavius Michelet,Rizzi Michelet,1
-Lodovico Michelet,Rizzi Michelet,1
-Michelet brothers,Rience,1
 Myhrman,Shani,1
-Artaud Terranova,Lydia van Bredevoort,1
-Carduin,Vilgefortz,1
-Carduin,Yennefer of Vengerberg,1
-Fercart,Philippa Eilhart,1
-Radcliffe,Vilgefortz,1
-Blood of Elves minor characters,Tissaia de Vries,1
-Fercart,King of the Wild Hunt,1
-Fercart,Triss Merigold,1
-Shani,Toublanc Michelet,1
-Blood of Elves minor characters,Toublanc Michelet,1
-Blood of Elves minor characters,Rience,1
-Philippa Eilhart,Shani,1
-Iola the Second,Seven gnomes,1
-Iola the Second,"Something Ends, Something Begins minor characters",1
-Iola the Second,Tissaia de Vries,1
-Seven gnomes,"Something Ends, Something Begins minor characters",1
-Seven gnomes,Tissaia de Vries,1
-"Something Ends, Something Begins minor characters",Tissaia de Vries,1
-Ciri,Duke de Ruyter,1
-Iola the Second,Nenneke,1
-Ciri,Iola the Second,1
-Eurneid,Little Yaxa,1
-Eurneid,"Something Ends, Something Begins minor characters",1
-Iola,Little Yaxa,1
-Bronibor,Duke de Ruyter,1
-Bronibor,Pelligram,1
-Duke de Ruyter,Pelligram,1
-Jarre,King of the Wild Hunt,1
-Jarre,Little Yaxa,1
-Hrosvitha,"Something Ends, Something Begins minor characters",1
-Lady de Lisemore,Nenneke,1
-Ciri,Mama Lantieri,1
-Ciri,Hrosvitha,1
-Hrosvitha,Nenneke,1
-Ciri,Giambattista,1
-Agnes of Glanville,Jan Bekker,1
-Anna Tiller,King of the Wild Hunt,1
-Anna Tiller,Marquis La Creahme,1
-King of the Wild Hunt,Marquis La Creahme,1
-Crach an Craite,Sword of Destiny minor characters,1
-Ciri,Eist Tuirseach,1
-Aplegatt,Effenberg,1
-Aplegatt,Talbot,1
-Aplegatt,Foltest,1
-Aplegatt,Forest Gramps,1
-Baron of Casadei,Emhyr var Emreis,1
+Bronibor,Jarre,1
+Geralt of Rivia,Jarre,1
+Hrosvitha,Yennefer of Vengerberg,1
+Lambert,Yennefer of Vengerberg,1
 Aplegatt,Yennefer of Vengerberg,1
-Aplegatt,Blood of Elves minor characters,1
 Codringher,Yennefer of Vengerberg,1
-Demavend III,Rience,1
-Demavend III,Vilgefortz,1
-Ciri,Foltest,1
-Codringher,Foltest,1
-Ebbing quadruplets,Prince Voorhis,1
-Ebbing quadruplets,Roegner of Ebbing,1
-Prince Voorhis,Roegner of Ebbing,1
-Codringher,Roegner of Ebbing,1
-King of the Wild Hunt,Pavetta,1
-Codringher,Pavetta,1
-Blue Knight,Codringher,1
-Akerspaark,Geralt of Rivia,1
-Akerspaark,Prince Voorhis,1
-Gonzalez Akerspaark,Gorm Akerspaark,1
-Gonzalez Akerspaark,Horm Akerspaark,1
-Gonzalez Akerspaark,Torm Akerspaark,1
-Gorm Akerspaark,Horm Akerspaark,1
-Gorm Akerspaark,Torm Akerspaark,1
-Horm Akerspaark,Torm Akerspaark,1
-Alia Akerspaark,Argentina Akerspaark,1
-Alia Akerspaark,Codringher,1
-Alia Akerspaark,Valia Akerspaark,1
-Argentina Akerspaark,Codringher,1
-Argentina Akerspaark,Valia Akerspaark,1
-Codringher,Valia Akerspaark,1
-Demavend III,Hansom,1
-Hansom,King of the Wild Hunt,1
-Aplegatt,Demavend III,1
-Heimo Kantor,Little Yaxa,1
-Cairbre aep Diared,Gar,1
-Sword of Destiny minor characters,Yaevinn,1
-Molnar Giancardi,"Something Ends, Something Begins minor characters",1
-Fabio Sachs,"Something Ends, Something Begins minor characters",1
-Brick,Ciri,1
-Ciri,Fifteen,1
-Ciri,Leila,1
-Lady de Lisemore,Molnar Giancardi,1
-Demavend III,Margarita Laux-Antille,1
-Demavend III,Rayla,1
-King of the Wild Hunt,Margarita Laux-Antille,1
-King of the Wild Hunt,Rayla,1
-Margarita Laux-Antille,Rayla,1
-Demavend III,Sword of Destiny minor characters,1
-Ciri,Rayla,1
-Lars,Tissaia de Vries,1
-Sandy Frogmorton,White Lady,1
-Ciri,Gar,1
-Bernie Hofmeier,"Something Ends, Something Begins minor characters",1
-Bernie Hofmeier,Geralt of Rivia,1
-Henselt,Yennefer of Vengerberg,1
-Gerhart of Aelle,Yennefer of Vengerberg,1
-Artaud Terranova,Triss Merigold,1
+Heimo Kantor,Ralf Blunden,1
+Cairbre aep Diared,Yaevinn,1
 Lydia van Bredevoort,Yennefer of Vengerberg,1
-Blood of Elves minor characters,Sabrina Glevissig,1
-Ethain,Philippa Eilhart,1
-Marti Södergren,Philippa Eilhart,1
-Keira Metz,White Lady,1
-Keira Metz,Marti Södergren,1
-Keira Metz,"Something Ends, Something Begins minor characters",1
-Geralt of Rivia,Tissaia de Vries,1
-King of the Wild Hunt,Raffard the White,1
-Agnes of Glanville,Geoffrey Monck,1
-Agnes of Glanville,Herbert Stammelford,1
-Agnes of Glanville,Ivo Richert,1
-Agnes of Glanville,Radmir,1
-Aurora Henson,Geoffrey Monck,1
-Aurora Henson,Herbert Stammelford,1
-Aurora Henson,Ivo Richert,1
-Aurora Henson,Radmir,1
-Geoffrey Monck,Herbert Stammelford,1
-Geoffrey Monck,Ivo Richert,1
-Geoffrey Monck,Radmir,1
-Herbert Stammelford,Ivo Richert,1
-Herbert Stammelford,Radmir,1
-Ivo Richert,Radmir,1
-Agnes of Glanville,Klara Larissa de Winter,1
-Aurora Henson,Klara Larissa de Winter,1
-Aurora Henson,Nina Fioravanti,1
-Klara Larissa de Winter,Nina Fioravanti,1
-April Wenhaver,Augusta Wagner,1
-April Wenhaver,Carla Demetia Crest,1
-April Wenhaver,Ilona Laux-Antille,1
-April Wenhaver,Jada Glevissig,1
-April Wenhaver,Leticia Charbonneau,1
-April Wenhaver,Nora Wagner,1
-April Wenhaver,Yanna of Murivel,1
-April Wenhaver,Yiolenta Suarez,1
-Augusta Wagner,Carla Demetia Crest,1
-Augusta Wagner,Ilona Laux-Antille,1
-Augusta Wagner,Jada Glevissig,1
-Augusta Wagner,Nora Wagner,1
-Augusta Wagner,Yanna of Murivel,1
-Augusta Wagner,Yiolenta Suarez,1
-Carla Demetia Crest,Ilona Laux-Antille,1
-Carla Demetia Crest,Jada Glevissig,1
-Carla Demetia Crest,Leticia Charbonneau,1
-Carla Demetia Crest,Nora Wagner,1
-Carla Demetia Crest,Yanna of Murivel,1
-Carla Demetia Crest,Yiolenta Suarez,1
-Ilona Laux-Antille,Jada Glevissig,1
-Ilona Laux-Antille,Leticia Charbonneau,1
-Ilona Laux-Antille,Nora Wagner,1
-Ilona Laux-Antille,Yanna of Murivel,1
-Ilona Laux-Antille,Yiolenta Suarez,1
-Jada Glevissig,Leticia Charbonneau,1
-Jada Glevissig,Nora Wagner,1
-Jada Glevissig,Yanna of Murivel,1
-Jada Glevissig,Yiolenta Suarez,1
-Leticia Charbonneau,Nora Wagner,1
-Leticia Charbonneau,Yanna of Murivel,1
-Leticia Charbonneau,Yiolenta Suarez,1
-Nora Wagner,Yanna of Murivel,1
-Nora Wagner,Yiolenta Suarez,1
-Yanna of Murivel,Yiolenta Suarez,1
-Falka,Radmir,1
-Agnes of Glanville,Tissaia de Vries,1
-Nina Fioravanti,Tissaia de Vries,1
-Lara Dorren,Lydia van Bredevoort,1
-Geoffrey Monck,Immanuel Benavent,1
-Geoffrey Monck,Nina Fioravanti,1
+Dorregaray,Sabrina Glevissig,1
+Geralt of Rivia,Radmir,1
+Geralt of Rivia,Lara Dorren,1
 Geoffrey Monck,Ransant Alvaro,1
-Immanuel Benavent,Lara Dorren,1
-Immanuel Benavent,Nina Fioravanti,1
 Immanuel Benavent,Ransant Alvaro,1
-Lara Dorren,Nina Fioravanti,1
-Lara Dorren,Ransant Alvaro,1
 Nina Fioravanti,Ransant Alvaro,1
-Adalia,Elen of Kaedwen,1
-Adalia,Falka,1
-Adalia,Fiona,1
-Adalia,Pavetta,1
-Calanthe,Elen of Kaedwen,1
-Calanthe,Falka,1
-Calanthe,Fiona,1
-Elen of Kaedwen,Falka,1
-Elen of Kaedwen,Pavetta,1
-Codringher,Falka,1
-Codringher,Lara Dorren,1
-Codringher,Lord Strept,1
-Geralt of Rivia,Keira Metz,1
-Lydia van Bredevoort,Radcliffe,1
-Lydia van Bredevoort,"Something Ends, Something Begins minor characters",1
-Lydia van Bredevoort,Triss Merigold,1
-Radcliffe,"Something Ends, Something Begins minor characters",1
-Carduin,Dorregaray,1
-Carduin,Drithelm,1
-Carduin,Triss Merigold,1
-Dorregaray,Drithelm,1
-Drithelm,Triss Merigold,1
-Esterad Thyssen,Ethain,1
-Dorregaray,Marti Södergren,1
-Marti Södergren,Yennefer of Vengerberg,1
-Demavend III,Keira Metz,1
-Demavend III,Tissaia de Vries,1
-Demavend III,Triss Merigold,1
-Foltest,Radcliffe,1
-Foltest,Tissaia de Vries,1
-Keira Metz,Tissaia de Vries,1
-Radcliffe,Tissaia de Vries,1
-Ambassador de Ruyter,Carduin,1
-Ambassador de Ruyter,Philippa Eilhart,1
-Ambassador de Ruyter,Sabrina Glevissig,1
-Carduin,Esterad Thyssen,1
-Carduin,King of the Wild Hunt,1
+Fiona,Ithlinne,1
+Ithlinne,Lara Dorren,1
+Artaud Terranova,Geralt of Rivia,1
+Fercart,Vilgefortz,1
+Sabrina Glevissig,Vizimir II,1
+Vilgefortz,Vizimir II,1
 Carduin,Sabrina Glevissig,1
-Esterad Thyssen,Philippa Eilhart,1
-Esterad Thyssen,Sabrina Glevissig,1
-Blood of Elves minor characters,Lydia van Bredevoort,1
-Meve,Sabrina Glevissig,1
-Meve,Tissaia de Vries,1
-King of the Wild Hunt,Tissaia de Vries,1
-Philippa Eilhart,Raffard the White,1
-Bianca d'Este,Drithelm,1
-Bianca d'Este,Fercart,1
-Bianca d'Este,Marquard,1
-Bianca d'Este,Radcliffe,1
-Bianca d'Este,Rejean,1
-Drithelm,Fercart,1
-Drithelm,Marquard,1
-Drithelm,Radcliffe,1
-Drithelm,Rejean,1
-Fercart,Marquard,1
-Fercart,Rejean,1
-Marquard,Radcliffe,1
-Marquard,Rejean,1
-Radcliffe,Rejean,1
-Emhyr var Emreis,Rience,1
-Sword of Destiny minor characters,Vilgefortz,1
-Elan Trahe,Menno Coehoorn,1
-Forest Gramps,Rayla,1
-Blaise,Rayla,1
-Hedwig of Malleore,Vizimir II,1
-Dandelion,Demavend III,1
-Duke de Ruyter,Willemer,1
-Ervyll,Lord Strept,1
-Bode,Centurion (innkeeper),1
-Mansfeld,Menno Coehoorn,1
-Dandelion,Gar,1
-Ambassador de Ruyter,Prince Voorhis,1
-Esterad Thyssen,Prince Voorhis,1
-Clara aep Gwydolyn Gor,Dervla Tryffin Broinne,1
-Elen of Kaedwen,Stella Congreve,1
-Fiona,Stella Congreve,1
-Riannon,Stella Congreve,1
-Ceallach aep Gruffyd,Vattier de Rideaux,1
-"Something Ends, Something Begins minor characters",Xarthisius,1
-Blood of Elves minor characters,Roderick de Novembre,1
-Blood of Elves minor characters,Seven gnomes,1
-Falka,Roderick de Novembre,1
-Falka,Seven gnomes,1
-Roderick de Novembre,Seven gnomes,1
-Lord Strept,Skomlik,1
-Sword of Destiny minor characters,Two Tusks,1
-Bang,Sword of Destiny minor characters,1
-Blue Knight,Sword of Destiny minor characters,1
-Field Marshal Windbag,Remiz,1
-Remiz,"Something Ends, Something Begins minor characters",1
-Remiz,White Lady,1
-Ciri,Remiz,1
-Lord Strept,Lutz,1
+Philippa Eilhart,Vizimir II,1
+Fercart,Sabrina Glevissig,1
+Marquard,Sabrina Glevissig,1
+Sabrina Glevissig,Tissaia de Vries,1
+Geralt of Rivia,Lydia van Bredevoort,1
+Aine Dermott,Clara aep Gwydolyn Gor,1
+Jarre,Margarita Laux-Antille,1
+Margarita Laux-Antille,Nenneke,1
+Fabio Sachs,Nenneke,1
 Baron of Casadei,Vercta,1
-Baron of Casadei,Skomlik,1
-Lutz,Skomlik,1
-Baron of Casadei,Kayleigh,1
-Kayleigh,Lutz,1
-"Something Ends, Something Begins minor characters",Vercta,1
-Skomlik,Sword of Destiny minor characters,1
-Giselher,Slow,1
-Ebbing quadruplets,Emhyr var Emreis,1
-Ebbing quadruplets,Reef,1
-Emhyr var Emreis,Reef,1
-Ebbing quadruplets,Lord Strept,1
-Prince Voorhis,Rudiger,1
-Asse,White Lady,1
-Falka,Iskra,1
-Lady de Lisemore,Maria Louisa La Valette,1
-Codringher,Milva,1
-Hedwig of Malleore,Prince Voorhis,1
-Ambassador de Ruyter,Francesca Findabair,1
-Cahir Mawr Dyffryn aep Ceallach,Philippa Eilhart,1
-Ceallach aep Gruffyd,Philippa Eilhart,1
-Dyffryn,Philippa Eilhart,1
-Mawr var Anahid,Philippa Eilhart,1
+Kayleigh,Vercta,1
+Coinneach Dá Reo,Milva,1
 Sabrina Glevissig,Sheala de Tancarville,1
-Sabrina Glevissig,Sigismund Dijkstra,1
-Sheala de Tancarville,Triss Merigold,1
-Istredd,Philippa Eilhart,1
-Istredd,Tugdual,1
+Philippa Eilhart,Sigismund Dijkstra,1
+Carduin,Tugdual,1
 Philippa Eilhart,Tugdual,1
-Francesca Findabair,Lady de Lisemore,1
-Keira Metz,Sheala de Tancarville,1
-Blood of Elves minor characters,Francesca Findabair,1
-Mistle,Tuzik,1
-Milenka,Tuzik,1
-Giselher,Mykitka,1
-Little Yaxa,Mykitka,1
-Milenka,Sword of Destiny minor characters,1
-Tarp,Vera Loewenhaupt,1
-Caleb Stratton,Vera Loewenhaupt,1
-Roach,Zoltan Chivay,1
-Foltest,Milva,1
-King of the Wild Hunt,Milva,1
-Lady de Lisemore,Weasel,1
-King of the Wild Hunt,Percival Schuttenbach,1
-Field Marshal Windbag,Figgis Merluzzo,1
-Milva,Yennefer of Vengerberg,1
-Emiel Regis Rohellec Terzieff-Godefroy,Zoltan Chivay,1
-Brouver Hoog,Dandelion,1
-Brouver Hoog,Zoltan Chivay,1
-Drunken ferryman,Milva,1
+Philippa Eilhart,Sheala de Tancarville,1
+Geralt of Rivia,Kolda,1
+Ceallach aep Gruffyd,Roach,1
+Caleb Stratton,Percival Schuttenbach,1
+Milva,Zoltan Chivay,1
 Milva,Percival Schuttenbach,1
-Anzelm Aubry,Dandelion,1
-Daniel Etcheverry,Vissegerd,1
+Effenberg,Philippa Eilhart,1
 Daniel Etcheverry,Geralt of Rivia,1
-Calanthe,Vissegerd,1
-Dandelion,Sigismund Dijkstra,1
-Elan Trahe,Milva,1
-Forest Gramps,Lord Strept,1
-Cahir Mawr Dyffryn aep Ceallach,Lara Dorren,1
-Cahir Mawr Dyffryn aep Ceallach,Lady de Lisemore,1
-Assire var Anahid,Ceallach aep Gruffyd,1
-Ceallach aep Gruffyd,Emhyr var Emreis,1
-Assire var Anahid,Fifteen,1
-Emhyr var Emreis,Fifteen,1
-Fifteen,Fringilla Vigo,1
-Albrich,Emhyr var Emreis,1
-Fringilla Vigo,Xarthisius,1
-Stefan Skellen,Xarthisius,1
-Little Yaxa,Vascoigne,1
-Millet,Rience,1
-Geralt of Rivia,Millet,1
-Brick,Rience,1
-Servadio,"Something Ends, Something Begins minor characters",1
-Mistle,Servadio,1
-Asse,Pinto,1
-Kayleigh,Pinto,1
-Pinto,Reef,1
-Dandelion,Emiel Regis Rohellec Terzieff-Godefroy,1
-Dandelion,Maria Louisa La Valette,1
-Lara Dorren,Sword of Destiny minor characters,1
-Blue Knight,Vattier de Rideaux,1
-Francesca Findabair,Vattier de Rideaux,1
-Cahir Mawr Dyffryn aep Ceallach,Filavandrel aén Fidháil,1
-Cahir Mawr Dyffryn aep Ceallach,Vanadain,1
-Cahir Mawr Dyffryn aep Ceallach,Yennefer of Vengerberg,1
-Filavandrel aén Fidháil,Rience,1
-Filavandrel aén Fidháil,Vanadain,1
-Filavandrel aén Fidháil,Vattier de Rideaux,1
-Filavandrel aén Fidháil,Vilgefortz,1
-Filavandrel aén Fidháil,Yennefer of Vengerberg,1
-Rience,Vanadain,1
-Vanadain,Vattier de Rideaux,1
-Vanadain,Vilgefortz,1
-Vanadain,Yennefer of Vengerberg,1
-Vattier de Rideaux,Yennefer of Vengerberg,1
-Aevenien,Blood of Elves minor characters,1
-Philippa Eilhart,Vattier de Rideaux,1
-Keira Metz,King of the Wild Hunt,1
-Field Marshal Windbag,Francesca Findabair,1
-Rience,Slow,1
-Slow,Vilgefortz,1
-Blue Knight,Francesca Findabair,1
-Margarita Laux-Antille,Vilgefortz,1
-Fringilla Vigo,Margarita Laux-Antille,1
+Cahir Mawr Dyffryn aep Ceallach,Stefan Skellen,1
+Ceallach aep Gruffyd,Stefan Skellen,1
+Ceallach aep Gruffyd,Vattier de Rideaux,1
+Fringilla Vigo,Milva,1
+Giselher,Servadio,1
+Kayleigh,Servadio,1
+Francesca Findabair,Ida Emean aep Sivney,1
 Aen Saevherne,Ida Emean aep Sivney,1
-Aen Saevherne,Lady de Lisemore,1
-Ida Emean aep Sivney,Lady de Lisemore,1
-Fringilla Vigo,White Lady,1
-Assire var Anahid,Yennefer of Vengerberg,1
-Assire var Anahid,Cregennan of Lod,1
-Aen Saevherne,Blood of Elves minor characters,1
-Aen Saevherne,Lara Dorren,1
-Cerro,Keira Metz,1
-Keira Metz,Lara Dorren,1
-Falka,Fringilla Vigo,1
-Falka,Vridank,1
-Cerro,Goidemar,1
-Cerro,Houtborg triplets,1
-Falka,Houtborg triplets,1
-Goidemar,Houtborg triplets,1
-Goidemar,Lara Dorren,1
-Houtborg triplets,King of the Wild Hunt,1
-Houtborg triplets,Lara Dorren,1
-Cregennan of Lod,Falka,1
+Francesca Findabair,Keira Metz,1
+Aen Saevherne,Philippa Eilhart,1
 Goidemar,Yennefer of Vengerberg,1
-Augusta Wagner,Francesca Findabair,1
-Augusta Wagner,Tissaia de Vries,1
-Francesca Findabair,Leticia Charbonneau,1
-Leticia Charbonneau,Tissaia de Vries,1
-Adela,Amavet,1
-Amavet,Blood of Elves minor characters,1
-Amavet,Lady de Lisemore,1
-Amavet,"Something Ends, Something Begins minor characters",1
-Adela,Baron of Casadei,1
-Adela,Philippa Eilhart,1
-Baron of Casadei,Philippa Eilhart,1
-Amavet,Anna Kameny,1
-Fiona,King of the Wild Hunt,1
-Blood of Elves minor characters,Fiona,1
-Fiona,Prince Voorhis,1
-Prince Voorhis,Riannon,1
-Crispin,Robert of Garramone,1
-Adalia,Francesca Findabair,1
-Francesca Findabair,Muriel,1
-Adalia,Lara Dorren,1
-Adalia,Riannon,1
-Adalia,Little Yaxa,1
-Adalia,Amavet,1
-Amavet,Muriel,1
-Corbett,King of the Wild Hunt,1
-Corbett,Elen of Kaedwen,1
-Dagorad,Elen of Kaedwen,1
-Amavet,Margarita Laux-Antille,1
-Fiona,Lara Dorren,1
-Fiona,Margarita Laux-Antille,1
-Lara Dorren,Margarita Laux-Antille,1
-Calanthe,Margarita Laux-Antille,1
-Ebbing quadruplets,Margarita Laux-Antille,1
-Lady de Lisemore,Lara Dorren,1
-Emhyr var Emreis,Philippa Eilhart,1
-Emhyr var Emreis,Sabrina Glevissig,1
-Assire var Anahid,Blood of Elves minor characters,1
-Blood of Elves minor characters,Fringilla Vigo,1
-Ciri,Keira Metz,1
-Count Lanier,Jolie Lanier,1
-Lara Dorren,Little Yaxa,1
-Fifteen,Vilgefortz,1
-Falka,Stefan Skellen,1
-Effenberg,Seven gnomes,1
-Seven gnomes,Talbot,1
-Connor,Yennefer of Vengerberg,1
-Connor,Sword of Destiny minor characters,1
-Milva,Nimue verch Wledyr ap Gwyn,1
+Adalia,Sabrina Glevissig,1
+Emhyr var Emreis,Keira Metz,1
+Bronik,Connor,1
+Bronik,Yennefer of Vengerberg,1
 Bronik,Geralt of Rivia,1
-Lady de Lisemore,Yazon Varda,1
-Figgis Merluzzo,Geralt of Rivia,1
-Geralt of Rivia,Munro Bruys,1
-Geralt of Rivia,Yazon Varda,1
-Caleb Stratton,Dandelion,1
-Blood of Elves minor characters,Zoltan Chivay,1
-Caleb Stratton,Ciri,1
-Geralt of Rivia,Roger Kameny,1
-Cahir Mawr Dyffryn aep Ceallach,Morteisen,1
-Ceallach aep Gruffyd,Morteisen,1
-Blood of Elves minor characters,Meve,1
-Meve,Sword of Destiny minor characters,1
-Blood of Elves minor characters,Flourens Delannoy,1
-Crach an Craite,Fabio Sachs,1
-Crach an Craite,Vesemir,1
-Crach an Craite,Yarpen Zigrin,1
-Fabio Sachs,Vesemir,1
-Fabio Sachs,Yarpen Zigrin,1
-Freya (Skelliger),Fringilla Vigo,1
-Freya (Skelliger),Sigrdrifa,1
-Fringilla Vigo,Sigrdrifa,1
-Daniel Etcheverry,Zyvik,1
-Ebbing quadruplets,Vysogota of Corvo,1
-Blood of Elves minor characters,Vysogota of Corvo,1
-Field Marshal Windbag,Kelpie (horse),1
-Asse,Sword of Destiny minor characters,1
-Falka,Kelpie (horse),1
-Reef,Vera Loewenhaupt,1
-Ciri,Vera Loewenhaupt,1
-Kayleigh,Lord Strept,1
-Asse,Little Yaxa,1
-Baron of Casadei,"Something Ends, Something Begins minor characters",1
-Ciri,Reef,1
-Kayleigh,White Lady,1
-Giselher,Valdez,1
-Giselher,Little Yaxa,1
-Little Yaxa,Reef,1
-Emhyr var Emreis,Mistle,1
-Blue Knight,Giselher,1
-Giselher,"Something Ends, Something Begins minor characters",1
-Kayleigh,"Something Ends, Something Begins minor characters",1
-Mistle,"Something Ends, Something Begins minor characters",1
-Reef,Valdez,1
-Blue Knight,Mistle,1
-Mistle,Vysogota of Corvo,1
-Blood of Elves minor characters,Reef,1
-Reef,White Lady,1
-Cahir Mawr Dyffryn aep Ceallach,Emiel Regis Rohellec Terzieff-Godefroy,1
-Cahir Mawr Dyffryn aep Ceallach,Maria Louisa La Valette,1
-Cahir Mawr Dyffryn aep Ceallach,Meve,1
-Emiel Regis Rohellec Terzieff-Godefroy,Meve,1
-Geralt of Rivia,Maria Louisa La Valette,1
-Maria Louisa La Valette,Meve,1
-Meve,Milva,1
-Field Marshal Windbag,Milva,1
-Blue Knight,Cahir Mawr Dyffryn aep Ceallach,1
-Blue Knight,Ceallach aep Gruffyd,1
-Ceallach aep Gruffyd,White Lady,1
-Cahir Mawr Dyffryn aep Ceallach,Pegasus,1
-Ceallach aep Gruffyd,Little Yaxa,1
-Dandelion,Dyffryn,1
-Dandelion,Mawr var Anahid,1
-Dyffryn,Little Yaxa,1
-Little Yaxa,Mawr var Anahid,1
-Ciri,Vattier de Rideaux,1
-Ceallach aep Gruffyd,Rience,1
-Ceallach aep Gruffyd,Vilgefortz,1
-Meve,Rience,1
-Carthia van Canten,Stefan Skellen,1
-Dominik Bombastus Houvenaghel,Ebbing quadruplets,1
-Andres Vierny,Dufficey Kriel,1
-Chloe Stitz,Dufficey Kriel,1
-Chloe Stitz,Til Echrade,1
-Dufficey Kriel,Til Echrade,1
-Dacre Silifant,Fifteen,1
-Andres Vierny,Butcher of Blaviken,1
-Falka,Nycklar,1
-Andres Vierny,Boreas Mun,1
-Andres Vierny,Dede Vargas,1
-Boreas Mun,Dede Vargas,1
-Chloe Stitz,Dede Vargas,1
-Dede Vargas,Neratin Ceka,1
-Chloe Stitz,Stefan Skellen,1
-Chloe Stitz,Little Yaxa,1
-Boreas Mun,Falka,1
-Falka,Lord Strept,1
-Baron of Casadei,White Lady,1
-Falka,White Lady,1
-Rupert (The Tower of the Swallow),Stavro,1
-Boreas Mun,Esterhazy,1
-Chloe Stitz,Sword of Destiny minor characters,1
-Falka,Vysogota of Corvo,1
-Lord Strept,Windsor Imbra,1
-Blood of Elves minor characters,Windsor Imbra,1
-Baron of Casadei,Stavro,1
-Ciri,Stavro,1
-Stavro,Sword of Destiny minor characters,1
-Falka,Little Yaxa,1
-Falka,Stavro,1
-Amaranth,Ciri,1
-Amaranth,Sword of Destiny minor characters,1
-Horsehide,Little Yaxa,1
-Blood of Elves minor characters,Horsehide,1
-Amaranth,Horsehide,1
-Amaranth,Windsor Imbra,1
-Horsehide,Windsor Imbra,1
-Dandelion,Meve,1
-Cahir Mawr Dyffryn aep Ceallach,Emhyr var Emreis,1
-Geralt of Rivia,Vysogota of Corvo,1
-April Wenhaver,Cahir Mawr Dyffryn aep Ceallach,1
-April Wenhaver,Geralt of Rivia,1
-April Wenhaver,Little Yaxa,1
-Cahir Mawr Dyffryn aep Ceallach,Novosad,1
-Novosad,Sword of Destiny minor characters,1
-Cahir Mawr Dyffryn aep Ceallach,Forest Gramps,1
-Draakul,Seven gnomes,1
-Butcher of Blaviken,Sword of Destiny minor characters,1
-Cregennan of Lod,"Something Ends, Something Begins minor characters",1
-Avallac'h,Geralt of Rivia,1
-Pavetta,Riannon,1
-Avallac'h,Forest Gramps,1
-Little Yaxa,Slow,1
-Bucephalus,Forest Gramps,1
-Blood of Elves minor characters,Weasel,1
-Emiel Regis Rohellec Terzieff-Godefroy,Forest Gramps,1
-Gedovius Troyden,Lord Strept,1
-Benda,Radovid III,1
-Aideen,Blood of Elves minor characters,1
-Aideen,Gedovius Troyden,1
-Aideen,Gemma,1
-Blood of Elves minor characters,Gedovius Troyden,1
-Blood of Elves minor characters,Gemma,1
-Benda,King of the Wild Hunt,1
-Esterad Thyssen,Fifteen,1
-Gedovius Troyden,"Something Ends, Something Begins minor characters",1
+Geralt of Rivia,Meve,1
+Philippa Eilhart,Yarpen Zigrin,1
+Freya (Skelliger),Yarpen Zigrin,1
+Fringilla Vigo,Yarpen Zigrin,1
+Daniel Etcheverry,Freya (Skelliger),1
+Daniel Etcheverry,Fringilla Vigo,1
+Cahir Mawr Dyffryn aep Ceallach,Vilgefortz,1
+Rience,Stefan Skellen,1
+Effenberg,Joanna Selborne,1
+Rispat La Pointe,Til Echrade,1
+Dede Vargas,Stigward,1
+Esterhazy,Neratin Ceka,1
+Declan Ros aep Maelchlad,Pennycuick,1
+Leo Bonhart,Pennycuick,1
+Codringher,Vilgefortz,1
+Cregennan of Lod,Geralt of Rivia,1
+Gabriel (person),Geralt of Rivia,1
+Gedovius Troyden,Gemma,1
+Esteril Thyssen,Gerard Troyden,1
 Esterad Thyssen,Henselt,1
-Ardal aep Dahy,Assire var Anahid,1
-Ardal aep Dahy,Joachim de Wett,1
-Assire var Anahid,Joachim de Wett,1
-Carthia van Canten,Neratin Ceka,1
 Neratin Ceka,Vattier de Rideaux,1
-Assire var Anahid,Jediah Mekesser,1
-Assire var Anahid,Vattier de Rideaux,1
 Jediah Mekesser,Vattier de Rideaux,1
-Assire var Anahid,Carthia van Canten,1
-Carthia van Canten,Lady de Lisemore,1
-Esteril Thyssen,Fergus var Emreis,1
-Esterad Thyssen,Foltest,1
-King of the Wild Hunt,Marie de Mercey,1
-King of the Wild Hunt,Marquis de Mercey,1
-Marie de Mercey,Marquis de Mercey,1
-Calanthe,Esterad Thyssen,1
-Calanthe,Zuleyka,1
-Emhyr var Emreis,Zuleyka,1
-Emhyr var Emreis,Tankred Thyssen,1
-Lebioda,"Something Ends, Something Begins minor characters",1
-Guiscard Vermuellen,Zuleyka,1
-Guiscard Vermuellen,Tankred Thyssen,1
-Lady de Lisemore,Tankred Thyssen,1
-Baron of Casadei,Surcratasse,1
-Ciri,Zuleyka,1
-Esterad Thyssen,Yennefer of Vengerberg,1
-Little Yaxa,Sigrdrifa,1
-Ciri,Sigrdrifa,1
-Crach an Craite,Vilgefortz,1
-Crach an Craite,Radcliffe,1
-Ciri,Geoffrey Monck,1
-Avallac'h,Little Yaxa,1
-Fifteen,Hjalmar an Craite,1
-Fifteen,Little Yaxa,1
-Hjalmar an Craite,Little Yaxa,1
-Hjalmar an Craite,Sword of Destiny minor characters,1
-Lady de Lisemore,Sven (Guthlaf's father),1
-Sven (Guthlaf's father),Yennefer of Vengerberg,1
-Hjalmar an Craite,Lady de Lisemore,1
-Asa Thjazi,Reef,1
-Asa Thjazi,Guthlaf,1
-Asa Thjazi,Sven (Guthlaf's father),1
-Bert Brigden,Joanna Selborne,1
-Bert Brigden,Neratin Ceka,1
-Dacre Silifant,Neratin Ceka,1
-Joanna Selborne,Neratin Ceka,1
-Joanna Selborne,Til Echrade,1
-Joanna Selborne,Lady de Lisemore,1
-Seven gnomes,Vattier de Rideaux,1
+Asa Thjazi,Yennefer of Vengerberg,1
+Hjalmar an Craite,Yennefer of Vengerberg,1
+Neratin Ceka,Ola Harsheim,1
 Neratin Ceka,Stefan Skellen,1
-Ardal aep Dahy,Vilgefortz,1
-Chloe Stitz,Seven gnomes,1
+Chloe Stitz,Stigward,1
 Bert Brigden,Chloe Stitz,1
 Chloe Stitz,Ola Harsheim,1
-Blood of Elves minor characters,Rispat La Pointe,1
-Falka,Rience,1
-Rispat La Pointe,White Lady,1
-Blood of Elves minor characters,Dede Vargas,1
-Ciri,Rispat La Pointe,1
-Flourens Delannoy,Little Yaxa,1
-Field Marshal Windbag,Iola the Second,1
-Milo Vanderbeck,Nenneke,1
-Iola,Triss Merigold,1
+Geralt of Rivia,Vattier de Rideaux,1
+Vattier de Rideaux,Yennefer of Vengerberg,1
 Boreas Mun,Stefan Skellen,1
-Forest Gramps,Ola Harsheim,1
-Forest Gramps,Rience,1
-Forest Gramps,Seven gnomes,1
-Ola Harsheim,Rience,1
-Lord Strept,Til Echrade,1
-Bert Brigden,Stigward,1
-Dacre Silifant,Rience,1
-Boreas Mun,Little Yaxa,1
-Bert Brigden,Sword of Destiny minor characters,1
-Lady de Lisemore,Vysogota of Corvo,1
-Arthur Tailles,Lady de Lisemore,1
-Arthur Tailles,Sword of Destiny minor characters,1
-Arthur Tailles,White Lady,1
-Merlin,Sword of Destiny minor characters,1
-Lady de Lisemore,Merlin,1
-Arthur Tailles,Lord Strept,1
-Galahad,Lord Strept,1
-Geralt of Rivia,Nimue verch Wledyr ap Gwyn,1
-Rience,Stella Congreve,1
-Fiona,"Something Ends, Something Begins minor characters",1
-Little Yaxa,Stella Congreve,1
-Emhyr var Emreis,Fisher King (lover of Nimue),1
-Fisher King (lover of Nimue),Vilgefortz,1
-Dandelion,Ravix of Fourhorn,1
-Lady de Lisemore,Ravix of Fourhorn,1
-Assire var Anahid,Condwiramurs Tilly,1
-Condwiramurs Tilly,Fringilla Vigo,1
-Fisher King (lover of Nimue),"Something Ends, Something Begins minor characters",1
-Ciri,Ebbing quadruplets,1
-Ebbing quadruplets,Little Yaxa,1
-Ebbing quadruplets,Yennefer of Vengerberg,1
-Bang,Field Marshal Windbag,1
-Condwiramurs Tilly,Rience,1
-Condwiramurs Tilly,Everett,1
-Little Yaxa,Malatesta,1
-Anna Henrietta,Dandelion,1
-Geralt of Rivia,Jean Catillon,1
-Field Marshal Windbag,White Lady,1
-Baron of Casadei,Palmerin de Launfal,1
-Geralt of Rivia,Palmerin de Launfal,1
-Geralt of Rivia,Notturna,1
-Fringilla Vigo,Lord Strept,1
-Emiel Regis Rohellec Terzieff-Godefroy,Little Yaxa,1
-Anna Henrietta,Fringilla Vigo,1
-Baron of Casadei,Seven gnomes,1
-Anna Henrietta,Roach,1
-Anna Henrietta,Geralt of Rivia,1
-Little Yaxa,Philippa Eilhart,1
-Francesca Findabair,Ida Emean aep Sivney,1
-Fringilla Vigo,Ida Emean aep Sivney,1
-Amadis de Trastamara,Baron of Casadei,1
-Drunken ferryman,Little Yaxa,1
-Little Yaxa,Morvran Voorhis,1
-Morvran Voorhis,Prince Voorhis,1
-Ardal aep Dahy,Lord Strept,1
-Prince Voorhis,Stefan Skellen,1
-Emhyr var Emreis,Prince Voorhis,1
-April Wenhaver,Fringilla Vigo,1
+Boreas Mun,Stigward,1
+Ola Harsheim,Stigward,1
+Fabio Sachs,Yarpen Zigrin,1
+Jarre,Yarpen Zigrin,1
+Fabio Sachs,Tissaia de Vries,1
+Jarre,Tissaia de Vries,1
+Geralt of Rivia,Tissaia de Vries,1
+Arthur Tailles,Merlin,1
+Condwiramurs Tilly,Nimue verch Wledyr ap Gwyn,1
+Alcides Fierabras,Malatesta,1
+Baron of Casadei,Geralt of Rivia,1
+Baron of Casadei,Milva,1
 Fringilla Vigo,Vilgefortz,1
-King of the Wild Hunt,Wolfgang Amadeus Goatbeard,1
-Forest Gramps,Vysogota of Corvo,1
-Lara Dorren,"Something Ends, Something Begins minor characters",1
-Auberon Muircetach,Avallac'h,1
-Auberon Muircetach,Eredin Bréacc Glas,1
-Eredin Bréacc Glas,King of the Wild Hunt,1
-Eredin Bréacc Glas,White Lady,1
-Avallac'h,Lara Dorren,1
-Auberon Muircetach,Geralt of Rivia,1
-Eredin Bréacc Glas,"Something Ends, Something Begins minor characters",1
-Muskrat,Vysogota of Corvo,1
-Eredin Bréacc Glas,Kelpie (horse),1
-Auberon Muircetach,Little Yaxa,1
-Eredin Bréacc Glas,Vysogota of Corvo,1
-Ihuarraquax,Little Yaxa,1
-Lady de Lisemore,Slow,1
-Eredin Bréacc Glas,Sword of Destiny minor characters,1
-Emhyr var Emreis,Joachim de Wett,1
-Ervyll,Prince Voorhis,1
-Little Yaxa,Okultich,1
-Blood of Elves minor characters,Melfi,1
-Jarre,Ograbek,1
-Pike (person),"Something Ends, Something Begins minor characters",1
-Klaproth,Prince Voorhis,1
-Falka,Prince Voorhis,1
-Goidemar,Prince Voorhis,1
-Cedric (king),Field Marshal Windbag,1
-Cedric (king),King of the Wild Hunt,1
-Dennis Cranmer,Zoltan Chivay,1
-Dennis Cranmer,Sheldon Skaggs,1
+Ihuarraquax,Lara Dorren,1
 Jarre,Sheldon Skaggs,1
-Elkana Foster,Field Marshal Windbag,1
 Menno Coehoorn,Zoltan Chivay,1
-Adam Pangratt,Dennis Cranmer,1
-Milton,Pike (person),1
-Ograbek,Pike (person),1
-Drunken ferryman,Melfi,1
-Klaproth,Milton,1
-Klaproth,Ograbek,1
-Milton,Okultich,1
-Ograbek,Okultich,1
-Incarvilia Hildebrandt,Pike (person),1
-Incarvilia Hildebrandt,Milton,1
-Holofernes Hofmeier,Ograbek,1
-Holofernes Hofmeier,Pike (person),1
-Ciri,Condwiramurs Tilly,1
-Saint Elmo,White Lady,1
-Nimue verch Wledyr ap Gwyn,Sandy Frogmorton,1
-Ihuarraquax,Kelpie (horse),1
-Lady de Lisemore,Millet,1
-Nimue verch Wledyr ap Gwyn,White Lady,1
-Field Marshal Windbag,Puttkammer,1
-Julia Abatemarco,"Something Ends, Something Begins minor characters",1
-John of Attre,King of the Wild Hunt,1
-Adam Pangratt,Barclay Els,1
-Elan Trahe,Kees van Lo,1
-Field Marshal Windbag,Ouder de Wyngalt,1
-Colonel de Santis,Little Yaxa,1
-Colonel de Santis,Ramon Tyrconnel,1
-Little Yaxa,Ramon Tyrconnel,1
-Colonel de Santis,Liam aep Muir Moss,1
-Colonel de Santis,Devlin aep Meara,1
-Devlin aep Meara,Sword of Destiny minor characters,1
-Field Marshal Windbag,Little Yaxa,1
-Field Marshal Windbag,Marti Södergren,1
-Adam Pangratt,Blood of Elves minor characters,1
-Colonel de Santis,John of Attre,1
-Barclay Els,Blood of Elves minor characters,1
-Barclay Els,Colonel de Santis,1
-Blood of Elves minor characters,Colonel de Santis,1
-Barclay Els,Julia Abatemarco,1
-Lady de Lisemore,Shani,1
-Dennis Cranmer,Yarpen Zigrin,1
-Isengrim Faoiltiarna,Lord Strept,1
-Katje,Myrrha,1
-Prince Voorhis,Shani,1
-Blood of Elves minor characters,Butcher of Blaviken,1
-Daniel Etcheverry,Lord Strept,1
-Marti Södergren,"Something Ends, Something Begins minor characters",1
-Iola,Sword of Destiny minor characters,1
-Foltest,Kobus de Ruyter,1
-Anzelm Aubry,Baron of Casadei,1
-Anzelm Aubry,Lady de Lisemore,1
-Baron of Casadei,Lady de Lisemore,1
-Blue Knight,Bronibor,1
-Blue Knight,Jarre,1
-Blue Knight,Sorrel,1
-Bronibor,Sorrel,1
-Jarre,Sorrel,1
-Mama Lantieri,Melfi,1
-Deuslax,Mama Lantieri,1
-Bronibor,Sword of Destiny minor characters,1
-Bronibor,Field Marshal Windbag,1
-Blood of Elves minor characters,Sievers,1
-Field Marshal Windbag,Slow,1
-Iola,Melfi,1
-Duke de Ruyter,John of Attre,1
-Ardal aep Dahy,Demavend III,1
-Ardal aep Dahy,Henselt,1
-Demavend III,Duke de Ruyter,1
-Duke de Ruyter,Henselt,1
-Boreas Mun,Ebbing quadruplets,1
-Dacre Silifant,Ebbing quadruplets,1
-Dacre Silifant,Sword of Destiny minor characters,1
-Ebbing quadruplets,Sword of Destiny minor characters,1
-Lara Dorren,Lord Strept,1
-Lord Strept,Vilgefortz,1
-Boreas Mun,Milva,1
-Blood of Elves minor characters,Maria Louisa La Valette,1
-Emiel Regis Rohellec Terzieff-Godefroy,Vilgefortz,1
-Dacre Silifant,Lord Strept,1
-"Something Ends, Something Begins minor characters",Stucco Zangenis,1
-Lady de Lisemore,Vilgefortz,1
-Aillil Mawr Dyffryn aep Ceallach,Cahir Mawr Dyffryn aep Ceallach,1
-Ceallach aep Gruffyd,Dheran Mawr Dyffryn aep Ceallach,1
-Ceallach aep Gruffyd,Gruffyd,1
-Dheran Mawr Dyffryn aep Ceallach,Gruffyd,1
+Sheldon Skaggs,Zoltan Chivay,1
+Aarhenius Krantz,Yennefer of Vengerberg,1
+Liam aep Muir Moss,Ramon Tyrconnel,1
+Isengrim Faoiltiarna,Menno Coehoorn,1
+Nenneke,Triss Merigold,1
+Daniel Etcheverry,Shani,1
 Aillil Mawr Dyffryn aep Ceallach,Ceallach aep Gruffyd,1
-Cinead var Anahid,Mawr var Anahid,1
-Eviva var Anahid,Mawr var Anahid,1
-Vilgefortz,White Lady,1
-Emhyr var Emreis,Pavetta,1
-Duke de Ruyter,"Something Ends, Something Begins minor characters",1
-Emhyr var Emreis,Sword of Destiny minor characters,1
-Ciri,Elen of Kaedwen,1
-Elen of Kaedwen,Geralt of Rivia,1
-Fiona,Geralt of Rivia,1
-Geralt of Rivia,Riannon,1
-Assire var Anahid,Vilgefortz,1
-Ebbing quadruplets,Francesca Findabair,1
-Ebbing quadruplets,Geralt of Rivia,1
-Ebbing quadruplets,Philippa Eilhart,1
-Boreas Mun,Seven gnomes,1
-April Wenhaver,Boreas Mun,1
-Foltest,Venzlav,1
-Foltest,Kistrin,1
-Henselt,Kistrin,1
-Baron of Casadei,Shilard Fitz-Oesterlen,1
-Henselt,"Something Ends, Something Begins minor characters",1
-King of the Wild Hunt,Shilard Fitz-Oesterlen,1
-Foltest,Shilard Fitz-Oesterlen,1
-Ambassador de Ruyter,Demavend III,1
-Ambassador de Ruyter,Foltest,1
-Ambassador de Ruyter,Henselt,1
-Colonel de Santis,Isengrim Faoiltiarna,1
-Berengar Leuvaarden,Shilard Fitz-Oesterlen,1
-Ambassador de Ruyter,Fitz-Oesterlen (cadet),1
-Lady de Lisemore,Shilard Fitz-Oesterlen,1
-Demavend III,Emhyr var Emreis,1
-Demavend III,Lady de Lisemore,1
-Foltest,Sabrina Glevissig,1
-Francesca Findabair,Margarita Laux-Antille,1
-Francesca Findabair,Shilard Fitz-Oesterlen,1
-Margarita Laux-Antille,Shilard Fitz-Oesterlen,1
-Calanthe,Corbett,1
-Corbett,Pavetta,1
-Corbett,Roegner of Ebbing,1
-Dagorad,Pavetta,1
-Dagorad,Roegner of Ebbing,1
-Pavetta,Roegner of Ebbing,1
-Elen of Kaedwen,White Lady,1
-Fiona,White Lady,1
-Riannon,White Lady,1
-Cairbre aep Diared,"Something Ends, Something Begins minor characters",1
-Foltest,Julia Abatemarco,1
-Demavend III,Lord Strept,1
-Henselt,Lord Strept,1
-Cyrus Engelkind Hemmelfart,Hedwig of Malleore,1
-Hedwig of Malleore,Sigismund Dijkstra,1
-Foltest,Willemer,1
-King of the Wild Hunt,Willemer,1
-Blood of Elves minor characters,Matted Hair,1
-Lucienne,Toruviel,1
-Lucienne,White Lady,1
-Philippa Eilhart,Willemer,1
+Aillil Mawr Dyffryn aep Ceallach,Dheran Mawr Dyffryn aep Ceallach,1
+Cahir Mawr Dyffryn aep Ceallach,Dheran Mawr Dyffryn aep Ceallach,1
+Baron of Casadei,Fitz-Oesterlen (cadet),1
+Meve,Roegner of Ebbing,1
+Cairbre aep Diared,Orestes Kopps,1
 Angus Bri Cri,Riordain,1
-Geralt of Rivia,Kelpie (horse),1
-Kelpie (horse),Yennefer of Vengerberg,1
-Dandelion,Lord Strept,1
-Ciri,Roach,1
-Dandelion,Reynart de Bois-Fresnes,1
-Lady de Lisemore,Tissaia de Vries,1
-Calanthe,Philippa Eilhart,1
-Pavetta,Philippa Eilhart,1
-Philippa Eilhart,Prince Voorhis,1
-Lady de Lisemore,Margarita Laux-Antille,1
-Lady de Lisemore,Sabrina Glevissig,1
-Blue Knight,Meve,1
+Lady de Lisemore,Yennefer of Vengerberg,1
+Lady de Lisemore,Philippa Eilhart,1
+Yarpen Zigrin,Zoltan Chivay,1
+Figgis Merluzzo,Zoltan Chivay,1
 Munro Bruys,Zoltan Chivay,1
-Regan Dahlberg,Yazon Varda,1
-Yarpen Zigrin,Yazon Varda,1
-Eudora Breckenriggs,Zoltan Chivay,1
-Dandelion,Dezmod,1
-Dezmod,Geralt of Rivia,1
-Dezmod,Zoltan Chivay,1
-Cerro,Field Marshal Windbag,1
-Cerro,Geralt of Rivia,1
-Dandelion,Schrader,1
-Ciri,Zoltan Chivay,1
-Yennefer of Vengerberg,Zoltan Chivay,1
-Lady de Lisemore,Nadia Esposito,1
-Butcher of Blaviken,Dandelion,1
-Butcher of Blaviken,Yarpen Zigrin,1
-Butcher of Blaviken,Zoltan Chivay,1
-Matted Hair,Triss Merigold,1
-Slow,Triss Merigold,1
-Chevron Knight,Yennefer of Vengerberg,1
-Alzur,Yennefer of Vengerberg,1
-Alzur,"Something Ends, Something Begins minor characters",1
-Blue Knight,Nimue verch Wledyr ap Gwyn,1
-Blue Knight,Yennefer of Vengerberg,1
-Lady de Lisemore,Triss Merigold,1
-Lytta Neyd,Triss Merigold,1
-Dandelion,Eurneid,1
-Dandelion,Iola,1
-Dandelion,Nenneke,1
-Dandelion,Vesemir,1
-Eskel,Eurneid,1
-Eskel,Iola,1
-Eskel,Yarpen Zigrin,1
-Eurneid,Vesemir,1
-Eurneid,Yarpen Zigrin,1
-Iola,Vesemir,1
-Iola,Yarpen Zigrin,1
-Nenneke,Yarpen Zigrin,1
-Dorregaray,Nenneke,1
-Herwig,"Something Ends, Something Begins minor characters",1
-Geralt of Rivia,Herwig,1
-Herwig,Yennefer of Vengerberg,1
-Dainty Biberveldt,Gardenia Biberveldt,1
-Gardenia Biberveldt,Geralt of Rivia,1
-Baron of Casadei,Braenn,1
-Baron of Casadei,Kashka,1
-Baron of Casadei,Mona (dryad),1
-Baron of Casadei,Morenn (Braenn's daughter),1
-Braenn,Morenn (Braenn's daughter),1
-Fifteen,Kashka,1
-Fifteen,Morenn (Braenn's daughter),1
-Devereux,Ethain,1
-Devereux,King of the Wild Hunt,1
-Devereux,Sigismund Dijkstra,1
-Devereux,Venzlav,1
-Ethain,Matholm,1
-Ethain,Sigismund Dijkstra,1
-Ethain,Sulivoy,1
-Ethain,Venzlav,1
-Ethain,Yves,1
-King of the Wild Hunt,Matholm,1
-King of the Wild Hunt,Sigismund Dijkstra,1
-King of the Wild Hunt,Sulivoy,1
-King of the Wild Hunt,Yves,1
-Matholm,Sigismund Dijkstra,1
-Matholm,Venzlav,1
-Sigismund Dijkstra,Sulivoy,1
-Sigismund Dijkstra,Venzlav,1
+Lytta Neyd,Zoltan Chivay,1
+Galahad,Yennefer of Vengerberg,1
+Eskel,Yennefer of Vengerberg,1
+Eskel,Freya (Skelliger),1
+Loki an Craite,Ragnar an Craite,1
+Braenn,Nenneke,1
 Sigismund Dijkstra,Yves,1
-Sulivoy,Venzlav,1
 Venzlav,Yves,1
-Dandelion,Radcliffe,1
-Freixenet,Triss Merigold,1
-Freya (Skelliger),Kashka,1
-Freya (Skelliger),Mona (dryad),1
-Freya (Skelliger),Morenn (Braenn's daughter),1
-Freya (Skelliger),Triss Merigold,1
-Kashka,Triss Merigold,1
-Mona (dryad),Triss Merigold,1
-Morenn (Braenn's daughter),Triss Merigold,1
-Agloval,Annika,1
-Agloval,Caldemeyn,1
-Annika,Prince Voorhis,1
-Caldemeyn,Prince Voorhis,1
-Braenn,Dorregaray,1
-Dorregaray,Kashka,1
-Freixenet,Matholm,1
-Freixenet,Ragnar an Craite,1
-Matholm,Morenn (Braenn's daughter),1
-Matholm,Ragnar an Craite,1
-Morenn (Braenn's daughter),Ragnar an Craite,1
-Braenn,Freya (Skelliger),1
-Caldemeyn,Crach an Craite,1
-Caldemeyn,Freixenet,1
-Crach an Craite,Dandelion,1
-Crach an Craite,Freixenet,1
-Eurneid,Ragnar an Craite,1
-Eurneid,Yves,1
-Ragnar an Craite,Yves,1
-Gardenia Biberveldt,Nenneke,1
-Freixenet,Prince Voorhis,1
-Dandelion,Freya (Skelliger),1
-Dainty Biberveldt,Lily Biberveldt,1
-Eurneid,White Lady,1
-Eurneid,Yennefer of Vengerberg,1
-Iola,White Lady,1
-Dainty Biberveldt,Villentretenmerth,1
-Nenneke,White Lady,1
-Agloval,Dorregaray,1
+Freixenet,Sulivoy,1
+Freixenet,Yves,1
+Freya (Skelliger),Sulivoy,1
+Freya (Skelliger),Yves,1
+Mona (dryad),Sulivoy,1
+Mona (dryad),Yves,1
+Morenn (Braenn's daughter),Sulivoy,1
+Morenn (Braenn's daughter),Yves,1
+Braenn,Radcliffe,1
+Dorregaray,Mona (dryad),1
+Mona (dryad),Ragnar an Craite,1
+Braenn,Matholm,1
+Braenn,Ragnar an Craite,1
+Freya (Skelliger),Ragnar an Craite,1
+Freya (Skelliger),Radcliffe,1
+Dandelion,Yarpen Zigrin,1
+Nenneke,Sh'eenaz,1
+Agloval,Braenn,1
+Freixenet,Loki an Craite,1
+Loki an Craite,Yarpen Zigrin,1
+Loki an Craite,Nenneke,1
+Herwig,Vesemir,1
 Agloval,Yarpen Zigrin,1
-Dorregaray,Sh'eenaz,1
-Dorregaray,Villentretenmerth,1
-Dorregaray,Yarpen Zigrin,1
-Freixenet,Villentretenmerth,1
-Freixenet,White Lady,1
-Freixenet,Yarpen Zigrin,1
-Sh'eenaz,Yarpen Zigrin,1
-Villentretenmerth,White Lady,1
-Villentretenmerth,Yarpen Zigrin,1
-Eskel,Loki an Craite,1
-Dandelion,Ragnar an Craite,1
-Braenn,Loki an Craite,1
-Geralt of Rivia,Mona (dryad),1
-Dorregaray,Eskel,1
-Eskel,Sword of Destiny minor characters,1
-Blood of Elves minor characters,Loki an Craite,1
-Blood of Elves minor characters,Radcliffe,1
-Ciri,Loki an Craite,1
-Ciri,Radcliffe,1
-Loki an Craite,Radcliffe,1
-Fisher King (lover of Nimue),Nenneke,1
-King of the Wild Hunt,Nenneke,1
-Fisher King (lover of Nimue),Triss Merigold,1
-Fisher King (lover of Nimue),Yennefer of Vengerberg,1
-Galahad,Jarre,1
-Baron of Casadei,Prince Voorhis,1
-Galahad,Geralt of Rivia,1
-Ciri,Herwig,1
-Annika,Dandelion,1
-Prince Voorhis,Sh'eenaz,1
-Prince Voorhis,Villentretenmerth,1
-Gardenia Biberveldt,Herwig,1
-Fisher King (lover of Nimue),Galahad,1
-Galahad,Herwig,1
-Geralt of Rivia,Vissing,1
-Vissing,Yennefer of Vengerberg,1
