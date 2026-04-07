@@ -38,9 +38,18 @@ def get_ne_list_per_sentence(spacy_doc):
 
 
 def filter_entity(ent_list, character_df):
-    return [ent for ent in ent_list
-            if ent in list(character_df.character)
-            or ent in list(character_df.character_firstname)]
+    firstname_to_full = {
+        row.character_firstname: row.character
+        for row in character_df.itertuples()
+        if row.character_firstname is not None
+    }
+    result = []
+    for ent in ent_list:
+        if ent in character_df['character'].values:
+            result.append(ent)
+        elif ent in firstname_to_full:
+            result.append(firstname_to_full[ent])
+    return result
 
 
 def create_relationships(df, window_size):
