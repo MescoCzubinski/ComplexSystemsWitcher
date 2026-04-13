@@ -14,17 +14,12 @@ def load_graph(csv_path):
     return G
 
 
-def space(title):
+def section(title):
     if title != "":
         title = f" {title} "
     else:
         title = "====="
     print(f"\n==========================={title}===========================\n")
-
-
-def section(title):
-    print(f'\n{"═" * 60}')
-    print(f'  {title}')
 
 
 def describe_graph_type(G):
@@ -73,7 +68,7 @@ def compute_node_centrality(G):
     ]
 
     for title, data in sections:
-        space(title)
+        section(title)
         for node, value in data.items():
             print(f"{node:<40} {value:.4f}")
 
@@ -103,11 +98,11 @@ def describe_top(G, top_n=10):
     ]
 
     for title, data in sections:
-        space(title)
+        section(title)
         for node, value in sorted(data.items(), key=lambda x: x[1], reverse=True)[:top_n]:
             print(f"  {node:<20} {value:.4f}")
 
-    space("Top Edge Betweenness")
+    section("Top Edge Betweenness")
     for (u, v), value in sorted(edge_betweenness.items(), key=lambda x: x[1], reverse=True)[:top_n]:
         print(f"  {u:<20} -- {v:<20} {value:.4f}")
 
@@ -120,7 +115,7 @@ def describe_matrices(G, subgraph_size=15):
     print("\nNodes in subgraph:")
     print("  " + ", ".join(nodes))
 
-    space("Adjacency Matrix")
+    section("Adjacency Matrix")
     A = nx.to_numpy_array(S, nodelist=nodes)
     header = "".join(f"{n:>8}" for n in nodes)
     print(f"{'':>20}{header}")
@@ -128,7 +123,7 @@ def describe_matrices(G, subgraph_size=15):
         vals = "".join(f"{int(v):>8}" for v in row)
         print(f"  {nodes[i]:<18}{vals}")
 
-    space("Incidence Matrix")
+    section("Incidence Matrix")
     edges = list(S.edges())
     edge_labels = [f"{u[:6]}-{v[:6]}" for u, v in edges]
     header = "".join(f"{e:>14}" for e in edge_labels)
@@ -144,13 +139,13 @@ def describe_matrices(G, subgraph_size=15):
 if __name__ == '__main__':
     G = load_graph(os.path.join('data', 'connections.csv'))
 
-    space("Grpah type")
+    section("Grpah type")
     describe_graph_type(G)
 
-    space("Graph size")
+    section("Graph size")
     describe_graph_size(G)
 
-    space("")
+    section("")
     compute_node_centrality(G)
 
     compute_edge_centrality(G)
