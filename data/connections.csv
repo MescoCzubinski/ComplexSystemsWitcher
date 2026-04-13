@@ -1,1974 +1,1639 @@
 character1,character2,weight
-Geralt,Yennefer,1169
+Geralt of Rivia,Yennefer,1188
 Ciri,Yennefer,909
-Ciri,Geralt,856
-Geralt,Milva,494
-Cahir,Geralt,466
-Geralt,Triss,390
+Ciri,Geralt of Rivia,868
+Geralt of Rivia,Milva,494
+Cahir,Geralt of Rivia,470
+Geralt of Rivia,Triss Merigold,392
 Cahir,Milva,390
-Ciri,Triss,347
-Triss,Yennefer,324
+Ciri,Triss Merigold,347
+Triss Merigold,Yennefer,331
 Ciri,Kelpie,293
-Geralt,Zoltan,210
+Geralt of Rivia,Zoltan Chivay,258
+Milva,Zoltan Chivay,195
 Vilgefortz,Yennefer,193
-Geralt,Vilgefortz,165
-Milva,Zoltan,159
-Essi,Geralt,156
-Braenn,Geralt,156
+Essi Daven,Geralt of Rivia,186
+Geralt of Rivia,Yarpen Zigrin,174
+Geralt of Rivia,Vilgefortz,172
+Philippa Eilhart,Yennefer,167
+Fringilla Vigo,Geralt of Rivia,157
+Braenn,Geralt of Rivia,156
 Giselher,Kayleigh,149
 Ciri,Vysogota,142
 Calanthe,Pavetta,139
-Geralt,Vesemir,133
+Geralt of Rivia,Pavetta,136
+Geralt of Rivia,Vesemir,133
 Nenneke,Yennefer,131
-Geralt,Renfri,129
-Philippa,Yennefer,128
-Geralt,Pavetta,126
+Geralt of Rivia,Renfri,129
+Tissaia de Vries,Yennefer,127
+Francesca Findabair,Yennefer,126
 Ciri,Nenneke,124
-Geralt,Nenneke,123
-Fringilla,Geralt,122
-Geralt,Nivellen,117
+Geralt of Rivia,Nenneke,123
+Geralt of Rivia,Philippa Eilhart,119
+Geralt of Rivia,Nivellen,117
+Percival Schuttenbach,Zoltan Chivay,116
+Philippa Eilhart,Sabrina Glevissig,113
 Dorregaray,Yennefer,113
-Geralt,Roach,110
+Geralt of Rivia,Roach,110
 Ciri,Jarre,109
-Geralt,Vissegerd,105
-Geralt,Yarpen,105
+Geralt of Rivia,Vissegerd,105
+Ciri,Fabio Sachs,105
 Cahir,Ceallach,103
 Cahir,Ciri,102
-Francesca,Yennefer,100
+Lydia van Bredevoort,Vilgefortz,102
 Jarre,Pike,100
-Ciri,Fabio,98
-Dorregaray,Geralt,98
+Dorregaray,Geralt of Rivia,98
+Ciri,Yarpen Zigrin,95
+Esterad Thyssen,Zuleyka,94
+Fringilla Vigo,Philippa Eilhart,94
+Francesca Findabair,Philippa Eilhart,93
 Ciri,Vilgefortz,91
-Geralt,Two,88
-Chireadan,Geralt,87
+Yarpen Zigrin,Yennefer,89
+Fringilla Vigo,Yennefer,88
+Geralt of Rivia,Two,88
+Chireadan,Geralt of Rivia,87
 Ciri,Kayleigh,85
 Ciri,Skomlik,84
-Triss,Vesemir,83
-Falwick,Geralt,83
-Geralt,Philippa,81
-Boholt,Geralt,80
-Calanthe,Geralt,78
+Falwick,Geralt of Rivia,83
+Triss Merigold,Vesemir,83
+Keira Metz,Sabrina Glevissig,80
+Boholt,Geralt of Rivia,80
+Dandelion,Geralt of Rivia,79
+Cregennan,Lara Dorren,79
+Calanthe,Geralt of Rivia,78
 Rience,Vilgefortz,78
 Ciri,Pavetta,77
-Geralt,Rience,76
-Lydia,Vilgefortz,74
-Dandelion,Geralt,74
-Lambert,Triss,73
-Ciri,Yarpen,73
-Francesca,Philippa,72
+Geralt of Rivia,Rience,76
+Lambert,Triss Merigold,73
+Nenneke,Triss Merigold,72
 Ciri,Giselher,71
 Boholt,Yennefer,70
-Dhun,Geralt,69
-Geralt,Geralt of Rivia,68
-Nenneke,Triss,67
-Percival,Zoltan,66
-Agloval,Geralt,65
+Dhun,Geralt of Rivia,69
+Sabrina Glevissig,Yennefer,66
+Agloval,Geralt of Rivia,65
 Lambert,Vesemir,65
-Condwiramurs,Nimue,65
-Tissaia,Yennefer,65
 Jarre,Lucienne,65
+Condwiramurs,Nimue,65
 Ciri,Vesemir,64
-Tissaia de Vries,Yennefer,62
-Geralt,Yarpen Zigrin,60
-Sabrina,Yennefer,59
+Philippa Eilhart,Triss Merigold,64
+Tissaia de Vries,Vilgefortz,62
+Francesca Findabair,Sabrina Glevissig,61
+Margarita Laux-Antille,Tissaia de Vries,60
 Ciri,Falka,59
+Geralt of Rivia,Yurga,59
 Cahir,Rience,58
-Geralt,Mousesack,57
-Fringilla,Yennefer,57
-Codringher,Geralt,56
-Geralt,Yurga,55
+Vattier de Rideaux,Vilgefortz,58
+Emhyr var Emreis,Vilgefortz,57
+Geralt of Rivia,Mousesack,57
+Codringher,Geralt of Rivia,56
+Stefan Skellen,Vattier de Rideaux,56
 Ciri,Milva,55
-Philippa,Sabrina,54
+Rience,Vattier de Rideaux,55
+Keira Metz,Philippa Eilhart,54
+Yarpen Zigrin,Zoltan Chivay,53
+Foltest,Geralt of Rivia,53
 Falka,Riannon,53
-Foltest,Geralt,53
-Emhyr,Vilgefortz,52
-Esterad,Zuleyka,51
-Geralt,Niedamir,51
+Ciri,Philippa Eilhart,52
+Margarita Laux-Antille,Philippa Eilhart,52
 Kayleigh,Reef,51
+Margarita Laux-Antille,Yennefer,51
+Geralt of Rivia,Niedamir,51
 Calanthe,Ciri,51
+Foltest,Henselt,50
+Francesca Findabair,Vilgefortz,50
+Carthia van Canten,Vattier de Rideaux,50
 Braenn,Ciri,50
 Remiz,Skomlik,50
-Foltest,Henselt,50
 Istredd,Yennefer,49
-Geralt,Zoltan Chivay,48
-Geralt,Sh'eenaz,48
-Boholt,Dorregaray,47
+Geralt of Rivia,Sh'eenaz,48
+Triss Merigold,Yarpen Zigrin,48
 Ciri,Esterhazy,47
+Regan Dahlberg,Yarpen Zigrin,47
+Geralt of Rivia,Reynart de Bois-Fresnes,47
+Boholt,Dorregaray,47
+Ciri,Emhyr var Emreis,46
 Okultich,Pike,46
-Cregennan,Lara Dorren,46
-Philippa,Philippa Eilhart,46
-Geralt,Toruviel,45
-Yarpen,Yennefer,45
-Geralt,Lille,45
-Yarpen Zigrin,Yennefer,44
-Vattier,Vattier de Rideaux,44
-Agloval,Essi,44
+Geralt of Rivia,Toruviel,45
+Figgis Merluzzo,Munro Bruys,45
+Geralt of Rivia,Lille,45
+Eist Tuirseach,Geralt of Rivia,44
+Agloval,Essi Daven,44
+Artaud Terranova,Tissaia de Vries,44
 Rience,Yennefer,44
-Esterad Thyssen,Zuleyka,43
-Everett,Geralt,43
-Geralt,Lambert,43
-Boatbug,Geralt,43
-Cahir,Emhyr,43
-Vattier,Vilgefortz,41
-Rience,Vattier,41
+Cahir,Emhyr var Emreis,43
+Geralt of Rivia,Lambert,43
+Keira Metz,Yennefer,43
+Boatbug,Geralt of Rivia,43
+Everett,Geralt of Rivia,43
+Dacre Silifant,Ola Harsheim,42
+Boholt,Yarpen Zigrin,42
+Geralt of Rivia,Sabrina Glevissig,42
 Gyllenstiern,Niedamir,41
-Asse,Reef,40
-Jarre,Yennefer,40
-Ciri,Emhyr,40
+Eyck of Denesle,Geralt of Rivia,41
+Philippa Eilhart,Vilgefortz,41
+Molnar Giancardi,Yennefer,41
 Iskra,Kayleigh,40
+Geralt of Rivia,Lydia van Bredevoort,40
+Jarre,Yennefer,40
+Dennis Cranmer,Jarre,40
+Asse,Reef,40
 Milva,Roach,40
-Tissaia,Tissaia de Vries,39
-Molnar,Yennefer,39
-Triss,Yarpen,39
-Philippa Eilhart,Yennefer,39
-Dacre Silifant,Ola Harsheim,39
-Francesca,Sabrina,39
+Paulie Dahlberg,Yarpen Zigrin,39
 Giselher,Mistle,39
-Marti,Shani,38
-Geralt,Istredd,38
+Ciri,Francesca Findabair,39
+Ciri,Lara Dorren,38
 Jarre,Nenneke,38
-Henselt,Meve,38
 Skomlik,Vercta,38
-Geralt,Olsen,38
+Geralt of Rivia,Olsen,38
+Henselt,Meve,38
+Marti,Shani,38
+Geralt of Rivia,Istredd,38
 Falka,Goidemar,37
 Boholt,Niedamir,37
-Regan,Yarpen,37
-Keira Metz,Sabrina Glevissig,37
-Milva,Zoltan Chivay,36
-Margarita,Tissaia,36
-Yarpen,Zoltan,36
+Geralt of Rivia,Tissaia de Vries,37
+Eist Tuirseach,Pavetta,36
 Asse,Kayleigh,36
-Ciri,Philippa,35
-Geralt,Reynart,35
+Sabrina Glevissig,Vilgefortz,36
+Cahir,Vattier de Rideaux,36
+Emhyr var Emreis,Vissegerd,35
+Philippa Eilhart,Rience,35
+Marti,Sabrina Glevissig,35
+Francesca Findabair,Tissaia de Vries,35
+Crach an Craite,Yennefer,35
+Geralt of Rivia,Gyllenstiern,35
 Filavandrel,Toruviel,35
-Francesca,Vilgefortz,35
-Crach,Yennefer,35
-Tissaia,Vilgefortz,35
-Fringilla Vigo,Geralt,35
-Geralt,Gyllenstiern,35
-Eyck,Geralt,34
-Geralt,Shani,34
-Philippa,Rience,34
-Emhyr,Foltest,34
-Falwick,Nenneke,34
+Emhyr var Emreis,Foltest,34
+Boholt,Eyck of Denesle,34
 Chireadan,Yennefer,34
-Geralt,Lydia,34
-Fringilla,Philippa Eilhart,33
-Dennis Cranmer,Jarre,33
-Cregennan,Lara,33
-Marti,Sabrina,33
-Geralt,Ostrit,33
+Falwick,Nenneke,34
+Geralt of Rivia,Shani,34
+Emhyr var Emreis,Vattier de Rideaux,34
+Geralt of Rivia,Ostrit,33
 Falka,Giselher,33
-Bert Brigden,Ola Harsheim,32
-Klaproth,Okultich,32
-Freixenet,Geralt,32
+Geralt of Rivia,Krepp,32
+Emhyr var Emreis,Yennefer,32
+Emhyr var Emreis,Fringilla Vigo,32
 Giselher,Iskra,32
-Geralt,Krepp,32
+Dacre Silifant,Stefan Skellen,32
+Bert Brigden,Ola Harsheim,32
+Geralt of Rivia,Keira Metz,32
+Freixenet,Geralt of Rivia,32
+Klaproth,Okultich,32
+Benda,Radovid III,31
+Geralt of Rivia,Levecque,31
+Ciri,Margarita Laux-Antille,31
 Eurneid,Nenneke,31
-Falka,Kayleigh,31
-Geralt,Sabrina,31
-Geralt,Levecque,31
-Margarita Laux-Antille,Philippa,31
 Kelpie,Vysogota,31
-Fringilla Vigo,Yennefer,31
-Boholt,Eyck,31
+Falka,Kayleigh,31
 Asse,Giselher,30
-Philippa,Triss,30
-Cahir,Vilgefortz,30
+Emhyr var Emreis,Henselt,30
+Emhyr var Emreis,Esterad Thyssen,30
+Fringilla Vigo,Sabrina Glevissig,30
 Dhun,Lille,30
-Stefan Skellen,Vattier de Rideaux,30
-Emhyr,Vissegerd,29
+Ciri,Sabrina Glevissig,30
+Emhyr var Emreis,Geralt of Rivia,30
+Cahir,Vilgefortz,30
+Munro Bruys,Zoltan Chivay,29
+Dandelion,Essi Daven,29
 Falka,Fiona,29
-Maria,Milva,29
-Emhyr,Yennefer,29
-Margarita,Yennefer,29
 Ciri,Lambert,29
-Eist Tuirseach,Pavetta,29
-Dandelion,Essi,29
-Philippa,Vilgefortz,29
-Philippa,Sabrina Glevissig,29
-Fringilla,Philippa,29
-Ciri,Lara Dorren,29
 Junghans,Levecque,29
-Lydia van Bredevoort,Vilgefortz,28
-Sigrdrifa,Yennefer,28
-Pavetta,Roegner,28
-Francesca,Triss,28
+Maria,Milva,29
 Mousesack,Pavetta,28
 Braenn,Mona,28
-Percival Schuttenbach,Zoltan,28
-Figgis,Munro,28
-Geralt,Venzlav,28
-Boholt,Yarpen Zigrin,28
-Ihuarraquax,Kelpie,27
-Goidemar,Riannon,27
-Gedovius,Gemma,27
-Tissaia de Vries,Vilgefortz,27
+Francesca Findabair,Triss Merigold,28
+Geralt of Rivia,Venzlav,28
+Cerro,Lara Dorren,28
+Sigrdrifa,Yennefer,28
+Pavetta,Roegner,28
+Keira Metz,Triss Merigold,28
+Sabrina Glevissig,Triss Merigold,28
+Caleb Stratton,Zoltan Chivay,28
 Calanthe,Roegner,27
-Sabrina,Vilgefortz,27
-Geralt,Philippa Eilhart,27
-Foltest,Vissegerd,26
-Dudu,Geralt,26
-Fringilla Vigo,Philippa Eilhart,26
-Krepp,Neville,26
-Stefan Skellen,Vattier,26
-Ciri,Francesca,26
-Emhyr,Geralt,26
-Emhyr,Henselt,26
-Henselt,Vizimir,26
-Geralt,Torque,26
-Krepp,Yennefer,26
+Goidemar,Riannon,27
+Ihuarraquax,Kelpie,27
+Gedovius,Gemma,27
+Boreas Mun,Chloe Stitz,27
+Paulie Dahlberg,Regan Dahlberg,27
 Herwig,Nenneke,26
-Francesca Findabair,Yennefer,26
-Niedamir,Yennefer,25
-Eskel,Geralt,25
-Geralt,Kelpie,25
-Ciri,Iskra,25
-Kayleigh,Skomlik,25
+Krepp,Yennefer,26
+Munro Bruys,Yazon Varda,26
+Krepp,Neville,26
+Dudu,Geralt of Rivia,26
+Foltest,Vissegerd,26
+Philippa Eilhart,Tissaia de Vries,26
+Geralt of Rivia,Torque,26
+Henselt,Vizimir,26
+Assire var Anahid,Philippa Eilhart,26
+Artaud Terranova,Yennefer,26
+Lara Dorren,Riannon,25
+Caleb Stratton,Yazon Varda,25
+Dennis Cranmer,Geralt of Rivia,25
+Artaud Terranova,Vilgefortz,25
+Eskel,Geralt of Rivia,25
+Geralt of Rivia,Kelpie,25
 Novosad,Yirrel,25
-Philippa Eilhart,Triss,24
-Geralt,Stregobor,24
-Iola,Nenneke,24
-Geralt,Novosad,24
-Ciri,Sabrina,24
-Kelpie,Yennefer,24
-Eurneid,Iola,24
+Fringilla Vigo,Vilgefortz,25
+Niedamir,Yennefer,25
+Ciri,Iskra,25
+Eurneid,Iola the Second,25
+Boreas Mun,Rience,25
+Kayleigh,Skomlik,25
+Dorregaray,Philippa Eilhart,24
+Geralt of Rivia,Stregobor,24
+Falka,Lara Dorren,24
+Geralt of Rivia,Novosad,24
+Emhyr var Emreis,Philippa Eilhart,24
+Essi Daven,Yennefer,24
 Milton,Ograbek,24
-Jarre,Triss,24
-Calanthe,Emhyr,23
-Ciri,Condwiramurs,23
-Paulie Dahlberg,Regan,23
-Giselher,Reef,23
-Artaud,Tissaia,23
-Geralt,Herbolth,23
-Emhyr,Esterad,23
-Kashka,Mona,23
-Eist,Geralt,23
-Emhyr,Vattier de Rideaux,23
+Kelpie,Yennefer,24
+Jarre,Triss Merigold,24
+Iola the Second,Nenneke,24
 Pavetta,Yennefer,23
-Asse,Falka,23
+Ciri,Condwiramurs,23
+Margarita Laux-Antille,Sabrina Glevissig,23
+Calanthe,Emhyr var Emreis,23
 Ciri,Mistle,23
-Filavandrel,Geralt,22
-Keira,Triss,22
-Geralt,Tavik,22
-Percival Schuttenbach,Zoltan Chivay,22
-Essi Daven,Geralt,22
+Geralt of Rivia,Herbolth,23
+Kashka,Mona,23
+Giselher,Reef,23
+Asse,Falka,23
 Dorregaray,Niedamir,22
-Essi,Yennefer,22
-Fringilla,Sabrina Glevissig,22
-Benda,Radovid,22
-Ciri,Yarpen Zigrin,22
-Margarita Laux-Antille,Yennefer,22
-Sabrina,Sabrina Glevissig,22
-Civril,Geralt,22
+Filavandrel,Geralt of Rivia,22
+Geralt of Rivia,Tavik,22
 Ciri,Eredin,22
-Keira Metz,Yennefer,22
+Fringilla Vigo,Keira Metz,22
+Civril,Geralt of Rivia,22
 Calanthe,Foltest,22
-Auberon,Ciri,21
-Ciri,Rience,21
 Kashka,Morenn,21
-Cahir,Vattier,21
-Dorregaray,Eyck,21
-Ciri,Two,21
-Dacre Silifant,Stefan,21
-Everett,Olsen,21
-Geralt,Something,21
-Keira Metz,Sabrina,21
-Eist Tuirseach,Geralt,21
-Margarita Laux-Antille,Sabrina Glevissig,21
-Roach,Yurga,21
-Keira,Yennefer,21
 Ciri,Stavro,21
-Cahir,Fringilla,21
-Chireadan,Errdil,21
-Emhyr,Fringilla,21
-Caldemeyn,Geralt,21
+Ciri,Two,21
+Roach,Yurga,21
+Lydia van Bredevoort,Tissaia de Vries,21
+Caldemeyn,Geralt of Rivia,21
+Ciri,Rience,21
 Adela,Fiona,21
-Boreas Mun,Rience,21
-Ciri,Margarita,21
+Adam Pangratt,Julia Abatemarco,21
+Geralt of Rivia,Something,21
+Fabio Sachs,Yennefer,21
+Geralt of Rivia,Percival Schuttenbach,21
+Auberon Muircetach,Ciri,21
+Niedamir,Yarpen Zigrin,21
+Cahir,Fringilla Vigo,21
+Calanthe,Eist Tuirseach,21
+Dainty,Geralt of Rivia,21
+Dorregaray,Eyck of Denesle,21
+Everett,Olsen,21
+Emhyr var Emreis,Stella Congreve,21
+Chireadan,Errdil,21
 Ciri,Eithné,20
-Cahir,Mawr,20
-Geralt,Haxo,20
-Dainty,Geralt,20
-Geralt,Tissaia de Vries,20
-Falka,Nycklar,20
 Audoen,Renfri,20
+Geralt of Rivia,Haxo,20
+Ciri,Tissaia de Vries,20
+Falka,Nycklar,20
+Cahir,Mawr,20
 Civril,Tavik,20
-Keira,Philippa,20
-Carthia,Vattier,19
-Philippa Eilhart,Sabrina,19
-Dandelion,Milva,19
-Emhyr,Stefan Skellen,19
-Foltest,Vizimir,19
-Geralt of Rivia,Yennefer,19
-Ciri,Crach,19
+Boreas Mun,Neratin Ceka,20
+Artaud Terranova,Lydia van Bredevoort,19
+Lara Dorren,Pavetta,19
 Guthlaf,Yennefer,19
+Foltest,Vizimir,19
+Dandelion,Milva,19
+Lara Dorren,Lydia van Bredevoort,19
+Francesca Findabair,Vattier de Rideaux,19
+Geralt of Rivia,Vratimir,19
+Beau Berrant,Geralt of Rivia,19
+Ciri,Crach an Craite,19
+Emhyr var Emreis,Stefan Skellen,19
 Baron,Milva,19
-Geralt,Vratimir,19
-Agloval,Sh'eenaz,18
-Effenberg,Talbot,18
-Geralt,Hereward,18
-Falka,Lara Dorren,18
-Cerro,Lara,18
-Artaud Terranova,Vilgefortz,18
-Paulie Dahlberg,Yarpen,18
-Herwig,Loki,18
-Munro Bruys,Yazon Varda,18
-Codringher,Rience,18
-Ciri,Molnar,18
-Munro Bruys,Zoltan,18
+Boreas Mun,Dacre Silifant,18
+Geralt of Rivia,Hereward,18
+Geralt of Rivia,Paulie Dahlberg,18
+Geralt of Rivia,Linus Pitt,18
+Andres Vierny,Chloe Stitz,18
 Annika,Caldemeyn,18
+Effenberg,Talbot,18
+Herwig,Loki,18
 Iskra,Mistle,18
-Radcliffe,Triss,18
+Fringilla Vigo,Triss Merigold,18
+Julia Abatemarco,Lorenzo Molla,18
+Radcliffe,Triss Merigold,18
+Eyck of Denesle,Yarpen Zigrin,18
+Boreas Mun,Ola Harsheim,18
+Ciri,Molnar Giancardi,18
+Milva,Percival Schuttenbach,18
+Codringher,Rience,18
+Crach an Craite,Pavetta,18
+Agloval,Sh'eenaz,18
 Fifteen,Tavik,17
-Fringilla,Milva,17
+Aridea,Fredefalk,17
+Dorregaray,Radcliffe,17
+Kayleigh,Mistle,17
+Renfri,Stregobor,17
+Freixenet,Kashka,17
+Braenn,Freixenet,17
+Amavet,Fiona,17
+Meve,Vizimir,17
+Emhyr var Emreis,Vizimir,17
+Philippa Eilhart,Radcliffe,17
+Ciri,Windsor Imbra,17
+Foltest,Julia Abatemarco,17
+Geralt of Rivia,Weasel,17
+Caleb Stratton,Figgis Merluzzo,17
+Vesemir,Yarpen Zigrin,17
+Boatbug,Olsen,17
+Geralt of Rivia,Villentretenmerth,17
+Fringilla Vigo,Milva,17
+Galahad,Geralt of Rivia,17
 Civril,Fifteen,17
 Eredin,Kelpie,17
-Geralt,Weasel,17
-Keira Metz,Philippa,17
-Amavet,Fiona,17
-Caleb Stratton,Yazon Varda,17
-Boreas Mun,Chloe Stitz,17
-Lydia,Lydia van Bredevoort,17
-Geralt,Tissaia,17
 Chireadan,Neville,17
-Geralt,Paulie Dahlberg,17
-Ciri,Windsor Imbra,17
-Ciri,Philippa Eilhart,17
-Boatbug,Olsen,17
-Dorregaray,Radcliffe,17
-Meve,Vizimir,17
-Vattier de Rideaux,Vilgefortz,17
-Aridea,Fredefalk,17
-Galahad,Geralt,17
-Emhyr,Vizimir,17
-Fringilla,Fringilla Vigo,17
-Vesemir,Yarpen Zigrin,17
+Geralt of Rivia,Vereena,17
 Ciri,Galahad,17
-Freixenet,Kashka,17
-Renfri,Stregobor,17
-Caleb Stratton,Zoltan,17
-Kayleigh,Mistle,17
-Braenn,Freixenet,17
-Geralt,Vereena,17
-Filavandrel,Lille,16
+Stefan Skellen,Vilgefortz,16
+Anna Henrietta,Geralt of Rivia,16
+Dorregaray,Triss Merigold,16
+Daniel Etcheverry,Geralt of Rivia,16
+Eyck of Denesle,Gyllenstiern,16
+Merle,Villentretenmerth,16
+Falka,Kelpie,16
+Rience,Stefan Skellen,16
+Keira Metz,Radcliffe,16
+Houtborg,Riannon,16
+Ciri,Roach,16
+Geralt of Rivia,Margarita Laux-Antille,16
 Errdil,Vratimir,16
 Neville,Yennefer,16
-Daniel Etcheverry,Geralt,16
-Dennis,Geralt,16
-Emhyr,Stella,16
-Andres Vierny,Stigward,16
-Keira,Sabrina,16
-Andres Vierny,Chloe Stitz,16
-Ciri,Levecque,16
-Dorregaray,Triss,16
+Francesca Findabair,Keira Metz,16
+Filavandrel,Lille,16
 Keira Metz,Margarita Laux-Antille,16
-Falka,Kelpie,16
-Houtborg,Riannon,16
-Rience,Stefan Skellen,16
-Lara,Lara Dorren,16
-Merle,Villentretenmerth,16
-Ciri,Roach,16
-Codringher,Pavetta,15
-Artaud Terranova,Yennefer,15
-Gyllenstiern,Yennefer,15
-Geralt,Visenna,15
-Geralt,Kistrin,15
-Boholt,Gyllenstiern,15
-Myhrman,Shani,15
-Cahir,Vattier de Rideaux,15
-Geralt,Marti,15
-Dorregaray,Philippa,15
-Francesca Findabair,Vilgefortz,15
-Galarr,Toruviel,15
-Geralt,Keira,15
-Civril,Renfri,15
-Akerspaark,Geralt,15
-Assire var Anahid,Philippa Eilhart,15
-Falka,Houtborg,15
+Andres Vierny,Stigward,16
+Crach an Craite,Eist Tuirseach,16
+Ciri,Levecque,16
 Two,Yennefer,15
-Sabrina Glevissig,Triss,15
-Geralt,Morenn,15
-Francesca,Francesca Findabair,15
-Geralt,Linus Pitt,14
-Rience,Vattier de Rideaux,14
-Ceallach,Geralt,14
-Baron,Vercta,14
-Lara Dorren,Lydia van Bredevoort,14
-Caldemeyn,Villentretenmerth,14
+Boholt,Gyllenstiern,15
+Gyllenstiern,Yennefer,15
+Codringher,Pavetta,15
+Akerspaark,Geralt of Rivia,15
+Beau Berrant,Chireadan,15
+Xavier Moran,Yarpen Zigrin,15
+Galarr,Toruviel,15
+Civril,Renfri,15
+Geralt of Rivia,Morenn,15
+Myhrman,Shani,15
+Geralt of Rivia,Kistrin,15
+Rience,Toublanc Michelet,15
+Dacre Silifant,Til Echrade,15
+Geralt of Rivia,Marti,15
+Geralt of Rivia,Visenna,15
+Falka,Houtborg,15
 Nivellen,Vereena,14
-Lara,Pavetta,14
-Ciri,Fringilla,14
-Zoltan,Zoltan Chivay,14
-Geralt,Junghans,14
-Calanthe,Eist Tuirseach,14
-Fringilla,Vilgefortz,14
-Drogodar,Geralt,14
-Boholt,Yarpen,14
-Geralt,Vilfrid Wenck,14
-Daniel Etcheverry,Vissegerd,14
+Assire var Anahid,Yennefer,14
+Philippa Eilhart,Shani,14
+Geralt of Rivia,Junghans,14
+Baron,Vercta,14
+Caldemeyn,Villentretenmerth,14
+Drogodar,Geralt of Rivia,14
 Ciri,Vissegerd,14
-Lara,Riannon,13
-Geralt,Meve,13
-Margarita,Philippa,13
-Keira Metz,Philippa Eilhart,13
-Pavetta,Vilgefortz,13
-Stefan Skellen,Vilgefortz,13
-Eyck,Niedamir,13
-Holofernes,Pike,13
-Klaproth,Pike,13
-Galarr,Geralt,13
-Kelpie,Triss,13
-Ciri,Francesca Findabair,13
-Milva,Percival Schuttenbach,13
-Albrich,Emhyr,13
-Ciri,Tissaia de Vries,13
-Francesca Findabair,Philippa,13
-Cahir,Two,13
-Bertram Skellen,Stefan Skellen,13
-Incarvilia Hildebrandt,Pike,13
-Ciri,Freixenet,13
-Ciri,Mousesack,13
-Dacre Silifant,Til Echrade,13
+Daniel Etcheverry,Vissegerd,14
+Ceallach,Geralt of Rivia,14
+Ciri,Fringilla Vigo,14
+Esterad Thyssen,Tankred Thyssen,14
+Geralt of Rivia,Vilfrid Wenck,14
+Ciri,Iola the Second,13
 Dorregaray,Marti,13
-Francesca Findabair,Tissaia de Vries,13
-Fifteen,Nohorn,13
-Geralt,Villentretenmerth,13
 Errdil,Yennefer,13
-Geralt,Vespula,13
-Sabrina,Triss,13
-Coinneach,Milva,12
-Falwick,Hereward,12
-Geralt,Jarre,12
-Philippa Eilhart,Vilgefortz,12
-Aevenien,Ithlinne,12
-Falka,Reef,12
-Eurneid,Katje,12
-Emhyr,Xarthisius,12
-Lara Dorren,Riannon,12
-Fringilla Vigo,Triss,12
-Iskra,Reef,12
-Crach,Pavetta,12
+Dainty,Vimme Vivaldi,13
+Yazon Varda,Zoltan Chivay,13
+Eyck of Denesle,Niedamir,13
+Geralt of Rivia,Vespula,13
+Neratin Ceka,Vattier de Rideaux,13
+Neratin Ceka,Stefan Skellen,13
+Bertram Skellen,Stefan Skellen,13
+Kelpie,Triss Merigold,13
+Ciri,Mousesack,13
+Ciri,Leo Bonhart,13
+Ciri,Freixenet,13
+Fifteen,Nohorn,13
+Albrich,Emhyr var Emreis,13
+Aen Saevherne,Francesca Findabair,13
+Geralt of Rivia,Meve,13
+Cahir,Two,13
+Klaproth,Pike,13
+Galarr,Geralt of Rivia,13
+Incarvilia Hildebrandt,Pike,13
+Pavetta,Vilgefortz,13
+Ardal aep Dahy,Emhyr var Emreis,13
+Holofernes,Pike,13
 Adalia,Calanthe,12
-Yarpen,Yarpen Zigrin,12
-Keira Metz,Radcliffe,12
-Ciri,Geralt of Rivia,12
-Julia Abatemarco,Lorenzo Molla,12
 Ciri,Kistrin,12
-Mona,Morenn,12
-Stran,Vitek,12
-Devereux,Matholm,12
-Jarre,Milton,12
-Berengar Leuvaarden,Fitz-Oesterlen,12
+Lydia van Bredevoort,Two,12
+Adam Pangratt,Lorenzo Molla,12
 Boholt,Kennet,12
-Toruviel,Yaevinn,12
-Boreas Mun,Ola Harsheim,12
-Sulivoy,Yves,12
-Matholm,Sulivoy,12
-Blue,Ciri,12
-Ciri,Vercta,12
-Lutz,Skomlik,12
-Linus Pitt,Olsen,12
-Reynart,Reynart de Bois-Fresnes,12
-Geralt,Regan,12
-Fabio,Yennefer,12
-Geralt,Reynart de Bois-Fresnes,12
-Figgis Merluzzo,Munro Bruys,12
-Rience,Toublanc,12
-Ori,Ori Reuven,12
-Goulue,Nycklar,12
+Falka,Reef,12
 Foltest,Meve,12
-Esterad Thyssen,Niedamir,12
+Dacre Silifant,Neratin Ceka,12
+Linus Pitt,Olsen,12
+Lutz,Skomlik,12
+Carduin,Philippa Eilhart,12
+Esterad Thyssen,Gaudemunda,12
 Fercart,Radcliffe,12
-Geralt,Percival,12
-Crach an Craite,Loki,11
-Calanthe,Yennefer,11
-Artaud,Yennefer,11
-Michelet,Rience,11
-Renfri,Tavik,11
-Laurelnose,Yennefer,11
-Baron,Lutz,11
-Paulie,Yarpen,11
-Geralt,Sabrina Glevissig,11
-Fringilla Vigo,Vilgefortz,11
-Anna Henrietta,Geralt,11
-Francesca Findabair,Tissaia,11
-Ciri,Eskel,11
-Philippa,Radcliffe,11
-Niedamir,Yarpen,11
-Ervyll,Venzlav,11
-Freixenet,Freya,11
-Neratin,Neratin Ceka,11
-Philippa Eilhart,Sabrina Glevissig,11
-Gemma,Radovid,11
-Crach,Eist Tuirseach,11
-Draig Bon-Dhu,Eist,11
-Carthia van Canten,Vattier de Rideaux,11
-King,Venzlav,11
-Aen Saevherne,Lara Dorren,11
-Demavend,Francesca,11
-Fiona,Riannon,11
-Amavet,Anna Kameny,11
-Philippa Eilhart,Tissaia de Vries,11
-Ervyll,Kistrin,11
-Dorregaray,Gyllenstiern,11
-Kayleigh,Lutz,11
-Fabio Sachs,Jarre,11
-Chireadan,Laurelnose,11
-Francesca Findabair,Vattier,11
+Goulue,Nycklar,12
+Esterad Thyssen,Niedamir,12
+Geralt of Rivia,Regan Dahlberg,12
+Fercart,Francesca Findabair,12
+Ciri,Vercta,12
+Dacre Silifant,Joanna Selborne,12
+Blue,Ciri,12
+Stran,Vitek,12
+Falwick,Hereward,12
+Aevenien,Ithlinne,12
+Boreas Mun,Stefan Skellen,12
+Geralt of Rivia,Jarre,12
+Iskra,Reef,12
+Eurneid,Katje,12
+Toruviel,Yaevinn,12
+Devereux,Matholm,12
+Sulivoy,Yves,12
+Coinneach,Milva,12
+Emhyr var Emreis,Xarthisius,12
+Radcliffe,Tissaia de Vries,12
+Berengar Leuvaarden,Fitz-Oesterlen,12
+Margarita Laux-Antille,Triss Merigold,12
+Dennis Cranmer,Zoltan Chivay,12
+Jarre,Milton,12
+Eist Tuirseach,Vissegerd,12
+Matholm,Sulivoy,12
+Francesca Findabair,Sheala de Tancarville,12
+Francesca Findabair,Rience,12
+Mona,Morenn,12
+Draig Bon-Dhu,Eist Tuirseach,11
+Assire var Anahid,Sabrina Glevissig,11
 Aplegatt,Foltest,11
-Neratin Ceka,Vattier,11
-Ciri,Keira Metz,11
-Caleb Stratton,Zoltan Chivay,11
-Dainty,Dudu,11
-Emhyr,Francesca Findabair,11
-Geralt,Zelest,11
-Beau Berrant,Geralt,11
-Beau Berrant,Chireadan,11
-Foltest,Julia,11
-Calanthe,Dagorad,11
-Francesca,Keira Metz,11
-Assire var Anahid,Philippa,11
-Chireadan,Yarpen Zigrin,11
-Falka,Fringilla,11
-Cahir,Roach,11
-Giselher,Servadio,11
-Nimir,Vyr,11
-Emhyr,Vattier,11
-Iola,Jarre,11
-Eurneid,Yennefer,11
+Iola the Second,Jarre,11
+Milva,Yazon Varda,11
+Figgis Merluzzo,Percival Schuttenbach,11
+Angus Bri Cri,Riordain,11
+Emhyr var Emreis,Francesca Findabair,11
+Freixenet,Freya,11
+Demavend,Francesca Findabair,11
+Chireadan,Laurelnose,11
+Figgis Merluzzo,Zoltan Chivay,11
+Michelet,Rience,11
+Geralt of Rivia,Zelest,11
+Laurelnose,Yennefer,11
+Geralt of Rivia,Vimme Vivaldi,11
+Dorregaray,Gyllenstiern,11
+Calanthe,Yennefer,11
 Medell,Virfuril,11
-Foltest,Ostrit,10
-Geralt,Velerad,10
-Lydia,Tissaia de Vries,10
-Artaud,Lydia,10
-Geralt,Libushe,10
-Loki,Ragnar,10
-Ciri,Radovid,10
-Bert Brigden,Til Echrade,10
-Sabrina,Sigismund Dijkstra,10
-Crach,Geralt,10
-Falka,Servadio,10
-Cahir,Yennefer,10
-Eskel,Vesemir,10
-Geralt,Yannick,10
-Boreas Mun,Chloe,10
-Henselt,Sabrina,10
-Geralt,Vera Loewenhaupt,10
-Philippa,Vizimir,10
-Chloe,Chloe Stitz,10
-Ciri,Zuleyka,10
-Geralt,Nan the Hag,10
-Freya,Geralt,10
-Falka,Vridank,10
-Geralt,Laurelnose,10
-Francesca,Riannon,10
-Calanthe,Meve,10
-Cerro,Lara Dorren,10
-Geralt of Rivia,Pavetta,10
-Eyck,Gyllenstiern,10
-Eyck,Yarpen,10
-Emhyr,Pavetta,10
-Adalia,Fiona,10
-Niedamir,Yarpen Zigrin,10
-Eyck,Yennefer,10
-Francesca Findabair,Margarita Laux-Antille,10
-Adalia,Amavet,10
-Fringilla Vigo,Keira Metz,10
-Calanthe,Zuleyka,10
-Fiona,Lara,10
-Chireadan,Krepp,10
-Fiona,Goidemar,10
-Errdil,Geralt,10
-Cerberus,Geralt,10
-Geralt,Margarita Laux-Antille,10
-Adalia,Dagorad,10
-Esterad,Esterad Thyssen,10
-Emhyr,Philippa,10
-Adalia,Francesca,10
-Emhyr,Sabrina,10
-Carthia,Vattier de Rideaux,10
-Geralt,Keira Metz,10
-Boreas Mun,Neratin,10
-Ceallach,Mawr,10
-Francesca Findabair,Rience,10
-Geralt,Primula,10
-Galahad,Herwig,10
-Regan Dahlberg,Yarpen,10
-Paulie Dahlberg,Yarpen Zigrin,10
-Sh'eenaz,Yarpen Zigrin,10
-Boreas Mun,Neratin Ceka,10
-Bert Brigden,Neratin Ceka,10
-Eithné,Geralt,10
+King,Venzlav,11
+Giselher,Servadio,11
+Aen Saevherne,Lara Dorren,11
+Esterad Thyssen,Guiscard Vermuellen,11
+Cahir,Roach,11
+Kayleigh,Lutz,11
+Falka,Fringilla Vigo,11
+Ervyll,Venzlav,11
+Baron,Lutz,11
+Ciri,Eskel,11
+Dainty,Dudu,11
+Gemma,Radovid III,11
+Calanthe,Dagorad,11
+Ciri,Keira Metz,11
+Ervyll,Kistrin,11
+Amavet,Anna Kameny,11
+Chloe Stitz,Neratin Ceka,11
+Renfri,Tavik,11
+Nimir,Vyr,11
+Fabio Sachs,Jarre,11
+Fiona,Riannon,11
+Crach an Craite,Loki,11
+Chireadan,Yarpen Zigrin,11
+Eurneid,Yennefer,11
+Eithné,Geralt of Rivia,10
 Milton,Pike,10
+Assire var Anahid,Francesca Findabair,10
+Freya,Geralt of Rivia,10
+Elan Trahe,Menno Coehoorn,10
+Geralt of Rivia,Primula,10
+Sh'eenaz,Yarpen Zigrin,10
+Geralt of Rivia,Nan the Hag,10
+Anzelm Aubry,Barclay Els,10
+Henselt,Sabrina Glevissig,10
 Dennis Cranmer,Nenneke,10
-Carthia van Canten,Vattier,10
-Demavend,Meve,10
-Emhyr,Filavandrel,10
-Falka,Ithlinne,10
-Margarita Laux-Antille,Tissaia,10
-Ciri,Margarita Laux-Antille,10
-Boratek,Olsen,10
+Marti,Philippa Eilhart,10
+Jarre,Sheldon Skaggs,10
+Crach an Craite,Geralt of Rivia,10
+Jarre,Zoltan Chivay,10
+Sabrina Glevissig,Sheala de Tancarville,10
+Ciaran aep Dearbh,Toruviel,10
+Dervla Tryffin Broinne,Emhyr var Emreis,10
+Dacre Silifant,Rience,10
+Chireadan,Krepp,10
+Errdil,Geralt of Rivia,10
+Cerberus,Geralt of Rivia,10
+Bert Brigden,Til Echrade,10
+Ceallach,Mawr,10
+Eyck of Denesle,Yennefer,10
+Francesca Findabair,Margarita Laux-Antille,10
+Ciri,Radovid III,10
+Figgis Merluzzo,Geralt of Rivia,10
+Two,Zoltan Chivay,10
+Geralt of Rivia,Laurelnose,10
+Eredin,Lara Dorren,10
 Jarre,Two,10
+Sabrina Glevissig,Sigismund Dijkstra,10
+Sabrina Glevissig,Tissaia de Vries,10
+Bert Brigden,Neratin Ceka,10
+Philippa Eilhart,Vizimir,10
+Adalia,Dagorad,10
+Geralt of Rivia,Libushe,10
+Falka,Ithlinne,10
+Francesca Findabair,Riannon,10
+Adalia,Fiona,10
+Galahad,Herwig,10
+Geralt of Rivia,Velerad,10
+Loki,Ragnar,10
+Foltest,Ostrit,10
+Ori Reuven,Philippa Eilhart,10
+Eskel,Vesemir,10
+Emhyr var Emreis,Sabrina Glevissig,10
+Calanthe,Lara Dorren,10
+Geralt of Rivia,Vera Loewenhaupt,10
+Boratek,Olsen,10
+Geralt of Rivia,Yannick Brass,10
+Fiona,Goidemar,10
+Fiona,Lara Dorren,10
+Adalia,Francesca Findabair,10
+Adalia,Amavet,10
+Calanthe,Meve,10
+Cahir,Yennefer,10
+Falka,Servadio,10
+Ciri,Zuleyka,10
+Emhyr var Emreis,Pavetta,10
+Francesca Findabair,Fringilla Vigo,10
+Calanthe,Zuleyka,10
+Falka,Vridank,10
 Aplegatt,Hansom,10
-Assire var Anahid,Yennefer,10
-Ostrit,Segelin,9
-Fringilla,Xarthisius,9
-Geralt,Percival Schuttenbach,9
-Dandelion,Zoltan,9
-Eltibald,Stregobor,9
-Geralt,Marilka,9
-Ciri,Sigrdrifa,9
-Geralt,Vimme Vivaldi,9
-Bronik,Yennefer,9
-Ciri,Lara,9
-Assire,Vattier,9
-Dennis Cranmer,Geralt,9
-Boreas Mun,Dacre Silifant,9
-Boreas Mun,Stefan Skellen,9
-Geralt,Vizimir,9
-Benda,Gedovius,9
-Aine,Ciri,9
-Ebbing,Giselher,9
-Geralt,Rainfarn,9
-Filavandrel,Galarr,9
-Esterad,Tankred,9
-Ciri,Hjalmar,9
-Draig Bon-Dhu,Mousesack,9
-Aen Saevherne,Francesca,9
-Francesca,Lara,9
-Alzur,Yennefer,9
-Calanthe,Vizimir,9
-Chloe Stitz,Stigward,9
-Foltest,Vilgefortz,9
-Emhyr,Meve,9
-Vilgefortz,Vizimir,9
-Eudora,Yarpen,9
-Yarpen Zigrin,Zoltan Chivay,9
-Falka,Vysogota,9
-Falka,Windsor Imbra,9
-Ciri,Something,9
-Arthur,Merlin,9
-Boatbug,Linus Pitt,9
-Dennis Cranmer,Zoltan Chivay,9
-Benda,Radovid III,9
-Gabriel,Geralt,9
-Iola,Marti,9
-Cregennan,Geralt,9
-Geralt,Vysogota,9
-Dorregaray,Philippa Eilhart,9
-Menno Coehoorn,Zoltan Chivay,9
-Carduin,Dorregaray,9
-Giselher,Valdez,9
-Akeretta,Geralt,9
-Kelpie,Two,9
-Boreas Mun,Falka,9
-Ciri,Leo,9
-Boreas Mun,Esterhazy,9
-Sabrina Glevissig,Vilgefortz,9
-Vanielle,Yennefer,9
-Geralt,Lytta Neyd,9
-Fabio Sachs,Yennefer,9
-Stefan Skellen,Yennefer,9
-Geralt,Palmerin de Launfal,9
-Francesca Findabair,Sabrina,9
-Triss,Yarpen Zigrin,9
-Paulie Dahlberg,Xavier Moran,9
-Cahir,Zoltan,9
+Demavend,Meve,10
+Emhyr var Emreis,Filavandrel,10
+Duke,Guiscard Vermuellen,9
+Geralt of Rivia,Teleri Drouhard,9
+Assire var Anahid,Fringilla Vigo,9
+Fercart,Philippa Eilhart,9
 Milva,Seven,9
-Aridea,Renfri,9
+Philippa Eilhart,Vattier de Rideaux,9
+Benda,Gedovius,9
+Francesca Findabair,Lara Dorren,9
+Geralt of Rivia,Vysogota,9
+Falka,Windsor Imbra,9
+Cregennan,Geralt of Rivia,9
+Eudora,Yarpen Zigrin,9
+Alzur,Yennefer,9
+Geralt of Rivia,Marilka,9
+Vilgefortz,Vizimir,9
+Calanthe,Vizimir,9
+Foltest,Vilgefortz,9
+Emhyr var Emreis,Meve,9
+Boreas Mun,Falka,9
+Gabriel,Geralt of Rivia,9
+Boreas Mun,Esterhazy,9
+Carduin,Dorregaray,9
+Ciri,Something,9
+Paulie Dahlberg,Xavier Moran,9
+Falka,Vysogota,9
+Giselher,Valdez,9
+Vanielle,Yennefer,9
+Boatbug,Linus Pitt,9
+Geralt of Rivia,Lytta Neyd,9
+Geralt of Rivia,Vizimir,9
 Braenn,Kashka,9
-Artaud Terranova,Lydia,8
-Kashka,Loki,8
-Milva,Yennefer,8
-Audoen,Geralt,8
-Mona,Ragnar,8
-Caldemeyn,Renfri,8
-Philippa,Vattier,8
-Hereward,Nenneke,8
+Assire var Anahid,Vattier de Rideaux,9
+Buyvid Backhuysen,Ciri,9
+Arthur,Merlin,9
+Iola the Second,Marti,9
+Stefan Skellen,Yennefer,9
+Bert Brigden,Stigward,9
+Dandelion,Zoltan Chivay,9
+Draig Bon-Dhu,Mousesack,9
+Pavetta,Philippa Eilhart,9
+Ebbing,Giselher,9
+Chloe Stitz,Ola Harsheim,9
+Ciri,Sigrdrifa,9
+Fringilla Vigo,Xarthisius,9
+Aine Dermott,Ciri,9
+Ciri,Hjalmar,9
+Akeretta,Geralt of Rivia,9
+Cahir,Zoltan Chivay,9
+Chloe Stitz,Stigward,9
+Geralt of Rivia,Palmerin de Launfal,9
+Filavandrel,Galarr,9
+Geralt of Rivia,Neville,9
+Keira Metz,Vilgefortz,9
+Sheldon Skaggs,Zoltan Chivay,9
+Menno Coehoorn,Zoltan Chivay,9
+Kelpie,Two,9
+Keira Metz,Marti,9
+Ostrit,Segelin,9
+Aridea,Renfri,9
+Eltibald,Stregobor,9
+Geralt of Rivia,Rainfarn,9
+Bronik,Yennefer,9
+Bronibor,Foltest,8
+Tissaia de Vries,Triss Merigold,8
+Meve,Milva,8
 Ciri,Herwig,8
+Ostrit,Velerad,8
+Geralt of Rivia,Millet,8
+Adalia,Geralt of Rivia,8
+Geralt of Rivia,Michelet,8
+Count Broinne,Fitz-Oesterlen,8
 Pavetta,Vissegerd,8
-Geralt,Roegner,8
-Geralt,Yazon,8
+Deuslax,Jarre,8
 Dandelion,Yennefer,8
-Roach,Triss,8
-Baron,Falka,8
-Condwiramurs,Geralt,8
-Ciri,Nimue,8
-Eist,Eist Tuirseach,8
-Francesca,Sabrina Glevissig,8
-Margarita,Tissaia de Vries,8
-Margarita Laux-Antille,Philippa Eilhart,8
-Geralt,Millet,8
+Philippa Eilhart,Sheala de Tancarville,8
+Assire var Anahid,Emhyr var Emreis,8
+Nenneke,Two,8
+Filavandrel,Torque,8
 Toruviel,Vanadain,8
-Geralt,Michelet,8
-Ardal,Emhyr,8
-Marti,Philippa,8
-Geralt,Gorazd,8
-Count,Fitz-Oesterlen,8
+Ciri,Nimue,8
+Condwiramurs,Geralt of Rivia,8
+Geralt of Rivia,Nimue,8
+Cahir,Reynart de Bois-Fresnes,8
+Iola the Second,Triss Merigold,8
+Geralt of Rivia,Yazon Varda,8
+Isengrim Faoiltiarna,Menno Coehoorn,8
+Kees van Lo,Menno Coehoorn,8
+Asse,Ciri,8
+Demavend,Philippa Eilhart,8
+Fitz-Oesterlen,Foltest,8
+Asa Thjazi,Yennefer,8
+Anzelm Aubry,Dandelion,8
+Milva,Yennefer,8
+Villentretenmerth,Yennefer,8
+Villentretenmerth,Yarpen Zigrin,8
+Dainty,Sulimir,8
 Neratin Ceka,Til Echrade,8
 Guiscard Vermuellen,Zuleyka,8
-Adalia,Geralt,8
-Lady,Triss,8
-Artaud Terranova,Tissaia de Vries,8
-Jarre,Zoltan,8
-Dainty,Sulimir,8
-Deuslax,Jarre,8
-Baron,Geralt,8
-Meve,Milva,8
-Dandelion,Dudu,8
-Bronibor,Foltest,8
-Falka,Stefan Skellen,8
-Anzelm Aubry,Dandelion,8
-Ostrit,Velerad,8
-Villentretenmerth,Yarpen Zigrin,8
-Boatbug,Everett,8
-Geralt,Nimue,8
-Villentretenmerth,Yennefer,8
-Geralt of Rivia,Philippa,8
-Philippa,Shani,8
 Philippa Eilhart,Zuleyka,8
-Adela,Falka,8
-Demavend,Philippa,8
-Fitz-Oesterlen,Foltest,8
-Radcliffe,Sabrina,8
-Iola,Triss,8
-Adam Pangratt,Julia Abatemarco,8
-Ebbing,Emhyr,8
-Beau,Geralt,8
+Dandelion,Dudu,8
+Flavius Michelet,Rience,8
+Ciri,Lydia van Bredevoort,8
 Kayleigh,Vercta,8
-Ciri,Lydia,8
-Asse,Ciri,8
-Filavandrel,Torque,8
-Nenneke,Two,8
-Falka,Francesca,8
+Geralt of Rivia,Roegner,8
+Audoen,Geralt of Rivia,8
+Falka,Francesca Findabair,8
+Baron,Geralt of Rivia,8
+Esterhazy,Neratin Ceka,8
+Baron,Falka,8
+Adela,Falka,8
+Ebbing,Emhyr var Emreis,8
+Ciri,Neratin Ceka,8
+Geralt of Rivia,Gorazd,8
 Cerro,Falka,8
-Philippa,Tissaia,8
-Geralt,Maria,8
-Asa Thjazi,Yennefer,8
-Artaud,Tissaia de Vries,8
-Sheldon Skaggs,Zoltan Chivay,8
-Artaud,Vilgefortz,7
-Meve,Vissegerd,7
-Geralt of Rivia,Keira,7
-Emhyr,Triss,7
-Geralt of Rivia,Vilgefortz,7
-Agnes,Giambattista,7
-Guthlaf,Hjalmar,7
-Calanthe,Mousesack,7
-Philippa,Tissaia de Vries,7
-Eist,Pavetta,7
-Herwig,Yennefer,7
-Auberon,Auberon Muircetach,7
-Philippa,Triss Merigold,7
-Jarre,Okultich,7
-Ciri,Fabio Sachs,7
-Rience,Scarra,7
-Yazon,Zoltan,7
-Alcides Fierabras,Geralt,7
-Sh'eenaz,Yennefer,7
-Triss Merigold,Yennefer,7
-Amaranth,Ciri,7
-Francesca Findabair,Fringilla,7
-Falka,Tuzik,7
-Francesca,Philippa Eilhart,7
-Draig Bon-Dhu,Geralt,7
-Calanthe,Eist,7
-Ciri,Tissaia,7
-Milva,Yazon,7
-Lara,Philippa Eilhart,7
-Ceallach,Emhyr,7
-Dacre Silifant,Neratin Ceka,7
-Brick,Venzlav,7
-Neratin Ceka,Stefan,7
-Jarre,Klaproth,7
-Sabrina Glevissig,Yennefer,7
-Eyck of Denesle,Geralt,7
-Giselher,Skomlik,7
-Baron,Fitz-Oesterlen,7
-Freixenet,Levecque,7
-Ciri,Eurneid,7
-Chireadan,Vratimir,7
-Ciri,Iola,7
-Dede Vargas,Yuz Jannowitz,7
-Ori Reuven,Philippa,7
-Fringilla,Sabrina,7
+Roach,Triss Merigold,8
+Geralt of Rivia,Maria,8
+Falka,Stefan Skellen,8
+Lady,Triss Merigold,8
+Yannick Brass,Yarpen Zigrin,8
+Boatbug,Everett,8
+Radcliffe,Sabrina Glevissig,8
+Caldemeyn,Renfri,8
+Mona,Ragnar,8
+Kashka,Loki,8
+Hereward,Nenneke,8
 Stefan Skellen,Xarthisius,7
-Dennis,Jarre,7
+Geralt of Rivia,Lara Dorren,7
+Carduin,Francesca Findabair,7
+Alcides Fierabras,Geralt of Rivia,7
+Brick,Venzlav,7
+Amaranth,Ciri,7
 Aillil,Cahir,7
-Impatientia Vanderbeck,Pike,7
-Dainty,Vimme Vivaldi,7
-Adam Pangratt,Julia,7
-Ciri,Zoltan,7
-Carduin,Francesca,7
-Geralt,Lara,7
-Agloval,Zelest,7
-Emhyr,Philippa Eilhart,7
+Agnes,Giambattista,7
+Giselher,Skomlik,7
+Freixenet,Levecque,7
+Ceallach,Emhyr var Emreis,7
+Holofernes,Incarvilia Hildebrandt,7
+Chireadan,Vratimir,7
+Ciri,Zoltan Chivay,7
+Figgis Merluzzo,Milva,7
+Emhyr var Emreis,Triss Merigold,7
+Falka,Tuzik,7
+Draig Bon-Dhu,Geralt of Rivia,7
 Aplegatt,King,7
-Lydia,Two,7
-Munro,Zoltan,7
-Dorregaray,Freixenet,6
-Eurneid,Ragnar,6
-Gardenia,Nenneke,6
-Borg,Karelka,6
-Anna Henrietta,Roach,6
-Xavier Moran,Yarpen Zigrin,6
-Geralt,Jean Catillon,6
-Francesca,Tissaia,6
-Philippa Eilhart,Radcliffe,6
-Ciri,Leila,6
-Freixenet,Villentretenmerth,6
-Dragomir,Trigla,6
-Butcher,Geralt,6
-Gardenia,Herwig,6
-Falka,Mistle,6
-Foltest,Keira Metz,6
-Geralt,Munro Bruys,6
-Roach,Zoltan Chivay,6
-Figgis Merluzzo,Percival,6
-Figgis Merluzzo,Zoltan,6
-Cairbre,Yaevinn,6
-Argentina,Nina,6
-Amaranth,Windsor Imbra,6
-Mistle,Reef,6
-Demavend,Radcliffe,6
-Radcliffe,Tissaia,6
-Fercart,Francesca,6
-Ebbing,Vysogota,6
-Daniel Etcheverry,Zyvik,6
-Freya,Sigrdrifa,6
-Fringilla Vigo,Sigrdrifa,6
-Fabio Sachs,Vesemir,6
-Two,Zoltan,6
-Emhyr,Fringilla Vigo,6
-Foltest,Velerad,6
-Segelin,Velerad,6
-Nina,Valia,6
-Alia,Valia,6
-Gonzalez,Horm,6
-Ciri,Codringher,6
-Meve,Sabrina,6
-Fercart,Francesca Findabair,6
-Fercart,Vilgefortz,6
-Radcliffe,Tissaia de Vries,6
-Lydia,Triss,6
-Emhyr,Reef,6
-Foltest,Julia Abatemarco,6
-Elan Trahe,Kees van Lo,6
-Adam Pangratt,Barclay Els,6
-Incarvilia Hildebrandt,Milton,6
-Falka,Pavetta,6
-Calanthe,Riannon,6
-Ciri,Connor,6
-Ciri,Emhyr var Emreis,6
-Emhyr,Ervyll,6
-Elan,Menno Coehoorn,6
-Carduin,Philippa,6
-Dyffryn,Mawr,6
-Dalia,Mestvin,6
-Dalia,Gaspard,6
-Geralt,Teleri Drouhard,6
-Rhundurin,Vimme Vivaldi,6
-Dainty,Vimme,6
-Adam,Julia Abatemarco,6
+Meve,Vissegerd,7
+Dede Vargas,Yuz Jannowitz,7
+Ciri,Eurneid,7
+Guthlaf,Hjalmar,7
+Baron,Fitz-Oesterlen,7
+Jarre,Okultich,7
+Jarre,Klaproth,7
+Impatientia Vanderbeck,Pike,7
+Agloval,Zelest,7
+Herwig,Yennefer,7
+Rience,Scarra,7
+Calanthe,Mousesack,7
+Sh'eenaz,Yennefer,7
+Ardal aep Dahy,Vilgefortz,7
+Lara Dorren,Philippa Eilhart,7
 Jarre,Myrrha,6
 Katje,Myrrha,6
-Caleb Stratton,Ciri,6
-Figgis Merluzzo,Geralt,6
-Dacre Silifant,Joanna Selborne,6
-Boreas Mun,Ola,6
-Bert,Stigward,6
-Bert Brigden,Two,6
-Esterad Thyssen,Guiscard Vermuellen,6
-Ceallach,Dheran,6
-Dainty,Pike,6
-Calanthe,Lara Dorren,6
-Dacre Silifant,Ebbing,6
-Dagorad,Elen of Kaedwen,6
-Corbett,Elen of Kaedwen,6
-Figgis Merluzzo,Yazon Varda,6
-Munro Bruys,Percival Schuttenbach,6
-Bianca,Rejean,6
-Marquard,Rejean,6
-Marquard,Radcliffe,6
-Amavet,Lara,6
-King,Zuleyka,6
-Benda,Gemma,6
-Philippa Eilhart,Shani,6
-Fiona,Pavetta,6
-Elen,Fiona,6
-Adalia,Elen,6
-Dennis,Sheldon Skaggs,6
-Eithné,Yennefer,6
-Klaproth,Milton,6
-Braenn,Vesemir,6
-Juan Pablo Vassermiller,Mitzi,6
-Ebbing,Mitzi,6
-Chloe Stitz,Neratin Ceka,6
-Dufficey Kriel,Neratin Ceka,6
-Dacre,Joanna Selborne,6
-Ervyll,Levecque,6
-Ilona Laux-Antille,Leticia Charbonneau,6
-Falka,Stavro,6
-Bert Brigden,Boreas Mun,6
-Dacre Silifant,Rience,6
-Falka,Leo,6
-Margarita,Margarita Laux-Antille,6
-Margarita Laux-Antille,Tissaia de Vries,6
-Gedovius,Radovid,6
-Boholt,Crinfrid,6
-Angus Bri Cri,Riordain,6
-Dervla,Emhyr,6
-Adalia,Philippa Eilhart,6
-Kennet,Yennefer,6
-Eyck of Denesle,Gyllenstiern,6
-Ebbing,Geralt,6
-Margarita,Triss,6
-Emhyr,Tankred,6
-Emhyr var Emreis,Esterad,6
-Ciri,Giambattista,6
-Hrosvitha,Nenneke,6
-Ciri,Iola the Second,6
-Esterad Thyssen,Philippa,6
-Bert Brigden,Chloe,6
-Assire,Jediah Mekesser,6
-Ciri,Riannon,6
-Goidemar,Philippa Eilhart,6
-Demavend,Sabrina,6
-Fringilla,Keira,6
-Kennet,Yarpen Zigrin,6
-Adam Pangratt,Lorenzo Molla,6
-Brick,Levecque,6
-Eskel,Lambert,6
-Falka,Lara,6
-Geralt,Margarita,6
-Ciri,Sabrina Glevissig,6
-Pavetta,Philippa,6
-Cerro,Goidemar,6
-Adela,Philippa Eilhart,6
-Augusta Wagner,Francesca,6
-Augusta Wagner,Tissaia de Vries,6
-Falka,Roderick de Novembre,6
-Julia,Lorenzo Molla,6
-Geralt of Rivia,Neville,6
-Errdil,Krepp,6
-Dagorad,Roegner,6
-Corbett,Dagorad,6
-Foltest,Sabrina,6
-Augusta,Jada Glevissig,6
-Augusta,Yanna of Murivel,6
-Klara Larissa de Winter,Nina Fioravanti,6
-Geoffrey Monck,Radmir,6
-Agnes,Geoffrey Monck,6
-Agnes,Ivo Richert,6
-Aurora Henson,Ivo Richert,6
-Aurora Henson,Herbert Stammelford,6
-Immanuel Benavent,Nina Fioravanti,6
-Geoffrey Monck,Immanuel Benavent,6
-Agnes,Nina Fioravanti,6
-Agnes,Tissaia de Vries,6
-Falka,Radmir,6
-Keira,Marti,6
-Geoffrey Monck,Geralt,6
-Laurelnose,Neville,6
-Keira Metz,Lara,6
-Lydia,Tissaia,6
-Juan,Lorenzo Molla,6
-Emhyr var Emreis,Vissegerd,6
-Neratin,Stefan Skellen,6
-Ardal aep Dahy,Vilgefortz,6
-Adam,Lorenzo Molla,6
-Esterad Thyssen,Gaudemunda,6
-Joanna,Lady,6
-Asse,Iskra,6
-Geralt of Rivia,Yarpen,6
-Regan Dahlberg,Yazon Varda,6
-Yazon Varda,Zoltan,6
-Ciri,Reef,6
-Ciaran aep Dearbh,Toruviel,6
-Jada Glevissig,Leticia Charbonneau,6
-Drogodar,Mousesack,6
 Calanthe,Ravix,6
-Eurneid,Yarpen Zigrin,6
-Ervyll,Viraxas,6
+Crach an Craite,Rainfarn,6
+Falka,Stavro,6
+Agnes,Nina Fioravanti,6
+Eskel,Lambert,6
+Pavetta,Rainfarn,6
+Falka,Roderick de Novembre,6
+Adalia,Elen of Kaedwen,6
+Fiona,Pavetta,6
+Ceallach,Vattier de Rideaux,6
+Calanthe,Riannon,6
+Eurneid,Ragnar,6
+Emhyr var Emreis,Ervyll,6
+Butcher,Geralt of Rivia,6
+Andres Vierny,Dede Vargas,6
+Agnes,Tissaia de Vries,6
+Geralt of Rivia,Jean Catillon,6
+Milva,Reynart de Bois-Fresnes,6
+Ciri,Ebbing,6
+Errdil,Krepp,6
+Auberon Muircetach,Geralt of Rivia,6
+Ervyll,Levecque,6
+Caldemeyn,Crach an Craite,6
+Fredefalk,Renfri,6
+Agloval,Annika,6
+Rupert,Stavro,6
+Drogodar,Mousesack,6
+Dufficey Kriel,Neratin Ceka,6
+Andres Vierny,Til Echrade,6
+Brick,Levecque,6
+Falka,Pavetta,6
+Lydia van Bredevoort,Triss Merigold,6
+Asse,Iskra,6
+Fauve,Sirssa,6
+Falka,Radmir,6
+Immanuel Benavent,Nina Fioravanti,6
+Ciri,Reef,6
+Aurora Henson,Herbert Stammelford,6
+Aurora Henson,Ivo Richert,6
+Agnes,Ivo Richert,6
+Agnes,Geoffrey Monck,6
+Dorregaray,Kashka,6
+Matholm,Ragnar,6
+Matholm,Morenn,6
+Freixenet,Morenn,6
+Crach an Craite,Freixenet,6
 Dagobert,Vanielle,6
 Atlan Kerk,Vanielle,6
-Jarre,Ograbek,6
-Andres Vierny,Til Echrade,6
-April,Yiolenta Suarez,6
-Ilona Laux-Antille,Yiolenta Suarez,6
-Keira,Sabrina Glevissig,6
-Francesca,Sheala,6
-Keira,Sheala,6
-Fauve,Sirssa,6
-Cerro,Riannon,6
-Cerro,Geralt,6
-Foltest,Virfuril,6
-Bert Brigden,Dacre Silifant,6
-Ola Harsheim,Til Echrade,6
-Fercart,Yennefer,6
-Artaud Terranova,Fercart,6
+Augusta Wagner,Yanna of Murivel,6
+Klara Larissa de Winter,Nina Fioravanti,6
+Geoffrey Monck,Radmir,6
+Mistle,Reef,6
+Incarvilia Hildebrandt,Milton,6
+Juan Pablo Vassermiller,Mitzi,6
 Fercart,Keira Metz,6
-Eredin,Lara Dorren,6
-Auberon,Geralt,6
-Gerhart,Yennefer,6
-Boatbug,Nenneke,6
-Cahir,Reynart de Bois-Fresnes,6
-Ciri,Ebbing,6
-Crach an Craite,Pavetta,6
-Esterad,Gaudemunda,6
-Julia,Julia Abatemarco,6
-Rainfarn,Windhalm of Attre,6
-Matholm,Sigismund,6
-Matholm,Venzlav,6
-Philippa,Sheala,6
-Assire var Anahid,Sabrina Glevissig,6
-Eist Tuirseach,Vissegerd,6
-Pavetta,Rainfarn,6
-Crach,Rainfarn,6
-Pavetta,Windhalm,6
-Mousesack,Vissegerd,6
-Eist,Vissegerd,6
-Sulivoy,Venzlav,6
-Braenn,Morenn,6
-Gardenia,Geralt,6
-Drogodar,Vissegerd,6
-Geralt,Myhrman,6
-Foltest,Medell,6
-Caleb Stratton,Percival Schuttenbach,6
-Filavandrel,Vanadain,6
-Assire var Anahid,Fringilla,6
-Condwiramurs,Fringilla Vigo,6
-Rupert,Stavro,6
-Andres Vierny,Dede Vargas,6
-Xavier Moran,Yannick Brass,6
-Margarita Laux-Antille,Triss,6
-Fringilla Vigo,Philippa,6
-Bernie,Geralt,6
-Lars,Tissaia de Vries,6
-Caleb Stratton,Figgis Merluzzo,6
-Fringilla,Keira Metz,6
-Fodcat,Wieldhill,6
-Fodcat,Lord Strept,6
-Devereux,Sigismund,6
-Fredefalk,Geralt,6
-Caldemeyn,Crach,6
-Crach,Freixenet,6
-Cahir,Xarthisius,6
-Adalia,Muriel,6
-Esterad,Yennefer,6
-Geralt,Vyr,6
-Nohorn,Tavik,6
-Matholm,Morenn,6
-Matholm,Ragnar,6
-Dorregaray,Kashka,6
-Agloval,Annika,6
+Figgis Merluzzo,Yazon Varda,6
+Devereux,Sigismund Dijkstra,6
+Elen of Kaedwen,Fiona,6
 Braenn,Freya,6
-Freixenet,Morenn,6
-Lars,Margarita,6
-Keira Metz,Triss,6
-Dandelion,Dorregaray,6
-Civril,Nohorn,6
-Flavius,Lodovico,6
-Ciri,Geoffrey Monck,6
-Fercart,Philippa Eilhart,6
-Carduin,Philippa Eilhart,6
-Agloval,Villentretenmerth,6
-Nenneke,Vesemir,6
-Loki,Radcliffe,6
-Geralt,Mona,6
+Marquard,Rejean,6
 Ragnar,Yves,6
-Caleb,Yazon,6
-Caleb,Figgis,6
+Falka,Leo Bonhart,6
+Pavetta,Windhalm of Attre,6
+Adam Pangratt,Barclay Els,6
+Elan Trahe,Kees van Lo,6
+Ervyll,Viraxas,6
+Gedovius,Radovid III,6
+Benda,Gemma,6
+King,Zuleyka,6
+Ebbing,Mitzi,6
+Emhyr var Emreis,Reef,6
+Marquard,Radcliffe,6
+Demavend,Radcliffe,6
+Fercart,Vilgefortz,6
+Meve,Sabrina Glevissig,6
+Eithné,Yennefer,6
+Amaranth,Windsor Imbra,6
+Gardenia,Nenneke,6
+Boreas Mun,Cahir,6
+Dacre Silifant,Ebbing,6
+Xavier Moran,Yannick Brass,6
+Fercart,Yennefer,6
+Matholm,Venzlav,6
+Artaud Terranova,Fercart,6
+Sulivoy,Venzlav,6
+Geoffrey Monck,Immanuel Benavent,6
+Ilona Laux-Antille,Yiolenta Suarez,6
+Condwiramurs,Fringilla Vigo,6
+Kennet,Yennefer,6
+Boholt,Crinfrid,6
+Ilona Laux-Antille,Leticia Charbonneau,6
+April,Yiolenta Suarez,6
+Augusta Wagner,Jada Glevissig,6
+Jada Glevissig,Leticia Charbonneau,6
+Esterad Thyssen,Philippa Eilhart,6
+Assire var Anahid,Jediah Mekesser,6
+Fredefalk,Geralt of Rivia,6
+Gerhart,Yennefer,6
+Matholm,Sigismund Dijkstra,6
+Munro Bruys,Percival Schuttenbach,6
+Dyffryn,Mawr,6
+Caleb Stratton,Ciri,6
+Emhyr var Emreis,Tankred Thyssen,6
+Gardenia,Geralt of Rivia,6
+Lars,Margarita Laux-Antille,6
+Juan Pablo Vassermiller,Lorenzo Molla,6
+Roach,Zoltan Chivay,6
+Rhundurin,Vimme Vivaldi,6
+Ebbing,Vysogota,6
+Daniel Etcheverry,Zyvik,6
+Fringilla Vigo,Sigrdrifa,6
+Fabio Sachs,Vesemir,6
+Bernie Hofmeier,Geralt of Rivia,6
+Lars,Tissaia de Vries,6
+Braenn,Morenn,6
+Klaproth,Milton,6
+Braenn,Vesemir,6
+Freya,Sigrdrifa,6
+Alia,Valia,6
+Nina Fioravanti,Valia,6
+Argentina,Nina Fioravanti,6
+Cairbre aep Diared,Yaevinn,6
+Caleb Stratton,Percival Schuttenbach,6
+Esterad Thyssen,Yennefer,6
+Ebbing,Geralt of Rivia,6
+Gonzalez,Horm,6
+Boatbug,Nenneke,6
+Demavend,Sabrina Glevissig,6
+Ciri,Codringher,6
+Ciri,Connor,6
+Dagorad,Elen of Kaedwen,6
+Corbett,Elen of Kaedwen,6
+Jarre,Ograbek,6
+Esterad Thyssen,Lebioda,6
+Geralt of Rivia,Vyr,6
+Civril,Nohorn,6
+Eurneid,Yarpen Zigrin,6
+Keira Metz,Sheala de Tancarville,6
+Ciri,Leila,6
+Ceallach,Dheran,6
+Drogodar,Vissegerd,6
+Mousesack,Vissegerd,6
+Dennis Cranmer,Sheldon Skaggs,6
+Ola Harsheim,Til Echrade,6
+Ciri,Geoffrey Monck,6
+Dalia,Mestvin,6
+Bert Brigden,Boreas Mun,6
+Dalia,Gaspard,6
+Bert Brigden,Two,6
+Kennet,Yarpen Zigrin,6
+Adalia,Philippa Eilhart,6
 Millet,Rience,6
-Geralt,Seven,6
-Fredefalk,Renfri,6
-Rience,Vascoigne,5
-Ermellia,Hereward,5
-Caldemeyn,Yennefer,5
-Idi,Zavist,5
-Galahad,Kashka,5
-Agloval,Chireadan,5
-Cahir,Stefan Skellen,5
-Bernika,Evermir,5
-Fredefalk,Stregobor,5
-Nivellen,Roach,5
-Geralt,Herwig,5
-April,Fringilla,5
-Caleb Stratton,Figgis,5
-Kayleigh,Servadio,5
-Giselher,Pinto,5
-Ida,Vattier,5
-Filavandrel,Stefan Skellen,5
-Lady,Zoltan,5
-Hector Laabs,Zoltan,5
-Adalia,Riannon,5
-Milva,Percival,5
-Fenne,Geralt,5
-Dandelion,Loki,5
-Vanadain,Vattier,5
-Foltest,Margarita Laux-Antille,5
-Reef,Two,5
-Haxo,Something,5
-Caldemeyn,Radcliffe,5
-Freya,Radcliffe,5
-Dandelion,Yarpen Zigrin,5
-Nenneke,Sh'eenaz,5
-Condwiramurs,Yennefer,5
-Condwiramurs,Emhyr,5
-Anna Henrietta,Cahir,5
-Anna Henrietta,Milva,5
-Ciri,Regan,5
-Dandelion,Shani,5
-Dandelion,Geralt of Rivia,5
-Everett,Stran,5
-Everett,Vitek,5
-Milenka,Zgarba,5
-Geralt,Kolda,5
-Emhyr,Milva,5
-Ceallach,Roach,5
-Aen Saevherne,Yennefer,5
-Aen Saevherne,Ida,5
-Francesca Findabair,Keira Metz,5
-Sabrina,Sheala de Tancarville,5
-Figgis,Percival Schuttenbach,5
-Percival,Percival Schuttenbach,5
-Fabio Sachs,Yarpen Zigrin,5
-Jarre,Tissaia de Vries,5
-Vilfrid Wenck,Yarpen Zigrin,5
-Keira,Vilgefortz,5
-Fringilla Vigo,Margarita Laux-Antille,5
-Assire var Anahid,Francesca,5
-Lara Dorren,Pavetta,5
-Ervyll,Henselt,5
-Francesca Findabair,Sabrina Glevissig,5
-Assire var Anahid,Francesca Findabair,5
-Assire var Anahid,Sabrina,5
-Aen Saevherne,Philippa Eilhart,5
-Cregennan,Francesca,5
-Drogodar,Two,5
-Haxo,Rainfarn,5
-Devereux,Villentretenmerth,5
-Freya,Yves,5
-Audoen,Caldemeyn,5
-Fifteen,Renfri,5
-Dudu,Gardenia,5
-Braenn,Dudu,5
-Braenn,Nenneke,5
-Devereux,Yves,5
-Milva,Sirssa,5
-Ciaran,Milva,5
-Cerro,Vridank,5
-Lara,Vridank,5
-Carduin,Tugdual,5
-Philippa,Tugdual,5
-Sabrina Glevissig,Sheala de Tancarville,5
-Ola,Stigward,5
-Dandelion,Radcliffe,5
-Eskel,Roach,5
-Ciri,Ihuarraquax,5
-Ihuarraquax,Lara Dorren,5
-Emhyr var Emreis,Vilgefortz,5
-Eist Tuirseach,Rainfarn,5
-Remiz,Vercta,5
-Goidemar,Yennefer,5
-Mousesack,Rainfarn,5
-Drogodar,Pavetta,5
-Drogodar,Haxo,5
-Crach,Eist,5
-Crach,Roegner,5
-Calanthe,Vissegerd,5
-Foltest,Pavetta,5
-Ciri,Neratin,5
-Chloe Stitz,Ola Harsheim,5
-Falka,Yuz Jannowitz,5
-Two,Yurga,5
-Pike,Two,5
-Niedamir,Vissegerd,5
-Rience,Vysogota,5
-Ervyll,Geralt,5
-Eithné,Morenn,5
-Ervyll,Freixenet,5
-Jarre,Sheldon,5
-Jarre,Sheldon Skaggs,5
-Adalia,Sabrina,5
-Amavet,Riannon,5
-Ardal aep Dahy,Emhyr,5
-Galarr,Vanadain,5
-Geralt,Vanadain,5
-Milva,Vesemir,5
-Vesemir,Yennefer,5
-Freya,Loki,5
-Annika,Yarpen Zigrin,5
-Rumplestelt,Supree,5
-Rainfarn,Ravix,5
-Aine Dermott,Emhyr,5
-Aine Dermott,Clara,5
-Emhyr,Stella Congreve,5
-Corbett,Riannon,5
-Ebbing,Margarita,5
-Lara,Margarita,5
-Hedwig,Vizimir,5
-Paulie,Vilgefortz,5
-Margarita Laux-Antille,Nenneke,5
-Amavet,Muriel,5
-Michelet,Toublanc,5
-Flavius Michelet,Rience,5
-Artaud,Two,5
-Hjalmar,Yennefer,5
-Crach,Hjalmar,5
-Asa Thjazi,Guthlaf,5
-Artaud Terranova,Tissaia,5
-Lydia van Bredevoort,Two,5
-Lydia van Bredevoort,Tissaia,5
-Radcliffe,Vilgefortz,5
-Til,Torque,5
-Til,Yennefer,5
-Valdo Marx,Virginia,5
-Dandelion,Kelpie,5
-Caleb Stratton,Lytta Neyd,5
-Galahad,Yennefer,5
-Buyvid,Ciri,5
-Lodovico,Toublanc,5
-Cynthia,Geralt,5
-Duke,Guiscard Vermuellen,5
-Aevenien,Tissaia,5
-Shani,Toublanc,5
-Juan,Julia Abatemarco,5
-Gaudemunda,Tankred Thyssen,5
-Esterad,Tankred Thyssen,5
-Esterad,Guiscard Vermuellen,5
-Iola,Yennefer,5
-Bronibor,Jarre,5
-Ciri,Hrosvitha,5
-Hrosvitha,Yennefer,5
-Munro,Yazon Varda,5
-Torque,Toruviel,5
-Bianca,Sabrina,5
-Sabrina,Tissaia,5
-Lydia,Rience,5
-Tissaia,Triss,5
-Fauve,Geralt,5
-Bronik,Geralt,5
-Lydia van Bredevoort,Philippa Eilhart,5
-Foltest,Hedwig,5
-Hedwig,Triss,5
-Emhyr var Emreis,Fringilla,5
-Henselt,Tissaia de Vries,5
-Keira,Tissaia,5
-Philippa Eilhart,Yarpen Zigrin,5
-Fabio Sachs,Fringilla Vigo,5
-Daniel Etcheverry,Freya,5
-Emhyr,Fercart,5
-Lady,Philippa,5
-Vratimir,Yennefer,5
-Yarpen Zigrin,Zoltan,5
-Figgis Merluzzo,Zoltan Chivay,5
-Figgis,Munro Bruys,5
-Ciri,Vattier,5
-Lucienne,Toruviel,5
-Beau,Yennefer,5
-Laurelnose,Vratimir,5
-Ebbing,Vilgefortz,5
-Angus,Riordain,5
-Ciri,Reynart,5
-Lady,Yennefer,5
-Sabrina,Tissaia de Vries,5
-Lebioda,Zuleyka,5
-Holofernes,Klaproth,5
-Aarhenius Krantz,Yennefer,5
-Condwiramurs,Two,5
-Liam,Ramon Tyrconnel,5
-Lambert,Yennefer,5
-Artaud,Philippa Eilhart,5
-Francesca,Tissaia de Vries,5
-Artaud Terranova,Geralt,5
-Joanna,Talbot,5
-Geralt,Radmir,5
-Sabrina,Vizimir,5
-Carduin,Sabrina,5
-Giselher,Kelpie,5
-Ciri,Dandelion,5
-Ciri,Til,5
-Aplegatt,Yennefer,5
-Esterad,Gedovius,5
-Esterad,Henselt,5
-Jediah Mekesser,Vattier de Rideaux,5
-Anzelm Aubry,Barclay Els,5
-Anzelm,Barclay,5
-Lara Dorren,Lydia,5
-Nina Fioravanti,Ransant Alvaro,5
-April,Tissaia de Vries,5
-Dacre,Neratin,5
-Rispat La Pointe,Til Echrade,5
-Errdil,Vesemir,5
-Dennis Cranmer,Falwick,5
-Cairbre aep Diared,Orestes Kopps,5
-Henselt,Julia,5
-Essi,Geralt of Rivia,5
-Duke,Essi Daven,5
-Codringher,Yennefer,5
-Rience,Sabrina Glevissig,5
-Akerspaark,Emhyr,5
-Alia,Gonzalez,5
-Radovid,Radovid III,5
-Gemma,Gerard,5
-Esteril Thyssen,Gerard,5
-Akeretta,Veverka,5
-Duke,Geralt,5
-Isengrim Faoiltiarna,Menno Coehoorn,5
-April,Boreas,5
-Dede Vargas,Stigward,5
-Chloe Stitz,Til Echrade,5
-Meve,Roegner,5
-Nenneke,Triss Merigold,5
-Daniel Etcheverry,Shani,5
-Lamarr Flaut,Ouder de Wyngalt,5
-Dandelion,Vespula,5
-Geralt,Ithlinne,5
-Heimo Kantor,Ralf Blunden,5
-Homer,Homer Straggen,5
-Codringher,Vilgefortz,5
-Lara,Vilgefortz,5
-Gaspard,Teleri Drouhard,5
-Boreas,Dacre Silifant,5
-Aillil,Ceallach,5
-Ebbing,Yennefer,5
-Lydia van Bredevoort,Yennefer,5
-Geralt,Henselt,5
-Esterhazy,Neratin Ceka,5
-Chloe Stitz,Neratin,5
-Gyllenstiern,Kennet,5
-Herbolth,Istredd,5
-Vespula,Yennefer,5
-Declan,Pennycuick,5
-Leo Bonhart,Pennycuick,5
-Geralt,Golan,5
-Akerspaark,Pavetta,5
-Ther Lukokian,Vimme,5
-Milva,Vilgefortz,5
-Effenberg,Philippa Eilhart,5
-Dandelion,Gardenia,5
-Agloval,Braenn,5
+Geralt of Rivia,Munro Bruys,6
+Falka,Mistle,6
+Ciri,Giambattista,6
+Cerro,Goidemar,6
+Corbett,Dagorad,6
+Foltest,Sabrina Glevissig,6
+Ciri,Riannon,6
+Goidemar,Philippa Eilhart,6
+Adela,Philippa Eilhart,6
+Henselt,Julia Abatemarco,6
+Eist Tuirseach,Mousesack,6
+Filavandrel,Vanadain,6
+Dainty,Pike,6
+Amavet,Lara Dorren,6
+Bert Brigden,Chloe Stitz,6
+Adalia,Muriel,6
+Foltest,Virfuril,6
+Nohorn,Tavik,6
+Dagorad,Roegner,6
+Cahir,Xarthisius,6
+Geralt of Rivia,Seven,6
+Hrosvitha,Nenneke,6
+Augusta Wagner,Francesca Findabair,6
+Augusta Wagner,Tissaia de Vries,6
+Geralt of Rivia,Myhrman,6
+Foltest,Medell,6
+Fodcat,Lord Strept,6
+Keira Metz,Lara Dorren,6
+Cerro,Riannon,6
+Foltest,Keira Metz,6
+Ciri,Vattier de Rideaux,6
+Regan Dahlberg,Yazon Varda,6
+Cerro,Geralt of Rivia,6
+Fodcat,Wieldhill,6
+Joanna Selborne,Lady,6
+Bert Brigden,Dacre Silifant,6
+Rainfarn,Windhalm of Attre,6
+Flavius Michelet,Lodovico,6
+Freixenet,Villentretenmerth,6
+Dorregaray,Freixenet,6
+Dandelion,Dorregaray,6
+Laurelnose,Neville,6
+Geoffrey Monck,Geralt of Rivia,6
+Dragomir,Trigla,6
+Borg,Karelka,6
+Bianca,Rejean,6
+Gardenia,Herwig,6
+Anna Henrietta,Roach,6
+Loki,Radcliffe,6
+Nenneke,Vesemir,6
+Agloval,Villentretenmerth,6
+Foltest,Velerad,6
+Segelin,Velerad,6
+Geralt of Rivia,Mona,6
+Fenne,Geralt of Rivia,5
 Kashka,Lily,5
-Caldemeyn,Kelpie,5
-Iola,Kelpie,5
+Ermellia,Hereward,5
+Agloval,Chireadan,5
+Galahad,Kashka,5
 Herwig,Vesemir,5
+Iola the Second,Kelpie,5
+Vratimir,Yennefer,5
+Laurelnose,Vratimir,5
+Beau Berrant,Yennefer,5
+Geralt of Rivia,Herwig,5
 Kashka,Nenneke,5
-Anna Henrietta,Geralt of Rivia,5
+Dandelion,Loki,5
+Caldemeyn,Yennefer,5
+Nivellen,Roach,5
+Artaud Terranova,Two,5
+Michelet,Toublanc Michelet,5
+Lodovico,Toublanc Michelet,5
+Aevenien,Tissaia de Vries,5
+Rience,Vysogota,5
+Pike,Two,5
+Mousesack,Rainfarn,5
+Niedamir,Vissegerd,5
+Foltest,Pavetta,5
+Filavandrel,Stefan Skellen,5
+Ida,Vattier de Rideaux,5
+Giselher,Pinto,5
+Kayleigh,Servadio,5
+King,Zoltan Chivay,5
+Lady,Philippa Eilhart,5
+Ciri,Reynart de Bois-Fresnes,5
+Ebbing,Vilgefortz,5
+Aen Saevherne,Ida,5
+Aen Saevherne,Yennefer,5
+Foltest,Margarita Laux-Antille,5
+Lara Dorren,Vridank,5
+Cerro,Vridank,5
+Cregennan,Francesca Findabair,5
+Aen Saevherne,Philippa Eilhart,5
+Lady,Yennefer,5
+Calanthe,Vissegerd,5
+Ciri,Hrosvitha,5
+Bronibor,Jarre,5
+Adalia,Riannon,5
+Torque,Toruviel,5
+Gyllenstiern,Yarpen Zigrin,5
+Falka,Yuz Jannowitz,5
+Ther Lukokian,Vimme Vivaldi,5
+Vespula,Yennefer,5
+Herbolth,Istredd,5
+Radcliffe,Vilgefortz,5
+Vanadain,Vattier de Rideaux,5
+Haxo,Rainfarn,5
+Drogodar,Two,5
+Lucienne,Toruviel,5
+Adalia,Sabrina Glevissig,5
+Shani,Toublanc Michelet,5
+Ervyll,Henselt,5
+Dandelion,Shani,5
+Cairbre aep Diared,Orestes Kopps,5
+Ciri,Til Echrade,5
+Audoen,Caldemeyn,5
+Galahad,Yennefer,5
+Caleb Stratton,Lytta Neyd,5
+Dandelion,Kelpie,5
+Rience,Vascoigne,5
+Hrosvitha,Yennefer,5
+Meve,Roegner,5
+Goidemar,Yennefer,5
+Asa Thjazi,Guthlaf,5
+Crach an Craite,Hjalmar,5
+Hjalmar,Yennefer,5
+Gaspard,Teleri Drouhard,5
+Dandelion,Vespula,5
+Cahir,Stefan Skellen,5
+Milva,Vesemir,5
+Ola Harsheim,Stigward,5
+Gyllenstiern,Kennet,5
+Geralt of Rivia,Vanadain,5
+Galarr,Vanadain,5
+Ihuarraquax,Lara Dorren,5
+Ciri,Ihuarraquax,5
+Til Echrade,Torque,5
+Aplegatt,Yennefer,5
+Ebbing,Margarita Laux-Antille,5
+Corbett,Riannon,5
+Amavet,Riannon,5
+Everett,Vitek,5
+Everett,Stran,5
+Amavet,Muriel,5
+Ciri,Regan Dahlberg,5
+Lara Dorren,Margarita Laux-Antille,5
+April,Boreas Mun,5
+Ebbing,Yennefer,5
+Rience,Sabrina Glevissig,5
+Codringher,Yennefer,5
+Lady,Zoltan Chivay,5
+Heimo Kantor,Ralf Blunden,5
+Lambert,Yennefer,5
+Hector Laabs,Zoltan Chivay,5
+Effenberg,Philippa Eilhart,5
+Alia,Gonzalez,5
+Iola the Second,Yennefer,5
+Ervyll,Geralt of Rivia,5
+Drogodar,Haxo,5
+Drogodar,Pavetta,5
+Vilfrid Wenck,Yarpen Zigrin,5
+Daniel Etcheverry,Freya,5
+Fabio Sachs,Fringilla Vigo,5
+Philippa Eilhart,Yarpen Zigrin,5
+Ceallach,Roach,5
+Emhyr var Emreis,Milva,5
+Annika,Yarpen Zigrin,5
+Freya,Loki,5
+Vesemir,Yennefer,5
+Braenn,Dudu,5
+Haxo,Something,5
+Fifteen,Renfri,5
+Akerspaark,Emhyr var Emreis,5
+Bronik,Geralt of Rivia,5
+Cynthia,Geralt of Rivia,5
+Duke,Geralt of Rivia,5
+Akeretta,Veverka,5
+Duke,Essi Daven,5
+Gaudemunda,Tankred Thyssen,5
+Juan Pablo Vassermiller,Julia Abatemarco,5
+Lebioda,Zuleyka,5
+Geralt of Rivia,Kolda,5
+Milenka,Zgarba,5
+Reef,Two,5
+Philippa Eilhart,Tugdual,5
+Ciaran aep Dearbh,Milva,5
+Lydia van Bredevoort,Yennefer,5
+Geralt of Rivia,Ithlinne,5
+Akerspaark,Pavetta,5
+Aarhenius Krantz,Yennefer,5
+Giselher,Kelpie,5
+Aillil,Ceallach,5
+Braenn,Nenneke,5
+Errdil,Vesemir,5
+Anna Henrietta,Milva,5
+Anna Henrietta,Cahir,5
+Condwiramurs,Emhyr var Emreis,5
+Condwiramurs,Yennefer,5
+Jarre,Tissaia de Vries,5
+Fabio Sachs,Yarpen Zigrin,5
+Dudu,Gardenia,5
+Carduin,Tugdual,5
+Fredefalk,Stregobor,5
+Francesca Findabair,Geralt of Rivia,5
+Geralt of Rivia,Henselt,5
+Devereux,Yves,5
+Joanna Selborne,Talbot,5
+Holofernes,Klaproth,5
+Jediah Mekesser,Vattier de Rideaux,5
+Esterad Thyssen,Henselt,5
+Esterad Thyssen,Gedovius,5
+Two,Yurga,5
+Nina Fioravanti,Ransant Alvaro,5
+Geralt of Rivia,Radmir,5
+Milva,Sirssa,5
+April,Tissaia de Vries,5
+Artaud Terranova,Geralt of Rivia,5
+Freya,Yves,5
+Devereux,Villentretenmerth,5
+Bernika,Evermir,5
+Idi,Zavist,5
+Dede Vargas,Stigward,5
+Rispat La Pointe,Til Echrade,5
+Eskel,Roach,5
+Lamarr Flaut,Ouder de Wyngalt,5
+Daniel Etcheverry,Shani,5
+Milva,Vilgefortz,5
+Eist Tuirseach,Rainfarn,5
+Chloe Stitz,Til Echrade,5
+Emhyr var Emreis,Fercart,5
+Artaud Terranova,Philippa Eilhart,5
+Baron,Fringilla Vigo,5
 Alcides Fierabras,Malatesta,5
-Baron,Fringilla,5
-Xavier,Yarpen Zigrin,5
-Fulko,Fulko Artevelde,5
-Braenn,Loki,4
-Rulle Asper,Two,4
-Geralt,Rulle Asper,4
-Paulie,Regan,4
-Ciri,Yannick Brass,4
-Xavier Moran,Yarpen,4
-Regan,Roach,4
-Emhyr var Emreis,Geralt,4
-Boratek,Geralt,4
-Geralt of Rivia,Linus Pitt,4
-Ciri,Loki,4
-Evermir,Silvena,4
-Fenne,Nivellen,4
-Geralt,Zavist,4
-Geralt,Irion,4
-Annika,Lily,4
-Agloval,Dandelion,4
-Triss,Villentretenmerth,4
-Milva,Yazon Varda,4
-Cahir,Dyffryn,4
-Boreas,Cahir,4
-Geralt,Pike,4
-Ciri,Pennycuick,4
-Ciri,Leo Bonhart,4
-Fabio,Fabio Sachs,4
-Foltest,Molnar,4
-Boreas,Dacre,4
-Eyck,Yarpen Zigrin,4
-Geralt,Ivo Mirce,4
-Geralt of Rivia,Villentretenmerth,4
-Chloe Stitz,Esterhazy,4
-Ebbing,Esterhazy,4
-Chloe Stitz,Falka,4
-Lars,Yennefer,4
-Braathens,Ciri,4
-Aillil,Mawr,4
-Jarre,Shani,4
-Menno Coehoorn,Sievers,4
-Pavetta,Riannon,4
-Cahir,Geralt of Rivia,4
-Aplegatt,Toruviel,4
-Foltest,Philippa Eilhart,4
-Calanthe,Fitz-Oesterlen,4
-Baron,Berengar Leuvaarden,4
-Dorregaray,Yarpen,4
-Hamilcar Danza,Isengrim Faoiltiarna,4
-Assire var Anahid,Demavend,4
-Henselt,Yennefer,4
-Andres Vierny,Boreas Mun,4
-Dacre,Stefan,4
-Geoffrey Monck,Gerhart,4
-Boreas Mun,Talbot,4
-Eyck of Denesle,Yarpen,4
-Veverka,Yennefer,4
-Calanthe,Crach,4
-Milan,Radovid,4
-Emhyr var Emreis,Lara Dorren,4
-Eyck,Eyck of Denesle,4
-Krepp,Vratimir,4
-Keira,Philippa Eilhart,4
-Ola,Ola Harsheim,4
-Dacre,Stefan Skellen,4
-Cregennan,Vilgefortz,4
-Nina Fioravanti,Vilgefortz,4
-Kees van Lo,Menno,4
-Kees van Lo,Menno Coehoorn,4
-Dennis Cranmer,Two,4
-Adam Pangratt,Jarre,4
-Andy Biberveldt,Didi Hofmeier,4
-Carthia,Emhyr,4
-Nicodemus de Boot,Vysogota,4
-Aplegatt,Ciri,4
-Foltest,King,4
-Ceallach,Vattier,4
-Dacre,Dufficey Kriel,4
-Dacre Silifant,Falka,4
-Kamil Ronstetter,Schliemann,4
-Cahir,Carthia,4
-Geralt,Lydia van Bredevoort,4
-Philippa Eilhart,Sigismund,4
-Elan Trahe,Menno,4
-Menno,Menno Coehoorn,4
-Nimue,Pavetta,4
-Condwiramurs,Ithlinne,4
-King,Nimue,4
-Condwiramurs,King,4
-Holofernes,Incarvilia,4
-Holofernes,Milton,4
-Esterad Thyssen,Lebioda,4
-Anna Tiller,Essi Daven,4
-Lady,Margarita Laux-Antille,4
-Albert Solpietra,Nicodemus de Boot,4
-Ebbing,Nicodemus de Boot,4
-Geoffrey Monck,Krepp,4
-Beau,Chireadan,4
-Carduin,Esterad,4
-Ceallach,Rience,4
-King,Zoltan,4
-Geralt,Valdo Marx,4
-Keira,Radcliffe,4
-Roderick de Novembre,Vysogota,4
-Ebbing,Nenneke,4
-Aen,Francesca Findabair,4
-Esterad Thyssen,Vilgefortz,4
-Esterad Thyssen,Triss,4
-Torque,Vanadain,4
-Assire,Carthia,4
-Esterad,Ithlinne,4
-Guiscard Vermuellen,Julia,4
-Flavius,Toublanc Michelet,4
-Geralt,Toublanc Michelet,4
-Duke,Guiscard,4
-Emhyr,Menno Coehoorn,4
-Emhyr,Sheldon Skaggs,4
-Cynthia,Essi,4
-Essi,Zelest,4
-Akeretta,Essi,4
-Essi,Sh'eenaz,4
-Buyvid,Buyvid Backhuysen,4
-Buyvid Backhuysen,Vysogota,4
-Buyvid Backhuysen,Ciri,4
-Ciri,Radcliffe,4
-Triss,Two,4
-Crach,Vilgefortz,4
-Triss,Zoltan Chivay,4
-Milva,Triss,4
-Nimue,Yennefer,4
-Alzur,Triss,4
-Cerro,Yarpen Zigrin,4
-Connor,Milva,4
-Orla,Yennefer,4
-Aevenien,Fringilla Vigo,4
-Assire,Yennefer,4
-Assire,Emhyr,4
-Riannon,Yennefer,4
-Crach,Riannon,4
-Vissegerd,Yennefer,4
-Henselt,Vissegerd,4
-Calanthe,Rience,4
-Crach,Triss,4
-Francesca,Muriel,4
-Calanthe,Paulie,4
-Bronibor,Emhyr var Emreis,4
-Anna Kameny,Ebbing,4
-Calanthe,Lara,4
-Dervla Tryffin Broinne,Emhyr,4
-Annika,Loki,4
-Sandy Frogmorton,Yennefer,4
-Galarr,Torque,4
-Ettariel,Fauve,4
-Fiona,Francesca,4
-Dennis,Yarpen Zigrin,4
-Julia,Vissegerd,4
-Dennis,Vissegerd,4
-Dennis Cranmer,Elkana Foster,4
-Venzlav,Viraxas,4
-Chloe,Ola Harsheim,4
-Joanna,Stefan Skellen,4
-Vissegerd,Vizimir,4
-Geralt,Viraxas,4
-Donimir,Sheldon Skaggs,4
-Geralt of Rivia,Yurga,4
-Milo Vanderbeck,Nenneke,4
-Falka,Rispat,4
-Dacre Silifant,Rispat,4
-Dacre Silifant,Dede Vargas,4
-Dede Vargas,Falka,4
-Ciri,Dede Vargas,4
-Neratin Ceka,Stigward,4
-Crach,Windhalm of Attre,4
-Supree,Zatret Voruta,4
-Ciri,Fiona,4
-Adela,Amavet,4
-Lutz,Remiz,4
-Blue,Two,4
-Blue,Skomlik,4
-Rainfarn,Wieldhill,4
-Ciri,Yurga,4
-Anna Tiller,Eredin,4
-Avallac'h,Ciri,4
-Sheldon,Sheldon Skaggs,4
-Eist Tuirseach,Sheldon Skaggs,4
-Axel,Ciri,4
-Axel,Vanielle,4
-Rience,Shani,4
-Bert,Bert Brigden,4
-Dacre,Rience,4
-Kayleigh,Tuzik,4
-Falka,Seven,4
-Ciaran,Toruviel,4
-Fitz-Oesterlen,Vizimir,4
-Artaud Terranova,Emhyr,4
-Marilka,Renfri,4
-Eist,Mousesack,4
-Assire var Anahid,Emhyr,4
-Emhyr var Emreis,Philippa,4
-Francesca,Sheala de Tancarville,4
-Emhyr var Emreis,Henselt,4
-Til,Triss,4
-Auberon,Eredin,4
-Eredin,Lara,4
-Kelpie,Vesemir,4
-Lucas Corto,Yarpen Zigrin,4
-Lambert,Yarpen Zigrin,4
-Eurneid,Kelpie,4
-Munro,Zoltan Chivay,4
-Milva,Munro,4
-Sheala,Sheala de Tancarville,4
-Ida,Yennefer,4
-Tuzik,Zgarba,4
-Nimir,Tavik,4
-Boreas,Rience,4
-Everett,Linus Pitt,4
-Olsen,Vitek,4
-Yannick,Yarpen,4
-Yannick Brass,Yarpen,4
-Regan,Triss,4
-Galahad,King,4
-Ceallach,Zoltan Chivay,4
-Chireadan,Jarre,4
-Dandelion,Sh'eenaz,4
-Two,Vyr,4
-Adam,Geralt,4
-Aevenien,Rience,4
-Figgis Merluzzo,Milva,4
-Figgis,Geralt,4
+Dennis Cranmer,Falwick,5
+Valdo Marx,Virginia,5
+Til Echrade,Yennefer,5
+Fringilla Vigo,Margarita Laux-Antille,5
+April,Fringilla Vigo,5
+Remiz,Vercta,5
+Dandelion,Radcliffe,5
+Ciri,Dandelion,5
+Esteril Thyssen,Gerard,5
+Gemma,Gerard,5
+Condwiramurs,Two,5
+Nenneke,Sh'eenaz,5
+Dandelion,Yarpen Zigrin,5
+Freya,Radcliffe,5
+Caldemeyn,Radcliffe,5
+Margarita Laux-Antille,Nenneke,5
+Paulie Dahlberg,Vilgefortz,5
+Sabrina Glevissig,Vizimir,5
+Leo Bonhart,Pennycuick,5
+Declan,Pennycuick,5
+Rainfarn,Ravix,5
+Rumplestelt,Supree,5
+Crach an Craite,Roegner,5
+Andy Biberveldt,Didi Hofmeier,5
+Liam,Ramon Tyrconnel,5
+Ervyll,Freixenet,5
+Keira Metz,Tissaia de Vries,5
+Henselt,Tissaia de Vries,5
+Lydia van Bredevoort,Philippa Eilhart,5
+Carduin,Sabrina Glevissig,5
+Hedwig,Triss Merigold,5
+Aine Dermott,Clara,5
+Aine Dermott,Emhyr var Emreis,5
+Eithné,Morenn,5
+Lara Dorren,Vilgefortz,5
+Codringher,Vilgefortz,5
+Geralt of Rivia,Golan,5
+Agloval,Braenn,5
+Dandelion,Gardenia,5
+Foltest,Hedwig,5
+Hedwig,Vizimir,5
+Fauve,Geralt of Rivia,5
+Lydia van Bredevoort,Rience,5
+Bianca,Sabrina Glevissig,5
+Caldemeyn,Kelpie,5
 Crach an Craite,Ragnar,4
-Geralt,Hector Laabs,4
-Francesca,Vattier de Rideaux,4
+Braenn,Loki,4
+Bronibor,Emhyr var Emreis,4
+Triss Merigold,Villentretenmerth,4
+Agloval,Dandelion,4
+Geralt of Rivia,Rulle Asper,4
+Ciri,Pennycuick,4
+Pavetta,Riannon,4
+Emhyr var Emreis,Lara Dorren,4
+Venzlav,Viraxas,4
+Adam Pangratt,Jarre,4
+Supree,Zatret Voruta,4
+Ciri,Yurga,4
+Chloe Stitz,Esterhazy,4
+Dennis Cranmer,Two,4
+Nimue,Pavetta,4
+Geralt of Rivia,Viraxas,4
+Milan,Radovid III,4
+Donimir,Sheldon Skaggs,4
+Eist Tuirseach,Sheldon Skaggs,4
+Andres Vierny,Boreas Mun,4
+Chloe Stitz,Falka,4
+Ebbing,Esterhazy,4
+Cahir,Dyffryn,4
+Menno Coehoorn,Sievers,4
+Lucas Corto,Yarpen Zigrin,4
+Til Echrade,Triss Merigold,4
+Dacre Silifant,Dufficey Kriel,4
+Cynthia,Essi Daven,4
+Nicodemus de Boot,Vysogota,4
+Carthia van Canten,Emhyr var Emreis,4
+Assire var Anahid,Carthia van Canten,4
+Holofernes,Milton,4
+Condwiramurs,King,4
+King,Nimue,4
+Ceallach,Rience,4
+Cahir,Carthia van Canten,4
+Kamil Ronstetter,Schliemann,4
+Dacre Silifant,Falka,4
+Axel,Vanielle,4
+Axel,Ciri,4
+Jarre,Shani,4
+Aillil,Mawr,4
+Braathens,Ciri,4
+Crach an Craite,Windhalm of Attre,4
+Paulie Dahlberg,Yannick Brass,4
+Regan Dahlberg,Triss Merigold,4
+Ebbing,Nenneke,4
+Roderick de Novembre,Vysogota,4
+Condwiramurs,Ithlinne,4
+Guiscard Vermuellen,Julia Abatemarco,4
+Veverka,Yennefer,4
+Regan Dahlberg,Roach,4
+Ciri,Yannick Brass,4
+Julia Abatemarco,Vissegerd,4
+Dennis Cranmer,Yarpen Zigrin,4
+Emhyr var Emreis,Sheldon Skaggs,4
+Emhyr var Emreis,Menno Coehoorn,4
+Essi Daven,Sh'eenaz,4
+Akeretta,Essi Daven,4
+Essi Daven,Zelest,4
+Esterad Thyssen,Ithlinne,4
+Vissegerd,Yennefer,4
+Crach an Craite,Riannon,4
+Riannon,Yennefer,4
+Calanthe,Fitz-Oesterlen,4
+Boreas Mun,Talbot,4
+Assire var Anahid,Demavend,4
+Boratek,Geralt of Rivia,4
+Aevenien,Fringilla Vigo,4
+Orla,Yennefer,4
+Connor,Milva,4
+Francesca Findabair,Muriel,4
+Everett,Linus Pitt,4
+Rience,Shani,4
+Fiona,Francesca Findabair,4
+Anna Kameny,Ebbing,4
+Hamilcar Danza,Isengrim Faoiltiarna,4
+Baron,Berengar Leuvaarden,4
+Crach an Craite,Vilgefortz,4
+Triss Merigold,Two,4
+Ciri,Radcliffe,4
+Buyvid Backhuysen,Vysogota,4
+Crach an Craite,Triss Merigold,4
+Foltest,Philippa Eilhart,4
+Adela,Amavet,4
+Ciri,Fiona,4
+Olsen,Vitek,4
+Philippa Eilhart,Sigismund Dijkstra,4
+Lady,Margarita Laux-Antille,4
+Calanthe,Rience,4
+Henselt,Vissegerd,4
+Vissegerd,Vizimir,4
+Dennis Cranmer,Elkana Foster,4
+Dennis Cranmer,Vissegerd,4
+Rainfarn,Wieldhill,4
+Galarr,Torque,4
+Joanna Selborne,Stefan Skellen,4
+Neratin Ceka,Stigward,4
+Geralt of Rivia,Ivo Mirce,4
+Geralt of Rivia,Toublanc Michelet,4
+Ida,Yennefer,4
+Ebbing,Nicodemus de Boot,4
+Albert Solpietra,Nicodemus de Boot,4
+Alzur,Triss Merigold,4
+Cerro,Yarpen Zigrin,4
 Asse,Pinto,4
-Two,Zoltan Chivay,4
-Keira Metz,Vilgefortz,4
-Count Broinne,Emhyr var Emreis,4
-Francesca Findabair,Vattier de Rideaux,4
-Freya,Galahad,4
-Freya,Gardenia,4
-Agloval,Herwig,4
-Annika,Geralt,4
-Ciri,Sh'eenaz,4
-Milva,Philippa Eilhart,4
+Aevenien,Rience,4
+Geralt of Rivia,Pike,4
+Ciri,Dede Vargas,4
+Dede Vargas,Falka,4
+Dacre Silifant,Dede Vargas,4
+Dacre Silifant,Rispat La Pointe,4
+Falka,Rispat La Pointe,4
+Milo Vanderbeck,Nenneke,4
+Flavius Michelet,Toublanc Michelet,4
+Anna Tiller,Essi Daven,4
 Philippa Eilhart,Vascoigne,4
+Milva,Philippa Eilhart,4
+Foltest,Molnar Giancardi,4
+Nimue,Yennefer,4
+Milva,Triss Merigold,4
+Triss Merigold,Zoltan Chivay,4
+Marilka,Renfri,4
+Foltest,King,4
+Aplegatt,Ciri,4
+Torque,Vanadain,4
+Anna Tiller,Eredin,4
+Eurneid,Kelpie,4
+Sandy Frogmorton,Yennefer,4
+Ceallach,Zoltan Chivay,4
+Geralt of Rivia,Hector Laabs,4
+Calanthe,Crach an Craite,4
+Aplegatt,Toruviel,4
+Milva,Munro Bruys,4
+Nimir,Tavik,4
+Adam Pangratt,Geralt of Rivia,4
+Annika,Loki,4
+Lars,Yennefer,4
+Kayleigh,Tuzik,4
+Tuzik,Zgarba,4
+Two,Vyr,4
+Lambert,Yarpen Zigrin,4
+Dorregaray,Yarpen Zigrin,4
+Galahad,King,4
+Geoffrey Monck,Krepp,4
+Geralt of Rivia,Valdo Marx,4
+Cregennan,Vilgefortz,4
+Geralt of Rivia,Irion,4
+Geralt of Rivia,Zavist,4
+Henselt,Yennefer,4
+Falka,Seven,4
+Artaud Terranova,Emhyr var Emreis,4
+Fitz-Oesterlen,Vizimir,4
+Nina Fioravanti,Vilgefortz,4
+Geoffrey Monck,Gerhart,4
+Evermir,Silvena,4
+Lutz,Remiz,4
+Avallac'h,Ciri,4
+Kelpie,Vesemir,4
+Auberon Muircetach,Eredin,4
+Krepp,Vratimir,4
+Calanthe,Paulie Dahlberg,4
+Blue,Skomlik,4
+Blue,Two,4
+Freya,Galahad,4
+Dandelion,Sh'eenaz,4
+Chireadan,Jarre,4
+Carduin,Esterad Thyssen,4
+Count Broinne,Emhyr var Emreis,4
+Esterad Thyssen,Triss Merigold,4
+Esterad Thyssen,Vilgefortz,4
+Ettariel,Fauve,4
+Freya,Gardenia,4
+Fenne,Nivellen,4
 Herwig,Radcliffe,4
-Anna Henrietta,Pavetta,3
-Malatesta,Reynart,3
-Milva,Reynart,3
-Virginia,Yennefer,3
-Two,Valdo Marx,3
+Ciri,Loki,4
+Ciri,Sh'eenaz,4
+Annika,Geralt of Rivia,4
+Agloval,Herwig,4
+Annika,Lily,4
+Rulle Asper,Two,4
+Vissing,Yennefer,3
 Dorregaray,Mona,3
-Glutton,Nivellen,3
-Borg,Caldemeyn,3
+Glutton,Vereena,3
+Ciri,Dorregaray,3
+Glutton,Roach,3
 Freya,Herwig,3
-Munro,Yazon,3
-Henselt,Philippa,3
-Edmund Bumbler,Jean La Voisier,3
-Crach,Henselt,3
-Ciri,Cregennan,3
-Fringilla Vigo,Triss Merigold,3
-Geralt,Lucas Corto,3
-Geralt of Rivia,Yarpen Zigrin,3
-Boreas Mun,Yennefer,3
-Geralt,Vitek,3
-Geralt of Rivia,Philippa Eilhart,3
-Chireadan,Triss,3
+Glutton,Nivellen,3
+Geralt of Rivia,Menno Coehoorn,3
+Chireadan,Triss Merigold,3
+Eurneid,Jarre,3
 Willem,Yarpen Zigrin,3
 Freya,Willem,3
-Bert Brigden,Stigward,3
-Jarre,Katje,3
-Dacre,Stigward,3
-Meve,Niedamir,3
-Paulie,Yannick Brass,3
-Fringilla,Fulko Artevelde,3
-Milva,Reynart de Bois-Fresnes,3
-Geralt,Neville,3
-Esterad,Lydia,3
-Emhyr,Falka,3
-Falka,Valdez,3
-Ciri,Roderick de Novembre,3
-Marti,Vilgefortz,3
-Emhyr var Emreis,Philippa Eilhart,3
-Emhyr var Emreis,Yennefer,3
-Istvan Igalffy,Orestes Kopps,3
-Geralt,Iola,3
-Keira Metz,Marti,3
-Brick,Ciri,3
-Vesemir,Visenna,3
-Vell,Yurga,3
-Geralt,Menno Coehoorn,3
-Emhyr,Emhyr var Emreis,3
-Condwiramurs,Triss,3
-Eudora,Zoltan,3
-Filavandrel,Foltest,3
-Gyllenstiern,Yarpen,3
-Dacre Silifant,Stefan Skellen,3
-Pavetta,Philippa Eilhart,3
-Francesca,Fringilla,3
-Margarita Laux-Antille,Sheala,3
-Rience,Toublanc Michelet,3
-Dennis,Zoltan Chivay,3
-Jarre,Menno Coehoorn,3
-Ciri,Morenn,3
-Julia Abatemarco,Pike,3
-Fitz-Oesterlen,Philippa Eilhart,3
-Boholt,Eyck of Denesle,3
-Falka,Geralt,3
-Fercart,Philippa,3
-Lucienne,Two,3
-Cahir,Dheran,3
-Ciri,Neratin Ceka,3
-Keira,Keira Metz,3
-Geralt,Radcliffe,3
-Fringilla,Triss,3
-Boholt,Villentretenmerth,3
-Draig Bon-Dhu,Rainfarn,3
-Kelpie,Sandy Frogmorton,3
-Essi,Juan Pablo Vassermiller,3
-Flavius,Rience,3
-Esterad Thyssen,King,3
-Aplegatt,Emhyr,3
-Aevenien,Yennefer,3
-Vissegerd,Wieldhill,3
-Cregennan,Philippa Eilhart,3
-Esterhazy,Neratin,3
-Bernie Hofmeier,Falka,3
-Radcliffe,Yennefer,3
-Francesca,Geralt,3
-Falka,Ola Harsheim,3
-Dacre,Ola Harsheim,3
-Tankred,Zuleyka,3
-Esterad Thyssen,Meve,3
-Bronibor,Ciri,3
-Assire var Anahid,Fringilla Vigo,3
-Benda,Milan,3
-Codringher,Roegner,3
-Ardal aep Dahy,Vattier,3
-Holofernes,Incarvilia Hildebrandt,3
-Essi Daven,Geralt of Rivia,3
-Vattier,Xarthisius,3
-Geralt,Skomlik,3
+Geralt of Rivia,Skomlik,3
+Aine Dermott,Yennefer,3
 Iskra,Skomlik,3
-Cregennan,Goidemar,3
-Aine,Yennefer,3
-Geralt of Rivia,Teleri Drouhard,3
-Geralt,Yirrel,3
-Falka,Sabrina,3
+Falka,Geralt of Rivia,3
+Jarre,Katje,3
+Boreas Mun,Yennefer,3
+Boholt,Villentretenmerth,3
+Aridea,Geralt of Rivia,3
+Ori Reuven,Yennefer,3
 Codringher,Milva,3
-Ori,Yennefer,3
-Ori,Philippa,3
-Draig Bon-Dhu,Vissegerd,3
+Radcliffe,Yennefer,3
+Geralt of Rivia,Radcliffe,3
+Borg,Caldemeyn,3
+Margarita Laux-Antille,Sheala de Tancarville,3
+Aplegatt,Heimo Kantor,3
+Akerspaark,Argentina,3
+Bernie Hofmeier,Falka,3
+Kelpie,Sandy Frogmorton,3
+Jarre,Menno Coehoorn,3
+Ardal aep Dahy,Vattier de Rideaux,3
+Dacre Silifant,Stigward,3
+Julia Abatemarco,Pike,3
+Codringher,Roegner,3
+Wilfli,Yennefer,3
 Ithlinne,Nenneke,3
+Ceallach,Fringilla Vigo,3
+Aplegatt,Emhyr var Emreis,3
+Aevenien,Yennefer,3
+Condwiramurs,Triss Merigold,3
+Eudora,Zoltan Chivay,3
+Bronibor,Ciri,3
+Asse,Mistle,3
+Edmund Bumbler,Jean La Voisier,3
+Esterad Thyssen,Meve,3
+Esterad Thyssen,King,3
+Geralt of Rivia,Veverka,3
+Tankred Thyssen,Zuleyka,3
+Vissegerd,Wieldhill,3
+Meve,Niedamir,3
+Cregennan,Philippa Eilhart,3
+Cregennan,Goidemar,3
+Falka,Sabrina Glevissig,3
+Crach an Craite,Henselt,3
+Lucienne,Two,3
+Istvan Igalffy,Orestes Kopps,3
 Kees van Lo,Ramon Tyrconnel,3
+Ciri,Morenn,3
+Geralt of Rivia,Yirrel,3
+Essi Daven,Juan Pablo Vassermiller,3
+Benda,Milan,3
+Brick,Ciri,3
 Eurneid,Fabio Sachs,3
 Holofernes,Okultich,3
-Wilfli,Yennefer,3
-Aplegatt,Heimo Kantor,3
-Iola,Yaevinn,3
-Akerspaark,Argentina,3
+Fitz-Oesterlen,Philippa Eilhart,3
+Geralt of Rivia,Vitek,3
+Regan Dahlberg,Yannick Brass,3
+Cahir,Dheran,3
+Milva,Something,3
+Emhyr var Emreis,Falka,3
+Falka,Valdez,3
+Ciri,Roderick de Novembre,3
+Aelirenn,Yarpen Zigrin,3
+Draig Bon-Dhu,Vissegerd,3
+Iola the Second,Yaevinn,3
+Draig Bon-Dhu,Rainfarn,3
 Vysogota,Yennefer,3
 Amaranth,Stavro,3
 Baron,Windsor Imbra,3
-Geralt,Veverka,3
-Isengrim Faoiltiarna,Menno,3
-Regan Dahlberg,Yannick Brass,3
-Glutton,Vereena,3
-Glutton,Roach,3
-Aridea,Geralt,3
-Ceallach,Fringilla Vigo,3
-Eurneid,Jarre,3
-Milva,Something,3
-Philippa Eilhart,Triss Merigold,3
-Tissaia,Triss Merigold,3
-Yarpen,Zoltan Chivay,3
-Figgis,Milva,3
-Aelirenn,Yarpen,3
-Condwiramurs,Jarre,3
-Stella,Stella Congreve,3
-Assire var Anahid,Nimue,3
-Geralt,Guy de Bois-Fresnes,3
+Falka,Ola Harsheim,3
+Vell,Yurga,3
+Vesemir,Visenna,3
+Geralt of Rivia,Lucas Corto,3
 April,Vilgefortz,3
-Stefan,Vilgefortz,3
-Asse,Mistle,3
-Ciri,Dorregaray,3
-Vissing,Yennefer,3
-Mistle,Servadio,2
-Yennefer,Zoltan,2
+Henselt,Philippa Eilhart,3
+Filavandrel,Foltest,3
+Marti,Vilgefortz,3
+Esterad Thyssen,Lydia van Bredevoort,3
+Vattier de Rideaux,Xarthisius,3
+Two,Valdo Marx,3
+Condwiramurs,Jarre,3
+Assire var Anahid,Nimue,3
+Virginia,Yennefer,3
+Fringilla Vigo,Fulko Artevelde,3
+Anna Henrietta,Pavetta,3
+Malatesta,Reynart de Bois-Fresnes,3
+Geralt of Rivia,Iola the Second,3
+Ciri,Cregennan,3
+Geralt of Rivia,Guy de Bois-Fresnes,3
 Dandelion,Reynart de Bois-Fresnes,2
-Caleb,Yazon Varda,2
-Aevenien,Francesca,2
-Geralt,Triss Merigold,2
-Nivellen,Venimira,2
-Butcher,Nenneke,2
-Nivellen,Primula,2
-Cahir,Reynart,2
-Fringilla,Merlin,2
-Carthia van Canten,Menno Coehoorn,2
-Barclay Els,Julia Abatemarco,2
-Geralt,Gerard,2
-Anzelm Aubry,Shani,2
-Aplegatt,Vizimir,2
-Cairbre,Toruviel,2
-Molnar Giancardi,Yennefer,2
-Gaudemunda,Guiscard,2
-Eist Tuirseach,Mousesack,2
-Draig Bon-Dhu,Windhalm,2
-Sh'eenaz,Sulivoy,2
-Aen Saevherne,Cregennan,2
-Flourens Delannoy,Milva,2
-Francesca Findabair,Sheala,2
-Geralt,Homer,2
-Draakul,Geralt,2
-Pavetta,Wieldhill,2
-Lutz,Vercta,2
-Baron,Skomlik,2
-Ceallach,Vattier de Rideaux,2
-Adam Pangratt,Menno Coehoorn,2
-Boreas,Stefan Skellen,2
-Falka,Rience,2
-Ithlinne,Vilgefortz,2
-Neratin,Vattier,2
-Codringher,Emhyr,2
-Ciri,Roegner,2
-Essi Daven,Yennefer,2
-Emhyr,Esteril Thyssen,2
-Esterad,Lebioda,2
-Boreas Mun,Cahir,2
-Dandelion,Pike,2
-Fabio,Molnar,2
-Vilgefortz,Xarthisius,2
-Francesca Findabair,Geralt,2
-Falka,Yennefer,2
-Baron,Ciri,2
-Effenberg,Emhyr var Emreis,2
-Margarita Laux-Antille,Vilgefortz,2
-Crispin,Sabrina,2
-Drogodar,Rainfarn,2
-Draig Bon-Dhu,Lord Strept,2
-Calanthe,Cerro,2
-Falka,Scarra,2
-Emhyr,Zoltan,2
-Duke,Zelest,2
-Ciri,Dennis Cranmer,2
-Incarvilia Hildebrandt,Ograbek,2
-Milo Vanderbeck,Pike,2
-Adalia,Assire var Anahid,2
-Fiona,Yennefer,2
+Galahad,Lady,2
+Errdil,Neville,2
+Two,Virginia,2
+Anna Tiller,Auberon Muircetach,2
+Carduin,Marti,2
+Carduin,Vilgefortz,2
+Carduin,Tissaia de Vries,2
 Filavandrel,Vilgefortz,2
-Gyllenstiern,Yarpen Zigrin,2
-April,Dagorad,2
-Geralt of Rivia,Lydia,2
-Geoffrey Monck,Giambattista,2
-Marti,Yennefer,2
-Marti,Sabrina Glevissig,2
-Dacre,Til Echrade,2
-Geralt,Vimme,2
-Sulimir,Vimme,2
-Boreas Mun,Vilgefortz,2
-Henselt,Radovid,2
-Chloe Stitz,Dacre Silifant,2
-Andres Vierny,Chloe,2
-Geralt,Kennet,2
-Foltest,Shilard,2
-Ciri,Corbett,2
-Brick,Junghans,2
-Ograbek,Okultich,2
-Goidemar,Klaproth,2
-Jarre,Zoltan Chivay,2
-Blasco Grant,Elkana Foster,2
-Dennis,Julia,2
-Triss,Vysogota,2
-Hjalmar,Pavetta,2
-Falka,Til Echrade,2
+Bode,Digod,2
+Tissaia de Vries,Vizimir,2
+Atlan Kerk,Yurga,2
 Chloe Stitz,Rispat La Pointe,2
-Marti,Philippa Eilhart,2
+Lambert,Two,2
+Triss Merigold,Vanielle,2
+Anzelm Aubry,Shani,2
+Connor,Geralt of Rivia,2
+Aelirenn,Geralt of Rivia,2
+Muskrat,Vysogota,2
+Chloe Stitz,Dacre Silifant,2
+Baron,Ciri,2
+Gruzila,Rience,2
+Dandelion,Rience,2
+Brick,Junghans,2
+Draig Bon-Dhu,Windhalm of Attre,2
+Boreas Mun,Vilgefortz,2
+Adam Pangratt,Menno Coehoorn,2
+Fiona,Yennefer,2
 Bronik,Ciri,2
 Connor,Yennefer,2
-Connor,Geralt,2
-Two,Virginia,2
-Ihuarraquax,Triss,2
-Bode,Digod,2
-Dandelion,Rience,2
-Anna Tiller,Auberon,2
-Eurneid,Milo Vanderbeck,2
-Aelirenn,Geralt,2
-Radcliffe,Villentretenmerth,2
-Fifteen,Geralt,2
-Giselher,Tuzik,2
-Aen Saevherne,Fringilla,2
-Margarita,Sabrina Glevissig,2
-Henselt,Sheala de Tancarville,2
-Philippa Eilhart,Sheala de Tancarville,2
-Munro,Munro Bruys,2
-Atlan Kerk,Yurga,2
-Errdil,Neville,2
+Ori Reuven,Rience,2
+April,Dagorad,2
+Triss Merigold,Yannick Brass,2
+Vilgefortz,Xarthisius,2
+Effenberg,Emhyr var Emreis,2
+Calanthe,Cerro,2
+Falka,Goulue,2
+Emhyr var Emreis,Esteril Thyssen,2
+Carthia van Canten,Menno Coehoorn,2
+Cahir,Seven,2
+Aevenien,Francesca Findabair,2
+Mistle,Servadio,2
+Lara Dorren,Yennefer,2
+Daniel Etcheverry,Emhyr var Emreis,2
 Adam Pangratt,Henselt,2
-Carduin,Marti,2
-Carduin,Tissaia,2
-Fercart,Geralt,2
-Henselt,Niedamir,2
-Count Broinne,Vilgefortz,2
+Draig Bon-Dhu,Lord Strept,2
+Henselt,Radovid III,2
 Meve,Virfuril,2
-Gosta,Triss,2
+Henselt,Niedamir,2
+Aen Saevherne,Cregennan,2
+Drogodar,Rainfarn,2
+Barclay Els,Julia Abatemarco,2
+Ciri,Corbett,2
+Adalia,Assire var Anahid,2
+Crispin,Sabrina Glevissig,2
+Geralt of Rivia,Homer Straggen,2
+Draakul,Geralt of Rivia,2
+Milo Vanderbeck,Pike,2
+Foltest,Shilard,2
+Nivellen,Primula,2
+Nenneke,Yves,2
+Nivellen,Venimira,2
+Butcher,Nenneke,2
+Fercart,Geralt of Rivia,2
+Margarita Laux-Antille,Vilgefortz,2
+Lutz,Vercta,2
+Baron,Skomlik,2
+Count Broinne,Vilgefortz,2
+Eurneid,Milo Vanderbeck,2
+Ograbek,Okultich,2
+Pavetta,Wieldhill,2
+Gosta,Triss Merigold,2
 Joanna Selborne,Vilgefortz,2
 Joanna Selborne,Ola Harsheim,2
-Ori Reuven,Rience,2
-Triss,Vanielle,2
-Gruzila,Rience,2
-Ida,Philippa,2
-Geralt,Nohorn,2
-Triss,Yannick,2
-Galahad,Lady,2
-Lambert,Two,2
-Falka,Goulue,2
-Tissaia de Vries,Vizimir,2
-Francesca,Rience,2
-Cahir,Seven,2
-Muskrat,Vysogota,2
-Carduin,Vilgefortz,2
-Lara Dorren,Yennefer,2
-Nenneke,Yves,2
+Radcliffe,Villentretenmerth,2
+Aplegatt,Vizimir,2
+Cairbre aep Diared,Toruviel,2
+Giselher,Tuzik,2
+Fabio Sachs,Molnar Giancardi,2
+Blasco Grant,Elkana Foster,2
+Ciri,Roegner,2
+Emhyr var Emreis,Zoltan Chivay,2
+Dennis Cranmer,Julia Abatemarco,2
+Gaudemunda,Guiscard Vermuellen,2
+Geralt of Rivia,Gerard,2
+Sulimir,Vimme Vivaldi,2
+Duke,Zelest,2
+Incarvilia Hildebrandt,Ograbek,2
+Ciri,Dennis Cranmer,2
+Aen Saevherne,Fringilla Vigo,2
+Ida,Philippa Eilhart,2
+Fifteen,Geralt of Rivia,2
+Anzelm Aubry,Geralt of Rivia,2
+Fringilla Vigo,Merlin,2
+Yennefer,Zoltan Chivay,2
 Ciri,Daniel Etcheverry,2
-Anzelm Aubry,Geralt,2
-Daniel Etcheverry,Emhyr,2
+Ihuarraquax,Triss Merigold,2
 Ciri,Muriel,2
-Roach,Vereena,1
-Crach an Craite,Herwig,1
-Geralt,Radovid III,1
-Ciri,Vattier de Rideaux,1
-Geralt,Lady,1
-Albrich,Fringilla,1
-Effenberg,Zoltan Chivay,1
-Geralt,Merle,1
-Eltibald,Geralt,1
-Milva,Vattier,1
-King,Zoltan Chivay,1
-Fercart,Rience,1
-Morvran Voorhis,Tissaia de Vries,1
-Cahir,Vesemir,1
-Boreas Mun,Meve,1
-Jarre,Zyvik,1
-Meve,Philippa,1
-Fringilla Vigo,Sabrina,1
-Lytta Neyd,Triss,1
-Emhyr,Esterad Thyssen,1
+Geralt of Rivia,Kennet,2
+Goidemar,Klaproth,2
+Marti,Yennefer,2
+Falka,Yennefer,2
+Geralt of Rivia,Nohorn,2
+Sh'eenaz,Sulivoy,2
+Geoffrey Monck,Giambattista,2
+Henselt,Sheala de Tancarville,2
+Flourens Delannoy,Milva,2
+Triss Merigold,Vysogota,2
+Hjalmar,Pavetta,2
+Falka,Til Echrade,2
+Dandelion,Pike,2
+Falka,Scarra,2
+Falka,Rience,2
+Ithlinne,Vilgefortz,2
+Codringher,Emhyr var Emreis,2
+Kees van Lo,Ouder de Wyngalt,1
+Elan Trahe,Zyvik,1
+Blenheim Blenckert,Marti,1
 Hrafnir,Mansfeld,1
-Istvan Igalffy,Vascoigne,1
-Henselt,Julia Abatemarco,1
-Jarre,Toruviel,1
-Lydia van Bredevoort,Sabrina,1
+Morvran Voorhis,Tissaia de Vries,1
+Fercart,Rience,1
+Ciri,Seven,1
+Meve,Philippa Eilhart,1
+Berengar Leuvaarden,Shilard,1
+Geralt of Rivia,Wolfgang Amadeus Goatbeard,1
+Geralt of Rivia,Radovid III,1
+Boreas Mun,Philippa Eilhart,1
+Cahir,Vesemir,1
+Ciri,Paulie Dahlberg,1
+Foltest,Nitert,1
+Jarre,Zyvik,1
+Adam Pangratt,Shani,1
+Barclay Els,Two,1
+Esterhazy,Ola Harsheim,1
+Caleb Stratton,Jarre,1
+Aelirenn,Ciri,1
+Ouder de Wyngalt,Shani,1
 Effenberg,Jan Calveit,1
 Falka,Joanna Selborne,1
-Falka,Tissaia de Vries,1
-Berengar Leuvaarden,Shilard,1
-Philippa,Vattier de Rideaux,1
-Berengar Leuvaarden,Vattier,1
-Herbert Stammelford,Vilgefortz,1
-Klara Larissa de Winter,Yanna of Murivel,1
-Eyck,Villentretenmerth,1
-Foltest,Nitert,1
-Boreas,Philippa,1
-Pike,Vimme,1
-Boreas Mun,Stefan,1
-Geralt,Gerhart,1
-Assire var Anahid,Lara,1
-Caleb Stratton,Jarre,1
-Dainty,Geralt of Rivia,1
-Esterhazy,Ola Harsheim,1
-Fabio,Leila,1
-Adam,Shani,1
-Blenheim Blenckert,Marti,1
-Elan Trahe,Zyvik,1
-Kees van Lo,Ouder de Wyngalt,1
-Ouder de Wyngalt,Shani,1
-Something,Two,1
-Akerspaark,Roegner,1
-Fitz-Oesterlen,Francesca Findabair,1
-Milva,Toruviel,1
-Menno Coehoorn,Vattier,1
+Istvan Igalffy,Vascoigne,1
+Assire var Anahid,Lara Dorren,1
 Lamarr Flaut,Liam,1
-Andy,Didi Hofmeier,1
-Barclay,Two,1
-Effenberg,Flourens,1
-Essi,Essi Daven,1
-Eurneid,Iola the Second,1
+Ebbing,Henselt,1
 Kelpie,Nimue,1
-Rience,Vissegerd,1
-Sheldon Skaggs,Zoltan,1
-Dennis Cranmer,Evangelina Parr,1
-Artaud,Lydia van Bredevoort,1
-Philippa Eilhart,Rience,1
-Buyvid Backhuysen,Yennefer,1
-Crach,Philippa Eilhart,1
-Ardal,Vilgefortz,1
-Morenn,Venzlav,1
+Berengar Leuvaarden,Vattier de Rideaux,1
+Effenberg,Flourens Delannoy,1
+Jarre,Toruviel,1
 Myhrman,Vilgefortz,1
-Baron,Calanthe,1
-Goidemar,Jarre,1
-Julia Abatemarco,Okultich,1
+Boreas Mun,Meve,1
 Shani,Two,1
+Esterad Thyssen,Vizimir,1
+Rience,Vissegerd,1
 Myhrman,Two,1
 Myhrman,Toublanc Michelet,1
-Geralt,Wolfgang Amadeus Goatbeard,1
-Ciri,Seven,1
-Esterad Thyssen,Vizimir,1
-Ciri,Yuz Jannowitz,1
-Ola Harsheim,Stefan,1
-Ciri,Paulie Dahlberg,1
-Ebbing,Henselt,1
-Geralt,Paulie,1
-Paulie Dahlberg,Yannick Brass,1
-Aelirenn,Ciri,1
-Francesca Findabair,Philippa Eilhart,1
+Morenn,Venzlav,1
+Effenberg,Zoltan Chivay,1
+Milva,Vattier de Rideaux,1
+Albrich,Fringilla Vigo,1
+Lytta Neyd,Triss Merigold,1
+Crach an Craite,Philippa Eilhart,1
+Buyvid Backhuysen,Yennefer,1
+Menno Coehoorn,Vattier de Rideaux,1
+Pike,Vimme Vivaldi,1
+Baron,Calanthe,1
 Caleb Stratton,Milva,1
+Geralt of Rivia,Gerhart,1
+Fabio Sachs,Leila,1
 Nohorn,Renfri,1
+Geralt of Rivia,Lady,1
+Julia Abatemarco,Okultich,1
+Dennis Cranmer,Evangelina Parr,1
+Fitz-Oesterlen,Francesca Findabair,1
+Milva,Toruviel,1
+Ola Harsheim,Stefan Skellen,1
+Ciri,Yuz Jannowitz,1
+Eltibald,Geralt of Rivia,1
+Klara Larissa de Winter,Yanna of Murivel,1
+Herbert Stammelford,Vilgefortz,1
+Eyck of Denesle,Villentretenmerth,1
+Akerspaark,Roegner,1
+Falka,Tissaia de Vries,1
+Lydia van Bredevoort,Sabrina Glevissig,1
+Goidemar,Jarre,1
+Something,Two,1
+Geralt of Rivia,Merle,1
+Crach an Craite,Herwig,1
+Roach,Vereena,1
