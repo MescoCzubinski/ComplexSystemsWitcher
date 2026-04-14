@@ -2,25 +2,11 @@ import csv
 import os
 import networkx as nx
 import numpy as np
+from helpers import load_graph, section
+
 
 MATRIX_SUBGRAPH_SIZE = 15
-
-def load_graph(csv_path):
-    G = nx.Graph()
-    with open(csv_path, newline='', encoding='utf-8') as f:
-        for row in csv.DictReader(f):
-            w = int(row['weight'])
-            G.add_edge(row['character1'], row['character2'], weight=w)
-    return G
-
-
-def section(title):
-    if title != "":
-        title = f" {title} "
-    else:
-        title = "====="
-    print(f"\n==========================={title}===========================\n")
-
+TOP_N = 10
 
 def describe_graph_type(G):
     results = []
@@ -52,11 +38,11 @@ def describe_graph_type(G):
 
 
 def describe_graph_size(G):
-    print(f"Vertices: {G.number_of_nodes()}")
+    print(f"Nodes: {G.number_of_nodes()}")
     print(f"Edges:  {G.number_of_edges()}")
 
 
-def compute_node_centrality(G):
+def describe_node_centrality(G):
     degree      = nx.degree_centrality(G)
     closeness   = nx.closeness_centrality(G, distance='weight')
     betweenness = nx.betweenness_centrality(G, weight='weight', normalized=True)
@@ -75,7 +61,7 @@ def compute_node_centrality(G):
     return degree, closeness, betweenness
 
 
-def compute_edge_centrality(G):
+def describe_edge_centrality(G):
     betweenness = nx.edge_betweenness_centrality(G, weight='weight', normalized=True)
 
     print("\n=== Edge Betweenness ===")
@@ -99,11 +85,11 @@ def describe_top(G, top_n=10):
 
     for title, data in sections:
         section(title)
-        for node, value in sorted(data.items(), key=lambda x: x[1], reverse=True)[:top_n]:
+        for node, value in sorted(data.items(), key=lambda x: x[1], reverse=True)[:TOP_N]:
             print(f"  {node:<20} {value:.4f}")
 
     section("Top Edge Betweenness")
-    for (u, v), value in sorted(edge_betweenness.items(), key=lambda x: x[1], reverse=True)[:top_n]:
+    for (u, v), value in sorted(edge_betweenness.items(), key=lambda x: x[1], reverse=True)[:TOP_N]:
         print(f"  {u:<20} -- {v:<20} {value:.4f}")
 
 
@@ -146,9 +132,9 @@ if __name__ == '__main__':
     describe_graph_size(G)
 
     section("")
-    compute_node_centrality(G)
+    describe_node_centrality(G)
 
-    compute_edge_centrality(G)
+    describe_edge_centrality(G)
 
     describe_top(G)
 
