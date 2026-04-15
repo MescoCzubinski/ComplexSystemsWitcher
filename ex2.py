@@ -107,54 +107,29 @@ def describe_connected_components(G):
 
 
 def describe_k_connectivity(G):
-    cc = G.subgraph(max(nx.connected_components(G), key=len))
-
-    node_connectivity = nx.node_connectivity(cc)
-    edge_connectivity = nx.edge_connectivity(cc)
+    node_connectivity = nx.node_connectivity(G)
+    edge_connectivity = nx.edge_connectivity(G)
 
     print(f"Node connectivity: {node_connectivity}")
     print(f"Edge connectivity: {edge_connectivity}")
 
 
 def describe_cliques(G, n=4):
-    cc = G.subgraph(max(nx.connected_components(G), key=len))
+    all_cliques = list(nx.find_cliques(G))
 
-    max_clique = max(nx.find_cliques(cc), key=len)
+    max_clique = max(all_cliques, key=len)
     print(f"Maximum clique (size {len(max_clique)}):")
     print(f"  {', '.join(max_clique)}")
 
-    cliques_n = [c for c in nx.find_cliques(cc) if len(c) == n]
+    cliques_n = [c for c in all_cliques if len(c) == n]
     print(f"\nCliques of order {n}: {len(cliques_n)} found")
     for c in cliques_n[:5]:
         print(f"  {', '.join(c)}")
 
-    near_cliques = [c for c in nx.find_cliques(cc) if len(c) >= n - 1]
-    print(f"\nNear-cliques (n-1={n-1}-subcliques): {len(near_cliques)} found")
+    near_cliques = [c for c in all_cliques if len(c) >= n - 1 and len(c) < n]
+    print(f"\nNear-cliques (size={n-1}): {len(near_cliques)} found")
     for c in near_cliques[:5]:
         print(f"  {', '.join(c)}")
-
-
-def describe_categories(G):
-    cc = G.subgraph(max(nx.connected_components(G), key=len)).copy()
-
-    bridges = list(nx.bridges(cc))
-    articulations = list(nx.articulation_points(cc))
-
-    degree = dict(cc.degree(weight='weight'))
-    mean_degree = np.mean(list(degree.values()))
-    hubs = [n for n, d in degree.items() if d > 2 * mean_degree]
-
-    print(f"Hubs (degree > 2x mean={mean_degree:.1f}):")
-    for h in sorted(hubs, key=lambda n: degree[n], reverse=True)[:10]:
-        print(f"  {h:<25} degree={degree[h]}")
-
-    print(f"\nArticulation points (przeguby): {len(articulations)}")
-    for a in articulations[:10]:
-        print(f"  {a}")
-
-    print(f"\nBridges (mosty): {len(bridges)}")
-    for u, v in bridges[:10]:
-        print(f"  {u} -- {v}")
 
 
 if __name__ == '__main__':
@@ -185,10 +160,7 @@ if __name__ == '__main__':
     describe_connected_components(G)
 
     section("Grpah connectivity")
-    describe_k_connectivity(G)
+    describe_k_connectivity(G_cc)
 
     section("Grpah cliques")
-    describe_cliques(G)
-
-    section("Grpah categories")
-    describe_categories(G)
+    describe_cliques(G_cc)

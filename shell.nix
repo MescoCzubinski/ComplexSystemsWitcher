@@ -6,9 +6,9 @@ pkgs.mkShell {
       with ps; [
         networkx
         matplotlib
-        scipy
         numpy
         pandas
+        scipy
         spacy
         spacy-models.en_core_web_sm
       ]))
