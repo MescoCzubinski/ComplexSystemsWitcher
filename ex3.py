@@ -40,12 +40,10 @@ def compare_communities(G, greedy, louvain, label):
     for name, comms in zip(names, [greedy, louvain, label]):
         sizes = [len(c) for c in comms]
         Q = nx_comm.modularity(G, comms, weight='weight')
-        clustering = nx.average_clustering(G, weight='weight')
 
         print(f"{name}")
         print(f"Communities:  {len(comms)}")
         print(f"Modularity Q: {Q:.4f}")
-        print(f"Avg clustering: {clustering:.4f}")
         print(f"Size min/max/mean/median: {min(sizes)} / {max(sizes)} / {np.mean(sizes):.1f} / {np.median(sizes):.1f} \n")
 
 
@@ -102,7 +100,7 @@ def draw_graph(G, img_path, communities, title='Witcher characters graph'):
                            edge_color='white',
                            arrows=True,
                            arrowstyle='-',
-                           connectionstyle='arc3,rad=0.2')
+                           connectionstyle='arc3,rad=0python.2')
 
     node_sizes = [50 + 2000 * (weighted_degree[n] / max_weighted_degree) ** 0.6 for n in G.nodes()]
     nx.draw_networkx_nodes(G, pos, ax=ax,
@@ -169,14 +167,14 @@ if __name__ == '__main__':
     compare_communities(G, greedy, louvain, label)
     plot_community_sizes(greedy, louvain, label)
 
-    section("Greedy Modularity")
-    draw_graph(G, os.path.join('data', 'graph_greedy_drawen.png'), greedy, title='Greedy Modularity')
-    draw_embedding(G, os.path.join('data', 'graph_greedy_embedding.png'), greedy, title='Greedy Modularity')
+    # section("Greedy Modularity")
+    # draw_graph(G, os.path.join('data', 'graph_greedy_drawen.png'), greedy, title='Greedy Modularity')
+    # draw_embedding(G, os.path.join('data', 'graph_greedy_embedding.png'), greedy, title='Greedy Modularity')
 
-    section("Louvain")
-    draw_graph(G, os.path.join('data', 'graph_louvain.png'), louvain, title='Louvain')
-    draw_embedding(G, os.path.join('data', 'graph_louvain_embedding.png'), louvain, title='Louvain')
+    # section("Louvain")
+    # draw_graph(G, os.path.join('data', 'graph_louvain.png'), louvain, title='Louvain')
+    # draw_embedding(G, os.path.join('data', 'graph_louvain_embedding.png'), louvain, title='Louvain')
 
-    section("Label Propagation")
-    draw_graph(G, os.path.join('data', 'graph_label.png'), label, title='Label Propagation')
-    draw_embedding(G, os.path.join('data', 'graph_label_embedding.png'), label, title='Label Propagation')
+    # section("Label Propagation")
+    # draw_graph(G, os.path.join('data', 'graph_label.png'), label, title='Label Propagation')
+    # draw_embedding(G, os.path.join('data', 'graph_label_embedding.png'), label, title='Label Propagation')
