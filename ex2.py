@@ -7,6 +7,7 @@ from helpers import load_graph, section
 
 TOP_N = 10
 
+
 def describe_density(G):
     density = nx.density(G)
     print(f"Density: {density:.6f}")

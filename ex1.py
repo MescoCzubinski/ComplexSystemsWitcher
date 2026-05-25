@@ -16,6 +16,7 @@ BG = '#1c1c1c'
 MATRIX_SUBGRAPH_SIZE = 15
 TOP_N = 10
 
+
 def draw_graph(G, img_path):
     fig, ax = plt.subplots(figsize=(32, 32), facecolor=BG)
     ax.set_facecolor(BG)

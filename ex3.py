@@ -11,6 +11,7 @@ import umap
 from node2vec import Node2Vec
 from helpers import load_graph, section
 
+
 BG = '#1c1c1c'
 
 
@@ -167,14 +168,14 @@ if __name__ == '__main__':
     compare_communities(G, greedy, louvain, label)
     plot_community_sizes(greedy, louvain, label)
 
-    # section("Greedy Modularity")
-    # draw_graph(G, os.path.join('data', 'graph_greedy_drawen.png'), greedy, title='Greedy Modularity')
-    # draw_embedding(G, os.path.join('data', 'graph_greedy_embedding.png'), greedy, title='Greedy Modularity')
+    section("Greedy Modularity")
+    draw_graph(G, os.path.join('data', 'graph_greedy_drawen.png'), greedy, title='Greedy Modularity')
+    draw_embedding(G, os.path.join('data', 'graph_greedy_embedding.png'), greedy, title='Greedy Modularity')
 
-    # section("Louvain")
-    # draw_graph(G, os.path.join('data', 'graph_louvain.png'), louvain, title='Louvain')
-    # draw_embedding(G, os.path.join('data', 'graph_louvain_embedding.png'), louvain, title='Louvain')
+    section("Louvain")
+    draw_graph(G, os.path.join('data', 'graph_louvain.png'), louvain, title='Louvain')
+    draw_embedding(G, os.path.join('data', 'graph_louvain_embedding.png'), louvain, title='Louvain')
 
-    # section("Label Propagation")
-    # draw_graph(G, os.path.join('data', 'graph_label.png'), label, title='Label Propagation')
-    # draw_embedding(G, os.path.join('data', 'graph_label_embedding.png'), label, title='Label Propagation')
+    section("Label Propagation")
+    draw_graph(G, os.path.join('data', 'graph_label.png'), label, title='Label Propagation')
+    draw_embedding(G, os.path.join('data', 'graph_label_embedding.png'), label, title='Label Propagation')
