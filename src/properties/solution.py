@@ -2,14 +2,10 @@ import csv
 import os
 import sys
 import networkx as nx
-import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
-from utils import load_graph, section, DATA
-
-
-TOP_N = 10
+from utils import load_graph, section, DATA, TOP_N, print_stats
 
 
 def describe_density(G):
@@ -72,19 +68,11 @@ def describe_centrality_distributions(G):
     for title, data in node_sections:
         values = list(data.values())
         section(title)
-        print(f"  Min:    {min(values):.4f}")
-        print(f"  Max:    {max(values):.4f}")
-        print(f"  Mean:   {np.mean(values):.4f}")
-        print(f"  Median: {np.median(values):.4f}")
-        print(f"  Std:    {np.std(values):.4f}")
+        print_stats(values)
 
     values = list(edge_betweenness.values())
     section("Grpah centrality distributions - edge Betweenness")
-    print(f"  Min:    {min(values):.4f}")
-    print(f"  Max:    {max(values):.4f}")
-    print(f"  Mean:   {np.mean(values):.4f}")
-    print(f"  Median: {np.median(values):.4f}")
-    print(f"  Std:    {np.std(values):.4f}")
+    print_stats(values)
 
 
 def describe_pagerank(G):

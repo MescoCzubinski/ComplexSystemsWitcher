@@ -12,13 +12,11 @@ import matplotlib.pyplot as plt
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
-from utils import load_graph, section, DATA
+from utils import load_graph, section, DATA, BG, TOP_N
 
 
 MIN_WEIGHT = 5
-BG = '#1c1c1c'
 MATRIX_SUBGRAPH_SIZE = 15
-TOP_N = 10
 
 
 def draw_graph(G, img_path):

@@ -15,10 +15,7 @@ from node2vec import Node2Vec
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
-from utils import load_graph, section, DATA
-
-
-BG = '#1c1c1c'
+from utils import load_graph, section, DATA, BG, node_color_map
 
 
 def greedy_communities(G):
@@ -35,11 +32,6 @@ def louvain_communities(G):
 
 def label_propagation_communities(G):
     return [set(c) for c in nx_comm.label_propagation_communities(G)]
-
-
-def node_color_map(communities):
-    cmap = matplotlib.colormaps['hsv'].resampled(len(communities))
-    return {node: cmap(i) for i, comm in enumerate(communities) for node in comm}
 
 
 def compare_communities(G, greedy, louvain, label):

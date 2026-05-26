@@ -13,11 +13,7 @@ import seaborn as sns
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
-from utils import load_graph, section, DATA
-
-
-BG = '#1c1c1c'
-TOP_N = 10
+from utils import load_graph, section, DATA, BG, TOP_N, node_color_map, print_stats
 
 
 def generate_er(G):
@@ -70,19 +66,11 @@ def describe_centralities(G, name):
     for title, data in node_sections:
         section(f"{name} - {title} distribution")
         values = list(data.values())
-        print(f"  Min:    {min(values):.4f}")
-        print(f"  Max:    {max(values):.4f}")
-        print(f"  Mean:   {np.mean(values):.4f}")
-        print(f"  Median: {np.median(values):.4f}")
-        print(f"  Std:    {np.std(values):.4f}")
+        print_stats(values)
 
     section(f"{name} - Edge Betweenness distribution")
     values = list(edge_betw.values())
-    print(f"  Min:    {min(values):.4f}")
-    print(f"  Max:    {max(values):.4f}")
-    print(f"  Mean:   {np.mean(values):.4f}")
-    print(f"  Median: {np.median(values):.4f}")
-    print(f"  Std:    {np.std(values):.4f}")
+    print_stats(values)
 
     return degree, closeness, betweenness, edge_betw
 
@@ -183,11 +171,6 @@ def plot_community_sizes(named_comms, img_path):
     print(f"Saved: {img_path}")
 
 
-def node_color_map(communities):
-    cmap = matplotlib.colormaps['hsv'].resampled(len(communities))
-    return {node: cmap(i) for i, comm in enumerate(communities) for node in comm}
-
-
 def draw_graph(G, img_path, communities, title, show_labels=False):
     fig, ax = plt.subplots(figsize=(32, 32), facecolor=BG)
     ax.set_facecolor(BG)
@@ -200,10 +183,13 @@ def draw_graph(G, img_path, communities, title, show_labels=False):
 
     degree = dict(G.degree())
     max_degree = max(degree.values()) if degree else 1
-    max_weight = max((d.get('weight', 1) for _, _, d in G.edges(data=True)), default=1)
-
-    edge_widths = [0.4 + 3.0 * d.get('weight', 1) / max_weight for _, _, d in G.edges(data=True)]
-    edge_alphas = [0.3 + 0.5 * d.get('weight', 1) / max_weight for _, _, d in G.edges(data=True)]
+    weights = [d.get('weight', 1) for _, _, d in G.edges(data=True)]
+    if weights and min(weights) == max(weights):
+        edge_widths, edge_alphas = 0.3, 0.25
+    else:
+        max_weight = max(weights)
+        edge_widths = [0.4 + 3.0 * w / max_weight for w in weights]
+        edge_alphas = [0.3 + 0.5 * w / max_weight for w in weights]
     nx.draw_networkx_edges(G, pos, ax=ax,
                            width=edge_widths,
                            alpha=edge_alphas,
@@ -243,11 +229,11 @@ if __name__ == '__main__':
     describe_centralities(G_er, 'Erdős–Rényi')
     describe_centralities(G_ba, 'Barabási-Albert')
 
-    plot_degree_distribution([('Orginal', G)], os.path.join(HERE, 'degree_orginal.png'))
     plot_degree_distribution([
+        ('Orginal',         G),
         ('Erdős–Rényi',     G_er),
         ('Barabási-Albert', G_ba),
-    ], os.path.join(HERE, 'degree_random.png'))
+    ], os.path.join(HERE, 'degree.png'))
 
     comms_orginal = describe_communities(G,    'Orginal')
     comms_er      = describe_communities(G_er, 'Erdős–Rényi')

@@ -11,10 +11,7 @@ from sklearn.metrics import roc_auc_score, precision_score, recall_score, f1_sco
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
-from utils import section, DATA
-
-
-BG = '#1c1c1c'
+from utils import section, DATA, BG
 DATA_DIR = os.path.join(DATA, 'email_data')
 
 
