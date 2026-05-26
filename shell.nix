@@ -15,6 +15,7 @@ pkgs.mkShell {
       .venv/bin/pip install \
         networkx \
         matplotlib \
+        seaborn \
         numpy \
         pandas \
         scipy \
