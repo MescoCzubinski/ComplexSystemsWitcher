@@ -1,15 +1,21 @@
 import math
 import os
+import sys
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import networkx as nx
 import networkx.algorithms.community as nx_comm
 import numpy as np
+import pandas as pd
 import community as community_louvain
+import seaborn as sns
 import umap
 from node2vec import Node2Vec
-from helpers import load_graph, section
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.dirname(HERE))
+from utils import load_graph, section, DATA
 
 
 BG = '#1c1c1c'
@@ -49,31 +55,39 @@ def compare_communities(G, greedy, louvain, label):
 
 
 def plot_community_sizes(greedy, louvain, label):
-    names = ['Greedy Modularity', 'Louvain', 'Label Propagation']
-
-    fig, axes = plt.subplots(1, 3, figsize=(18, 6), facecolor=BG)
-    fig.suptitle('Community Size Distribution', fontsize=16, color='white')
-
-    for ax, (name, comms) in zip(axes, zip(names, [greedy, louvain, label])):
+    named = [
+        ('Greedy Modularity', greedy),
+        ('Louvain',           louvain),
+        ('Label Propagation', label),
+    ]
+    rows = []
+    for name, comms in named:
         sizes = sorted([len(c) for c in comms], reverse=True)
-        ax.bar(range(len(sizes)), sizes, color='steelblue', width=0.8)
+        for rank, size in enumerate(sizes):
+            rows.append({'Algorithm': name, 'Rank': rank, 'Size': size})
+    df = pd.DataFrame(rows)
 
-        ax.set_facecolor(BG)
-        ax.set_title(name, color='white', fontsize=12, pad=10)
-        ax.set_xlabel('Community rank', color='white', fontsize=10)
-        ax.set_ylabel('Nodes', color='white', fontsize=10)
-        ax.tick_params(colors='white')
-        ax.yaxis.grid(True, color='white', alpha=0.1, linestyle='--')
-        ax.set_axisbelow(True)
+    fig, ax = plt.subplots(figsize=(14, 6), facecolor=BG)
+    ax.set_facecolor(BG)
 
-        for spine in ax.spines.values():
-            spine.set_edgecolor('#444444')
+    sns.barplot(data=df, x='Rank', y='Size', hue='Algorithm',
+                ax=ax, palette='Set2', alpha=0.85)
 
-        ax.text(0.97, 0.97, f'n={len(comms)}', transform=ax.transAxes,
-                color='white', fontsize=9, ha='right', va='top', alpha=0.7)
+    ax.set_title('Community Size Distribution', color='white', fontsize=14, pad=10)
+    ax.set_xlabel('Community rank', color='white', fontsize=10)
+    ax.set_ylabel('Nodes', color='white', fontsize=10)
+    ax.tick_params(colors='white')
+    ax.yaxis.grid(True, color='white', alpha=0.1, linestyle='--')
+    ax.set_axisbelow(True)
+
+    for spine in ax.spines.values():
+        spine.set_edgecolor('#444444')
+
+    legend = ax.legend(facecolor=BG, edgecolor='#444444', labelcolor='white')
+    legend.get_title().set_color('white')
 
     plt.tight_layout()
-    path = os.path.join('data', 'community_sizes.png')
+    path = os.path.join(HERE, 'community_sizes.png')
     plt.savefig(path, dpi=150, facecolor=BG, bbox_inches='tight')
     plt.close()
 
@@ -101,7 +115,7 @@ def draw_graph(G, img_path, communities, title='Witcher characters graph'):
                            edge_color='white',
                            arrows=True,
                            arrowstyle='-',
-                           connectionstyle='arc3,rad=0python.2')
+                           connectionstyle='arc3,rad=0.2')
 
     node_sizes = [50 + 2000 * (weighted_degree[n] / max_weighted_degree) ** 0.6 for n in G.nodes()]
     nx.draw_networkx_nodes(G, pos, ax=ax,
@@ -158,7 +172,7 @@ def draw_embedding(G, img_path, communities, title='Graph Embedding'):
 
 
 if __name__ == '__main__':
-    G = load_graph(os.path.join('data', 'connections.csv'))
+    G = load_graph(os.path.join(DATA, 'connections.csv'))
 
     greedy = greedy_communities(G)
     louvain = louvain_communities(G)
@@ -169,13 +183,13 @@ if __name__ == '__main__':
     plot_community_sizes(greedy, louvain, label)
 
     section("Greedy Modularity")
-    draw_graph(G, os.path.join('data', 'graph_greedy_drawen.png'), greedy, title='Greedy Modularity')
-    draw_embedding(G, os.path.join('data', 'graph_greedy_embedding.png'), greedy, title='Greedy Modularity')
+    draw_graph(G, os.path.join(HERE, 'graph_greedy_drawen.png'), greedy, title='Greedy Modularity')
+    draw_embedding(G, os.path.join(HERE, 'graph_greedy_embedding.png'), greedy, title='Greedy Modularity')
 
     section("Louvain")
-    draw_graph(G, os.path.join('data', 'graph_louvain.png'), louvain, title='Louvain')
-    draw_embedding(G, os.path.join('data', 'graph_louvain_embedding.png'), louvain, title='Louvain')
+    draw_graph(G, os.path.join(HERE, 'graph_louvain.png'), louvain, title='Louvain')
+    draw_embedding(G, os.path.join(HERE, 'graph_louvain_embedding.png'), louvain, title='Louvain')
 
     section("Label Propagation")
-    draw_graph(G, os.path.join('data', 'graph_label.png'), label, title='Label Propagation')
-    draw_embedding(G, os.path.join('data', 'graph_label_embedding.png'), label, title='Label Propagation')
+    draw_graph(G, os.path.join(HERE, 'graph_label.png'), label, title='Label Propagation')
+    draw_embedding(G, os.path.join(HERE, 'graph_label_embedding.png'), label, title='Label Propagation')

@@ -1,5 +1,6 @@
 import csv
 import os
+import sys
 import math
 import random
 import numpy as np
@@ -8,7 +9,10 @@ import networkx.algorithms.community as nx_comm
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from helpers import load_graph, section
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.dirname(HERE))
+from utils import load_graph, section, DATA
 
 
 MIN_WEIGHT = 5
@@ -179,8 +183,8 @@ def describe_matrices(G, subgraph_size=15):
 
 
 if __name__ == '__main__':
-    G = load_graph(os.path.join('data', 'connections.csv'))
-    draw_graph(G, os.path.join('data', 'graph.png'))
+    G = load_graph(os.path.join(DATA, 'connections.csv'))
+    draw_graph(G, os.path.join(HERE, 'graph.png'))
 
     section("Grpah type")
     describe_graph_type(G)

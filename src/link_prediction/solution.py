@@ -1,4 +1,5 @@
 import os
+import sys
 import glob
 import random
 import numpy as np
@@ -7,11 +8,14 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from sklearn.metrics import roc_auc_score, precision_score, recall_score, f1_score
-from helpers import section
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.dirname(HERE))
+from utils import section, DATA
 
 
 BG = '#1c1c1c'
-DATA_DIR = os.path.join('data', 'email_data')
+DATA_DIR = os.path.join(DATA, 'email_data')
 
 
 def load_graph(path):
@@ -168,7 +172,7 @@ def plot_edge_counts(prefix, name):
     for spine in ax.spines.values():
         spine.set_edgecolor('#444444')
 
-    path = os.path.join('data', f'edge_counts_{prefix}.png')
+    path = os.path.join(HERE, f'edge_counts_{prefix}.png')
     plt.tight_layout()
     plt.savefig(path, dpi=150, facecolor=BG, bbox_inches='tight')
     plt.close()
@@ -221,7 +225,7 @@ def plot_network_changes(prefix, name, top_n=60):
                                edgelist=new_in_subgraph,
                                edge_color='red', width=2.0, alpha=0.9)
 
-    path = os.path.join('data', f'network_changes_{prefix}.png')
+    path = os.path.join(HERE, f'network_changes_{prefix}.png')
     plt.savefig(path, dpi=150, facecolor=BG, bbox_inches='tight')
     plt.close()
     print(f"Saved: {path}")

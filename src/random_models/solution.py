@@ -1,5 +1,6 @@
 import math
 import os
+import sys
 import random
 import numpy as np
 import networkx as nx
@@ -9,7 +10,10 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-from helpers import load_graph, section
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.dirname(HERE))
+from utils import load_graph, section, DATA
 
 
 BG = '#1c1c1c'
@@ -105,15 +109,23 @@ def describe_communities(G, name):
     return comms
 
 
-def plot_degree_distribution(G, name, img_path):
-    fig, ax = plt.subplots(figsize=(8, 6), facecolor=BG)
+def plot_degree_distribution(named_graphs, img_path):
+    rows = []
+    for name, G in named_graphs:
+        for _, d in G.degree():
+            rows.append({'Network': name, 'Degree': d})
+    df = pd.DataFrame(rows)
 
-    degrees = [d for _, d in G.degree()]
-    bins = range(0, max(degrees) + 2)
-    ax.hist(degrees, bins=bins, color='steelblue', edgecolor='#1c1c1c', alpha=0.9)
-
+    fig, ax = plt.subplots(figsize=(10, 6), facecolor=BG)
     ax.set_facecolor(BG)
-    ax.set_title(f'Degree distribution - {name}', color='white', fontsize=14, pad=10)
+
+    sns.histplot(data=df, x='Degree', hue='Network',
+                 multiple='layer', palette='Set2',
+                 ax=ax, alpha=0.6, discrete=True,
+                 edgecolor=BG, linewidth=0.4)
+
+    title = ' vs '.join(n for n, _ in named_graphs)
+    ax.set_title(f'Degree distribution - {title}', color='white', fontsize=14, pad=10)
     ax.set_xlabel('Degree', color='white', fontsize=10)
     ax.set_ylabel('Count', color='white', fontsize=10)
     ax.tick_params(colors='white')
@@ -122,6 +134,15 @@ def plot_degree_distribution(G, name, img_path):
 
     for spine in ax.spines.values():
         spine.set_edgecolor('#444444')
+
+    legend = ax.get_legend()
+    if legend is not None:
+        for text in legend.get_texts():
+            text.set_color('white')
+        legend.get_frame().set_facecolor(BG)
+        legend.get_frame().set_edgecolor('#444444')
+        if legend.get_title() is not None:
+            legend.get_title().set_color('white')
 
     plt.tight_layout()
     plt.savefig(img_path, dpi=150, facecolor=BG, bbox_inches='tight')
@@ -206,7 +227,7 @@ if __name__ == '__main__':
     random.seed(37)
     np.random.seed(37)
 
-    G    = load_graph(os.path.join('data', 'connections.csv'))
+    G    = load_graph(os.path.join(DATA, 'connections.csv'))
     G_er = generate_er(G)
     G_ba = generate_ba(G)
 
@@ -222,9 +243,11 @@ if __name__ == '__main__':
     describe_centralities(G_er, 'Erdős–Rényi')
     describe_centralities(G_ba, 'Barabási-Albert')
 
-    plot_degree_distribution(G,    'Orginal',         os.path.join('data', 'ex5_degree_orginal.png'))
-    plot_degree_distribution(G_er, 'Erdős–Rényi',     os.path.join('data', 'ex5_degree_er.png'))
-    plot_degree_distribution(G_ba, 'Barabási-Albert', os.path.join('data', 'ex5_degree_ba.png'))
+    plot_degree_distribution([('Orginal', G)], os.path.join(HERE, 'degree_orginal.png'))
+    plot_degree_distribution([
+        ('Erdős–Rényi',     G_er),
+        ('Barabási-Albert', G_ba),
+    ], os.path.join(HERE, 'degree_random.png'))
 
     comms_orginal = describe_communities(G,    'Orginal')
     comms_er      = describe_communities(G_er, 'Erdős–Rényi')
@@ -234,8 +257,8 @@ if __name__ == '__main__':
         ('Orginal',         comms_orginal),
         ('Erdős–Rényi',     comms_er),
         ('Barabási-Albert', comms_ba),
-    ], os.path.join('data', 'ex5_community_sizes.png'))
+    ], os.path.join(HERE, 'community_sizes.png'))
 
-    draw_graph(G,    os.path.join('data', 'ex5_graph_orginal.png'), comms_orginal, 'Orginal network', show_labels=True)
-    draw_graph(G_er, os.path.join('data', 'ex5_graph_er.png'),      comms_er,      'Erdős–Rényi')
-    draw_graph(G_ba, os.path.join('data', 'ex5_graph_ba.png'),      comms_ba,      'Barabási-Albert')
+    draw_graph(G,    os.path.join(HERE, 'graph_orginal.png'), comms_orginal, 'Orginal network', show_labels=True)
+    draw_graph(G_er, os.path.join(HERE, 'graph_er.png'),      comms_er,      'Erdős–Rényi')
+    draw_graph(G_ba, os.path.join(HERE, 'graph_ba.png'),      comms_ba,      'Barabási-Albert')

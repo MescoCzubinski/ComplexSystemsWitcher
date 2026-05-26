@@ -1,8 +1,12 @@
 import csv
 import os
+import sys
 import networkx as nx
 import numpy as np
-from helpers import load_graph, section
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.dirname(HERE))
+from utils import load_graph, section, DATA
 
 
 TOP_N = 10
@@ -134,7 +138,7 @@ def describe_cliques(G, n=4):
 
 
 if __name__ == '__main__':
-    G = load_graph(os.path.join('data', 'connections.csv'))
+    G = load_graph(os.path.join(DATA, 'connections.csv'))
     G_cc = G.subgraph(max(nx.connected_components(G), key=len))
 
     section("Grpah density")

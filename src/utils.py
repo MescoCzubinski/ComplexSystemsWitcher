@@ -1,5 +1,9 @@
 import csv
+import os
 import networkx as nx
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA = os.path.join(ROOT, 'data')
 
 
 def load_graph(csv_path):
