@@ -123,14 +123,18 @@ def describe_predictions(prefix, name):
     print(f"  Historical:    {len(historical)}  Test: {len(testset)}")
 
     results_cn, results_jc = [], []
+    historical_set = set(historical)
+    hist_paths = []
 
-    for test_path in testset[:10]:
-        idx = paths.index(test_path)
-        if idx == 0:
+    for p in paths:
+        if p in historical_set:
+            hist_paths.append(p)
+            continue
+        if not hist_paths or len(results_cn) >= 10:
             continue
 
-        G_hist = build_cumulative_graph(paths[:idx])
-        G_test = load_graph(test_path)
+        G_hist = build_cumulative_graph(hist_paths)
+        G_test = load_graph(p)
 
         positive_pairs = [(u, v) for u, v in G_test.edges()
                           if not G_hist.has_edge(u, v)
@@ -176,57 +180,77 @@ def plot_edge_counts(prefix, name):
     print(f"Saved: {path}")
 
 
-def plot_network_changes(prefix, name, top_n=60):
+def plot_predictions(prefix, name, predictor, predictor_name,
+                     top_n=200, top_k=50):
     paths = load_windows(prefix)
-    _, testset = split_to_historical_and_testset(paths)
+    historical, testset = split_to_historical_and_testset(paths)
     if not testset:
         return
 
-    test_path = testset[0]
+    test_path = testset[len(testset) // 2]
     idx = paths.index(test_path)
-    G_hist = build_cumulative_graph(paths[:idx])
-    G_test = load_graph(test_path)
+    hist_paths = [p for p in historical if paths.index(p) < idx]
+    if not hist_paths:
+        return
 
-    new_edges = [(u, v) for u, v in G_test.edges()
-                 if not G_hist.has_edge(u, v)
-                 and u in G_hist and v in G_hist]
+    G_hist = build_cumulative_graph(hist_paths)
+    G_test = load_graph(test_path)
 
     top_nodes = sorted(G_hist.nodes(),
                        key=lambda n: G_hist.degree(n), reverse=True)[:top_n]
     top_set = set(top_nodes)
-    new_in_subgraph = [(u, v) for u, v in new_edges if u in top_set and v in top_set]
+    S_hist = G_hist.subgraph(top_nodes).copy()
 
-    S_before = G_hist.subgraph(top_nodes).copy()
-    G_after = G_hist.copy()
-    G_after.add_edges_from(new_edges)
-    S_after = G_after.subgraph(top_nodes).copy()
+    candidates = [(u, v) for i, u in enumerate(top_nodes)
+                  for v in top_nodes[i + 1:] if not G_hist.has_edge(u, v)]
+    scores = predictor(G_hist, candidates)
+    ranked = sorted(zip(candidates, scores), key=lambda x: -x[1])
+    predicted = {frozenset(p) for p, _ in ranked[:top_k]}
 
-    pos = nx.spring_layout(S_before, seed=42, k=2.0)
+    actual_new = {frozenset((u, v)) for u, v in G_test.edges()
+                  if not G_hist.has_edge(u, v)
+                  and u in top_set and v in top_set}
 
-    fig, axes = plt.subplots(1, 2, figsize=(20, 10), facecolor=BG)
-    panels = [
-        (axes[0], S_before, 'Before'),
-        (axes[1], S_after,  f'After (+{len(new_in_subgraph)} new edges)'),
-    ]
-    for ax, S, title in panels:
-        ax.set_facecolor(BG)
-        ax.set_title(f'{title} - {name}', color='white', fontsize=14)
-        ax.axis('off')
-        sizes = [S.degree(n) * 6 + 40 for n in S.nodes()]
-        nx.draw_networkx_edges(S, pos, ax=ax, edge_color='white', alpha=0.2, width=0.5)
-        nx.draw_networkx_nodes(S, pos, ax=ax, node_size=sizes,
-                               node_color='steelblue', alpha=0.85)
+    hits         = predicted & actual_new
+    pred_only    = predicted - actual_new
+    actual_only  = actual_new - predicted
 
-    if new_in_subgraph:
-        nx.draw_networkx_edges(S_after, pos, ax=axes[1],
-                               edgelist=new_in_subgraph,
-                               edge_color='red', width=2.0, alpha=0.9)
+    print(f"  [{predictor_name} / {prefix}] "
+          f"candidates={len(candidates)}  "
+          f"predicted={len(predicted)}  "
+          f"actual_new={len(actual_new)}  "
+          f"hits={len(hits)}")
 
-    path = os.path.join(HERE, f'network_changes_{prefix}.png')
-    plt.savefig(path, dpi=150, facecolor=BG, bbox_inches='tight')
+    pos = nx.spring_layout(S_hist, seed=42, k=2.0)
+
+    fig, ax = plt.subplots(figsize=(14, 10), facecolor=BG)
+    ax.set_facecolor(BG)
+    title = (f'{predictor_name} - {name}\n'
+             f'green=predicted, red=missed, gold=hit ({len(hits)}/{top_k})')
+    ax.set_title(title, color='white', fontsize=12)
+    ax.axis('off')
+
+    nx.draw_networkx_edges(S_hist, pos, ax=ax,
+                           edge_color='white', alpha=0.15, width=0.4)
+
+    sizes = [S_hist.degree(n) * 6 + 40 for n in S_hist.nodes()]
+    nx.draw_networkx_nodes(S_hist, pos, ax=ax, node_size=sizes,
+                           node_color='steelblue', alpha=0.85)
+
+    def _draw(edges, color, width):
+        if edges:
+            nx.draw_networkx_edges(S_hist, pos, ax=ax,
+                                   edgelist=[tuple(e) for e in edges],
+                                   edge_color=color, width=width, alpha=0.9)
+    _draw(pred_only,   'limegreen', 2.0)
+    _draw(actual_only, 'red',       2.0)
+    _draw(hits,        'gold',      3.0)
+
+    out = os.path.join(HERE,
+                       f'predictions_{prefix}_{predictor_name.lower()}.png')
+    plt.savefig(out, dpi=150, facecolor=BG, bbox_inches='tight')
     plt.close()
-    print(f"Saved: {path}")
-
+    print(f"Saved: {out}")
 
 
 if __name__ == '__main__':
@@ -244,7 +268,9 @@ if __name__ == '__main__':
     plot_edge_counts('o1p1',   'Daily (o1p1)')
     plot_edge_counts('o30p15', '30-day (o30p15)')
 
-    section("Network changes visualization")
-    plot_network_changes('o1p1',   'Daily (o1p1)')
-    plot_network_changes('o30p15', '30-day (o30p15)')
+    section("Prediction visualization")
+    plot_predictions('o1p1',   'Daily (o1p1)',   predict_common_neighbors, 'CN')
+    plot_predictions('o1p1',   'Daily (o1p1)',   predict_jaccard,          'Jaccard')
+    plot_predictions('o30p15', '30-day (o30p15)', predict_common_neighbors, 'CN')
+    plot_predictions('o30p15', '30-day (o30p15)', predict_jaccard,          'Jaccard')
 
