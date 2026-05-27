@@ -75,8 +75,8 @@ def build_connections(window_size=5):
     character_df = load_characters(os.path.join('data', 'characters.csv'))
 
     book_files = sorted(
-        os.path.join('books', f)
-        for f in os.listdir('books')
+        os.path.join('data', 'books', f)
+        for f in os.listdir(os.path.join('data', 'books'))
         if f.endswith('.txt')
     )
 
