@@ -100,23 +100,26 @@ def describe_communities(G, name):
 def plot_degree_distribution(named_graphs, img_path):
     rows = []
     for name, G in named_graphs:
+        counts = {}
         for _, d in G.degree():
-            rows.append({'network': name, 'degree': d})
+            counts[d] = counts.get(d, 0) + 1
+        for deg, cnt in counts.items():
+            rows.append({'network': name, 'degree': deg, 'count': cnt})
     df = pd.DataFrame(rows)
+    order = sorted(df['degree'].unique())
 
-    fig, ax = plt.subplots(figsize=(10, 6), facecolor=BG)
+    fig, ax = plt.subplots(figsize=(16, 6), facecolor=BG)
     ax.set_facecolor(BG)
 
-    sns.histplot(data=df, x='degree', hue='network',
-                 multiple='layer', palette='Set2',
-                 ax=ax, alpha=0.6, discrete=True,
-                 edgecolor=BG, linewidth=0.4)
+    sns.barplot(data=df, x='degree', y='count', hue='network',
+                order=order, ax=ax, palette='Set2', alpha=0.85)
 
     title = ' vs '.join(n for n, _ in named_graphs)
     ax.set_title(f'degree distribution - {title}', color='white', fontsize=14, pad=10)
     ax.set_xlabel('degree', color='white', fontsize=10)
     ax.set_ylabel('count', color='white', fontsize=10)
     ax.tick_params(colors='white')
+    ax.tick_params(axis='x', labelrotation=90, labelsize=8)
     ax.yaxis.grid(True, color='white', alpha=0.1, linestyle='--')
     ax.set_axisbelow(True)
 
@@ -193,7 +196,10 @@ def draw_graph(G, img_path, communities, title, show_labels=False):
     nx.draw_networkx_edges(G, pos, ax=ax,
                            width=edge_widths,
                            alpha=edge_alphas,
-                           edge_color='white')
+                           edge_color='white',
+                           arrows=True,
+                           arrowstyle='-',
+                           connectionstyle='arc3,rad=0.2')
 
     node_sizes = [50 + 2000 * (weighted_degree[n] / max_weighted_degree) ** 0.6 for n in G.nodes()]
     nx.draw_networkx_nodes(G, pos, ax=ax,
@@ -204,6 +210,8 @@ def draw_graph(G, img_path, communities, title, show_labels=False):
     if show_labels:
         nx.draw_networkx_labels(G, pos, ax=ax, font_size=7, font_color='white')
 
+    ax.set_xlim(ax.get_xlim()[0] - 0.3, ax.get_xlim()[1] + 0.3)
+    ax.set_ylim(ax.get_ylim()[0] - 0.3, ax.get_ylim()[1] + 0.3)
     plt.savefig(img_path, dpi=200, facecolor=BG, bbox_inches='tight')
     plt.close()
     print(f"Saved: {img_path}")
@@ -233,7 +241,7 @@ if __name__ == '__main__':
         ('Original',        G),
         ('Erdős–Rényi',     G_er),
         ('Barabási-Albert', G_ba),
-    ], os.path.join(HERE, 'degree.png'))
+    ], os.path.join(HERE, 'degree_distribution.png'))
 
     comms_original = describe_communities(G,    'Original')
     comms_er       = describe_communities(G_er, 'Erdős–Rényi')
