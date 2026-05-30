@@ -56,18 +56,18 @@ def plot_community_sizes(greedy, louvain, label):
     for name, comms in named:
         sizes = sorted([len(c) for c in comms], reverse=True)
         for rank, size in enumerate(sizes):
-            rows.append({'Algorithm': name, 'Rank': rank, 'Size': size})
+            rows.append({'algorithm': name, 'rank': rank, 'size': size})
     df = pd.DataFrame(rows)
 
     fig, ax = plt.subplots(figsize=(14, 6), facecolor=BG)
     ax.set_facecolor(BG)
 
-    sns.barplot(data=df, x='Rank', y='Size', hue='Algorithm',
+    sns.barplot(data=df, x='rank', y='size', hue='algorithm',
                 ax=ax, palette='Set2', alpha=0.85)
 
-    ax.set_title('Community Size Distribution', color='white', fontsize=14, pad=10)
-    ax.set_xlabel('Community rank', color='white', fontsize=10)
-    ax.set_ylabel('Nodes', color='white', fontsize=10)
+    ax.set_title('community size distribution', color='white', fontsize=14, pad=10)
+    ax.set_xlabel('community rank', color='white', fontsize=10)
+    ax.set_ylabel('nodes', color='white', fontsize=10)
     ax.tick_params(colors='white')
     ax.yaxis.grid(True, color='white', alpha=0.1, linestyle='--')
     ax.set_axisbelow(True)
@@ -124,7 +124,7 @@ def draw_graph(G, img_path, communities, title='Witcher characters graph'):
     print(f"Saved: {img_path}")
 
 
-def draw_embedding(G, img_path, communities, title='Graph Embedding'):
+def draw_embedding(G, img_path, communities, title='graph embedding'):
     weighted_degree = dict(G.degree(weight='weight'))
     max_wd = max(weighted_degree.values())
     color_map = node_color_map(communities)
@@ -170,7 +170,7 @@ if __name__ == '__main__':
     louvain = louvain_communities(G)
     label = label_propagation_communities(G)
 
-    section("Comparing communities")
+    section("comparing communities")
     compare_communities(G, greedy, louvain, label)
     plot_community_sizes(greedy, louvain, label)
 

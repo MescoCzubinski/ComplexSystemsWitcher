@@ -165,9 +165,9 @@ def plot_edge_counts(prefix, name):
     ax.set_facecolor(BG)
     ax.plot(counts, color='steelblue', linewidth=0.8)
 
-    ax.set_title(f'Edges per window - {name}', color='white', fontsize=14)
-    ax.set_xlabel('Window index', color='white')
-    ax.set_ylabel('Edges', color='white')
+    ax.set_title(f'edges per window - {name}', color='white', fontsize=14)
+    ax.set_xlabel('window index', color='white')
+    ax.set_ylabel('edges', color='white')
     ax.tick_params(colors='white')
     ax.yaxis.grid(True, color='white', alpha=0.1, linestyle='--')
     for spine in ax.spines.values():
@@ -256,21 +256,21 @@ def plot_predictions(prefix, name, predictor, predictor_name,
 if __name__ == '__main__':
     random.seed(42)
 
-    section("Window splits")
-    describe_windows('o1p1',   'Daily windows')
+    section("window splits")
+    describe_windows('o1p1',   'daily windows')
     describe_windows('o30p15', '30-day windows')
 
-    section("Predictions")
-    describe_predictions('o1p1', 'Daily (o1p1)')
+    section("predictions")
+    describe_predictions('o1p1', 'daily (o1p1)')
     describe_predictions('o30p15', '30-day (o30p15)')
 
-    section("Edge counts over time")
-    plot_edge_counts('o1p1',   'Daily (o1p1)')
+    section("edge counts over time")
+    plot_edge_counts('o1p1',   'daily (o1p1)')
     plot_edge_counts('o30p15', '30-day (o30p15)')
 
-    section("Prediction visualization")
-    plot_predictions('o1p1',   'Daily (o1p1)',   predict_common_neighbors, 'CN')
-    plot_predictions('o1p1',   'Daily (o1p1)',   predict_jaccard,          'Jaccard')
+    section("prediction visualization")
+    plot_predictions('o1p1',   'daily (o1p1)',   predict_common_neighbors, 'CN')
+    plot_predictions('o1p1',   'daily (o1p1)',   predict_jaccard,          'Jaccard')
     plot_predictions('o30p15', '30-day (o30p15)', predict_common_neighbors, 'CN')
     plot_predictions('o30p15', '30-day (o30p15)', predict_jaccard,          'Jaccard')
 

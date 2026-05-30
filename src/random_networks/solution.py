@@ -58,9 +58,9 @@ def describe_centralities(G, name):
     edge_betw   = nx.edge_betweenness_centrality(G, normalized=True)
 
     node_sections = [
-        ("Degree",           degree),
-        ("Closeness",        closeness),
-        ("Node Betweenness", betweenness),
+        ("degree",           degree),
+        ("closeness",        closeness),
+        ("node betweenness", betweenness),
     ]
 
     for title, data in node_sections:
@@ -68,7 +68,7 @@ def describe_centralities(G, name):
         values = list(data.values())
         print_stats(values)
 
-    section(f"{name} - Edge Betweenness distribution")
+    section(f"{name} - edge betweenness distribution")
     values = list(edge_betw.values())
     print_stats(values)
 
@@ -101,21 +101,21 @@ def plot_degree_distribution(named_graphs, img_path):
     rows = []
     for name, G in named_graphs:
         for _, d in G.degree():
-            rows.append({'Network': name, 'Degree': d})
+            rows.append({'network': name, 'degree': d})
     df = pd.DataFrame(rows)
 
     fig, ax = plt.subplots(figsize=(10, 6), facecolor=BG)
     ax.set_facecolor(BG)
 
-    sns.histplot(data=df, x='Degree', hue='Network',
+    sns.histplot(data=df, x='degree', hue='network',
                  multiple='layer', palette='Set2',
                  ax=ax, alpha=0.6, discrete=True,
                  edgecolor=BG, linewidth=0.4)
 
     title = ' vs '.join(n for n, _ in named_graphs)
-    ax.set_title(f'Degree distribution - {title}', color='white', fontsize=14, pad=10)
-    ax.set_xlabel('Degree', color='white', fontsize=10)
-    ax.set_ylabel('Count', color='white', fontsize=10)
+    ax.set_title(f'degree distribution - {title}', color='white', fontsize=14, pad=10)
+    ax.set_xlabel('degree', color='white', fontsize=10)
+    ax.set_ylabel('count', color='white', fontsize=10)
     ax.tick_params(colors='white')
     ax.yaxis.grid(True, color='white', alpha=0.1, linestyle='--')
     ax.set_axisbelow(True)
@@ -143,18 +143,18 @@ def plot_community_sizes(named_comms, img_path):
     for name, comms in named_comms:
         sizes = sorted([len(c) for c in comms], reverse=True)
         for rank, size in enumerate(sizes):
-            rows.append({'Network': name, 'Rank': rank, 'Size': size})
+            rows.append({'network': name, 'rank': rank, 'size': size})
     df = pd.DataFrame(rows)
 
     fig, ax = plt.subplots(figsize=(10, 6), facecolor=BG)
     ax.set_facecolor(BG)
 
-    sns.barplot(data=df, x='Rank', y='Size', hue='Network',
+    sns.barplot(data=df, x='rank', y='size', hue='network',
                 ax=ax, palette='Set2', alpha=0.85)
 
-    ax.set_title('Community sizes (Greedy Modularity)', color='white', fontsize=14, pad=10)
-    ax.set_xlabel('Community rank', color='white', fontsize=10)
-    ax.set_ylabel('Nodes', color='white', fontsize=10)
+    ax.set_title('community sizes (Greedy Modularity)', color='white', fontsize=14, pad=10)
+    ax.set_xlabel('community rank', color='white', fontsize=10)
+    ax.set_ylabel('nodes', color='white', fontsize=10)
     ax.tick_params(colors='white')
     ax.yaxis.grid(True, color='white', alpha=0.1, linestyle='--')
     ax.set_axisbelow(True)
@@ -179,10 +179,10 @@ def draw_graph(G, img_path, communities, title, show_labels=False):
 
     node_color = node_color_map(communities)
 
-    pos = nx.spring_layout(G, weight='weight', k=18.0 / math.sqrt(G.number_of_nodes()))
+    pos = nx.spring_layout(G, weight='weight', seed=42, k=18.0 / math.sqrt(G.number_of_nodes()))
 
-    degree = dict(G.degree())
-    max_degree = max(degree.values()) if degree else 1
+    weighted_degree = dict(G.degree(weight='weight'))
+    max_weighted_degree = max(weighted_degree.values()) if weighted_degree else 1
     weights = [d.get('weight', 1) for _, _, d in G.edges(data=True)]
     if weights and min(weights) == max(weights):
         edge_widths, edge_alphas = 0.3, 0.25
@@ -195,7 +195,7 @@ def draw_graph(G, img_path, communities, title, show_labels=False):
                            alpha=edge_alphas,
                            edge_color='white')
 
-    node_sizes = [50 + 2000 * (degree[n] / max_degree) ** 0.6 for n in G.nodes()]
+    node_sizes = [50 + 2000 * (weighted_degree[n] / max_weighted_degree) ** 0.6 for n in G.nodes()]
     nx.draw_networkx_nodes(G, pos, ax=ax,
                            alpha=0.95,
                            node_size=node_sizes,
@@ -217,34 +217,34 @@ if __name__ == '__main__':
     G_er = generate_er(G)
     G_ba = generate_ba(G)
 
-    describe_basic(G,    'Orginal')
+    describe_basic(G,    'Original')
     describe_basic(G_er, 'Erdős–Rényi')
     describe_basic(G_ba, 'Barabási-Albert')
 
-    describe_top_degrees(G,    'Orginal')
+    describe_top_degrees(G,    'Original')
     describe_top_degrees(G_er, 'Erdős–Rényi')
     describe_top_degrees(G_ba, 'Barabási-Albert')
 
-    describe_centralities(G,    'Orginal')
+    describe_centralities(G,    'Original')
     describe_centralities(G_er, 'Erdős–Rényi')
     describe_centralities(G_ba, 'Barabási-Albert')
 
     plot_degree_distribution([
-        ('Orginal',         G),
+        ('Original',        G),
         ('Erdős–Rényi',     G_er),
         ('Barabási-Albert', G_ba),
     ], os.path.join(HERE, 'degree.png'))
 
-    comms_orginal = describe_communities(G,    'Orginal')
-    comms_er      = describe_communities(G_er, 'Erdős–Rényi')
-    comms_ba      = describe_communities(G_ba, 'Barabási-Albert')
+    comms_original = describe_communities(G,    'Original')
+    comms_er       = describe_communities(G_er, 'Erdős–Rényi')
+    comms_ba       = describe_communities(G_ba, 'Barabási-Albert')
 
     plot_community_sizes([
-        ('Orginal',         comms_orginal),
+        ('Original',        comms_original),
         ('Erdős–Rényi',     comms_er),
         ('Barabási-Albert', comms_ba),
     ], os.path.join(HERE, 'community_sizes.png'))
 
-    draw_graph(G,    os.path.join(HERE, 'graph_orginal.png'), comms_orginal, 'Orginal network', show_labels=True)
-    draw_graph(G_er, os.path.join(HERE, 'graph_er.png'),      comms_er,      'Erdős–Rényi')
-    draw_graph(G_ba, os.path.join(HERE, 'graph_ba.png'),      comms_ba,      'Barabási-Albert')
+    draw_graph(G,    os.path.join(HERE, 'graph_original.png'), comms_original, 'Original network', show_labels=True)
+    draw_graph(G_er, os.path.join(HERE, 'graph_er.png'),       comms_er,       'Erdős–Rényi')
+    draw_graph(G_ba, os.path.join(HERE, 'graph_ba.png'),       comms_ba,       'Barabási-Albert')

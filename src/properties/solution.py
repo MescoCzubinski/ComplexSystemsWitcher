@@ -60,9 +60,9 @@ def describe_centrality_distributions(G):
     edge_betweenness = nx.edge_betweenness_centrality(G, normalized=True)
 
     node_sections = [
-        ("Grpah centrality distributions - degree",           degree),
-        ("Grpah centrality distributions - closeness",        closeness),
-        ("Grpah centrality distributions - node betweenness", betweenness),
+        ("graph centrality distributions - degree",           degree),
+        ("graph centrality distributions - closeness",        closeness),
+        ("graph centrality distributions - node betweenness", betweenness),
     ]
 
     for title, data in node_sections:
@@ -71,7 +71,7 @@ def describe_centrality_distributions(G):
         print_stats(values)
 
     values = list(edge_betweenness.values())
-    section("Grpah centrality distributions - edge Betweenness")
+    section("graph centrality distributions - edge betweenness")
     print_stats(values)
 
 
@@ -129,31 +129,31 @@ if __name__ == '__main__':
     G = load_graph(os.path.join(DATA, 'connections.csv'))
     G_cc = G.subgraph(max(nx.connected_components(G), key=len))
 
-    section("Grpah density")
+    section("graph density")
     describe_density(G)
 
-    section("Grpah diameter")
+    section("graph diameter")
     describe_diameter(G_cc)
 
-    section("Grpah average path length")
+    section("graph average path length")
     describe_avg_path_length(G_cc)
 
-    section("Grpah average path length")
+    section("graph average path length")
     describe_shortest_path(G_cc, "Nenneke", "Emhyr var Emreis")
 
-    section("Grpah path length distribution")
+    section("graph path length distribution")
     describe_path_length_distribution(G_cc)
 
     describe_centrality_distributions(G_cc)
 
-    section("Grpah PageRank")
+    section("graph PageRank")
     describe_pagerank(G_cc)
 
-    section("Grpah connected components")
+    section("graph connected components")
     describe_connected_components(G)
 
-    section("Grpah connectivity")
+    section("graph connectivity")
     describe_k_connectivity(G_cc)
 
-    section("Grpah cliques")
+    section("graph cliques")
     describe_cliques(G_cc)

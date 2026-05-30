@@ -106,9 +106,9 @@ def describe_node_centrality(G):
     betweenness = nx.betweenness_centrality(G, weight='weight', normalized=True)
 
     sections = [
-        ("Degree",      degree),
-        ("Closeness",   closeness),
-        ("Betweenness", betweenness),
+        ("degree",      degree),
+        ("closeness",   closeness),
+        ("betweenness", betweenness),
     ]
 
     for title, data in sections:
@@ -122,7 +122,7 @@ def describe_node_centrality(G):
 def describe_edge_centrality(G):
     betweenness = nx.edge_betweenness_centrality(G, weight='weight', normalized=True)
 
-    print("\n=== Edge Betweenness ===")
+    print("\n=== edge betweenness ===")
     for (u, v), value in betweenness.items():
         print(f"{u:<20} - {v:<20} {value:.4f}")
 
@@ -136,9 +136,9 @@ def describe_top(G, top_n=10):
     edge_betweenness = nx.edge_betweenness_centrality(G, weight='weight', normalized=True)
 
     sections = [
-        ("Top Degree",           degree),
-        ("Top Closeness",        closeness),
-        ("Top Node Betweenness", betweenness),
+        ("top degree",           degree),
+        ("top closeness",        closeness),
+        ("top node betweenness", betweenness),
     ]
 
     for title, data in sections:
@@ -146,7 +146,7 @@ def describe_top(G, top_n=10):
         for node, value in sorted(data.items(), key=lambda x: x[1], reverse=True)[:TOP_N]:
             print(f"  {node:<20} {value:.4f}")
 
-    section("Top Edge Betweenness")
+    section("top edge betweenness")
     for (u, v), value in sorted(edge_betweenness.items(), key=lambda x: x[1], reverse=True)[:TOP_N]:
         print(f"  {u:<20} -- {v:<20} {value:.4f}")
 
@@ -159,7 +159,7 @@ def describe_matrices(G, subgraph_size=15):
     print("\nNodes in subgraph:")
     print("  " + ", ".join(nodes))
 
-    section("Adjacency Matrix")
+    section("adjacency matrix")
     A = nx.to_numpy_array(S, nodelist=nodes)
     header = "".join(f"{n:>8}" for n in nodes)
     print(f"{'':>20}{header}")
@@ -167,7 +167,7 @@ def describe_matrices(G, subgraph_size=15):
         vals = "".join(f"{int(v):>8}" for v in row)
         print(f"  {nodes[i]:<18}{vals}")
 
-    section("Incidence Matrix")
+    section("incidence matrix")
     edges = list(S.edges())
     edge_labels = [f"{u[:6]}-{v[:6]}" for u, v in edges]
     header = "".join(f"{e:>14}" for e in edge_labels)
@@ -184,10 +184,10 @@ if __name__ == '__main__':
     G = load_graph(os.path.join(DATA, 'connections.csv'))
     draw_graph(G, os.path.join(HERE, 'graph.png'))
 
-    section("Grpah type")
+    section("graph type")
     describe_graph_type(G)
 
-    section("Graph size")
+    section("graph size")
     describe_graph_size(G)
 
     section("")
