@@ -1,18 +1,7 @@
-Zgodnie z poleceniem wygenerowano dwie sieci losowe
-o **zbliżonych parametrach** (te same węzły, możliwie ta sama liczba krawędzi):
-
-- **Erdős–Rényi (ER)**
-- **Barabási–Albert (BA)**
-
-Poniżej porównanie własności obu sieci losowych z siecią rzeczywistą oraz analiza
-struktury społeczności.
-
----
-
 ## 1. Podstawowe parametry sieci
 
-_Polecenie: sieci losowe o zbliżonej liczbie węzłów/krawędzi; porównanie gęstości, średniej długości ścieżki i składowych spójnych._ Wyniki pokazują, że ER i BA mają
-zbliżoną gęstość do oryginału, ale niższy współczynnik grupowania i mniej składowych spójnych.
+_Polecenie: sieci losowe o zbliżonej liczbie węzłów/krawędzi; porównanie gęstości, średniej długości ścieżki i składowych spójnych._
+Wyniki pokazują, że ER i BA mają zbliżoną gęstość do oryginału, ale niższy współczynnik grupowania i mniej składowych spójnych.
 
 ```
 ========================== Original - basic properties ===========================
@@ -50,12 +39,9 @@ Avg clustering coeff: 0.0461
 
 ## 2. Najważniejsze węzły wg stopnia
 
-_Polecenie: rozkład stopni wierzchołków (oraz własności z Zadań 1–2)._ Oryginał ma
-silne huby (Geralt 207, Ciri 115, Yennefer 101), ER jest niemal płaski (max ~14),
-a BA daje pośrednie huby wynikające z preferencyjnego dołączania.
+_Polecenie: rozkład stopni wierzchołków (oraz własności z Zadań 1–2)._
 
-_(Uwaga: „kategorie węzłów" z polecenia nie mają zastosowania - dane wejściowe nie
-zawierają atrybutu kategorii postaci, więc tej własności nie porównujemy.)_
+Oryginał ma silne huby (Geralt 207, Ciri 115, Yennefer 101), ER jest niemal płaski (max ~14), a BA daje pośrednie huby.
 
 ```
 =========================== Original - top nodes by degree ===========================
@@ -102,7 +88,10 @@ Yarpen Zigrin 32
 
 ## 3. Rozkłady miar centralności
 
-_Polecenie: dowolne inne własności z Zadań 1 i 2._ Dla każdej sieci podano statystyki (min / max / mean / median / std) rozkładów: stopnia, bliskości (closeness), pośrednictwa węzłów i krawędzi. Najwyższe wartości ma oryginał - odzwierciedla to obecność wyraźnych hubów, których nie ma w sieciach losowych.
+_Polecenie: dowolne inne własności z Zadań 1 i 2._
+
+Dla każdej sieci podano statystyki (min / max / mean / median / std) rozkładów: stopnia, bliskości (closeness), pośrednictwa węzłów i krawędzi.
+Najwyższe wartości ma oryginał - odzwierciedla to obecność wyraźnych hubów, których nie ma w sieciach losowych.
 
 ```
 =========================== Original - degree distribution ===========================
