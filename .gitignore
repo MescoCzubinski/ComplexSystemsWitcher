@@ -2,3 +2,7 @@ __pycache__/
 .venv/
 data/email_data
 books/
+
+*.aux
+*.log
+*.out
