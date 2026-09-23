@@ -1,7 +1,8 @@
 __pycache__/
 .venv/
-data/email_data
 books/
+
+.direnv/
 
 *.aux
 *.log

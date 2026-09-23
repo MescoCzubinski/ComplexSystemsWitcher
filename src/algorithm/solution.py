@@ -13,6 +13,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 from utils import load_graph, section, DATA, TOP_N
 
+os.makedirs(os.path.join(HERE, 'figures'), exist_ok=True)
+
 FG = 'black'
 PANEL = 'white'
 
@@ -161,5 +163,5 @@ if __name__ == '__main__':
         describe_hubness(result['hubness'], name)
         describe_anomalies(result, name)
 
-        plot_anomaly_scores(result, os.path.join(HERE, f'anomaly_scores_{suffix}.png'), f'{name} - anomaly scores')
-        draw_anomalies(graph, result, os.path.join(HERE, f'graph_anomalies_{suffix}.png'), f'{name} - anomalous edges')
+        plot_anomaly_scores(result, os.path.join(HERE, f'figures/anomaly_scores_{suffix}.png'), f'{name} - anomaly scores')
+        draw_anomalies(graph, result, os.path.join(HERE, f'figures/graph_anomalies_{suffix}.png'), f'{name} - anomalous edges')

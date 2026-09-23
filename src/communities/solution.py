@@ -17,6 +17,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 from utils import load_graph, section, DATA, BG, node_color_map
 
+os.makedirs(os.path.join(HERE, 'figures'), exist_ok=True)
+
 
 def greedy_communities(G):
     return [set(c) for c in nx_comm.greedy_modularity_communities(G, weight='weight')]
@@ -79,7 +81,7 @@ def plot_community_sizes(greedy, louvain, label):
     legend.get_title().set_color('white')
 
     plt.tight_layout()
-    path = os.path.join(HERE, 'community_sizes.png')
+    path = os.path.join(HERE, 'figures/community_sizes.png')
     plt.savefig(path, dpi=150, facecolor=BG, bbox_inches='tight')
     plt.close()
 
@@ -175,13 +177,13 @@ if __name__ == '__main__':
     plot_community_sizes(greedy, louvain, label)
 
     section("Greedy Modularity")
-    draw_graph(G, os.path.join(HERE, 'graph_greedy_drawen.png'), greedy, title='Greedy Modularity')
-    draw_embedding(G, os.path.join(HERE, 'graph_greedy_embedding.png'), greedy, title='Greedy Modularity')
+    draw_graph(G, os.path.join(HERE, 'figures/graph_greedy_drawen.png'), greedy, title='Greedy Modularity')
+    draw_embedding(G, os.path.join(HERE, 'figures/graph_greedy_embedding.png'), greedy, title='Greedy Modularity')
 
     section("Louvain")
-    draw_graph(G, os.path.join(HERE, 'graph_louvain.png'), louvain, title='Louvain')
-    draw_embedding(G, os.path.join(HERE, 'graph_louvain_embedding.png'), louvain, title='Louvain')
+    draw_graph(G, os.path.join(HERE, 'figures/graph_louvain.png'), louvain, title='Louvain')
+    draw_embedding(G, os.path.join(HERE, 'figures/graph_louvain_embedding.png'), louvain, title='Louvain')
 
     section("Label Propagation")
-    draw_graph(G, os.path.join(HERE, 'graph_label.png'), label, title='Label Propagation')
-    draw_embedding(G, os.path.join(HERE, 'graph_label_embedding.png'), label, title='Label Propagation')
+    draw_graph(G, os.path.join(HERE, 'figures/graph_label.png'), label, title='Label Propagation')
+    draw_embedding(G, os.path.join(HERE, 'figures/graph_label_embedding.png'), label, title='Label Propagation')

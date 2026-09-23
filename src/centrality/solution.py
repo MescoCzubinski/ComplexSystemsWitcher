@@ -14,6 +14,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 from utils import load_graph, section, DATA, BG, TOP_N
 
+os.makedirs(os.path.join(HERE, 'figures'), exist_ok=True)
+
 
 MIN_WEIGHT = 5
 MATRIX_SUBGRAPH_SIZE = 15
@@ -182,7 +184,7 @@ def describe_matrices(G, subgraph_size=15):
 
 if __name__ == '__main__':
     G = load_graph(os.path.join(DATA, 'connections.csv'))
-    draw_graph(G, os.path.join(HERE, 'graph.png'))
+    draw_graph(G, os.path.join(HERE, 'figures/graph.png'))
 
     section("graph type")
     describe_graph_type(G)

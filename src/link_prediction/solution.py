@@ -12,6 +12,8 @@ from sklearn.metrics import roc_auc_score, precision_score, recall_score, f1_sco
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 from utils import section, DATA, BG
+
+os.makedirs(os.path.join(HERE, 'figures'), exist_ok=True)
 DATA_DIR = os.path.join(DATA, 'email_data')
 
 
@@ -173,7 +175,7 @@ def plot_edge_counts(prefix, name):
     for spine in ax.spines.values():
         spine.set_edgecolor('#444444')
 
-    path = os.path.join(HERE, f'edge_counts_{prefix}.png')
+    path = os.path.join(HERE, f'figures/edge_counts_{prefix}.png')
     plt.tight_layout()
     plt.savefig(path, dpi=150, facecolor=BG, bbox_inches='tight')
     plt.close()
@@ -247,7 +249,7 @@ def plot_predictions(prefix, name, predictor, predictor_name,
     _draw(hits,        'gold',      3.0)
 
     out = os.path.join(HERE,
-                       f'predictions_{prefix}_{predictor_name.lower()}.png')
+                       f'figures/predictions_{prefix}_{predictor_name.lower()}.png')
     plt.savefig(out, dpi=150, facecolor=BG, bbox_inches='tight')
     plt.close()
     print(f"Saved: {out}")

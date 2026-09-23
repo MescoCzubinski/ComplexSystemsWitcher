@@ -13,6 +13,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 from utils import load_graph, section, DATA, BG
 
+os.makedirs(os.path.join(HERE, 'figures'), exist_ok=True)
+
 MOTIF3 = {
     (2, (1, 1, 2)): 'path',
     (3, (2, 2, 2)): 'triangle',
@@ -232,5 +234,5 @@ if __name__ == '__main__':
     section("resilience - triangle count vs node removal")
     describe_resilience(G, seed=37)
 
-    plot_motif_frequency([('Original', real3), ('Barabási-Albert', ba3)], ORDER3, '3-node motif frequency', os.path.join(HERE, 'motif_freq_3.png'))
-    plot_motif_frequency([('Original', real4), ('Barabási-Albert', ba4)], ORDER4, '4-node motif frequency', os.path.join(HERE, 'motif_freq_4.png'))
+    plot_motif_frequency([('Original', real3), ('Barabási-Albert', ba3)], ORDER3, '3-node motif frequency', os.path.join(HERE, 'figures/motif_freq_3.png'))
+    plot_motif_frequency([('Original', real4), ('Barabási-Albert', ba4)], ORDER4, '4-node motif frequency', os.path.join(HERE, 'figures/motif_freq_4.png'))

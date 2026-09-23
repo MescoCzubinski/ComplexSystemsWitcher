@@ -15,6 +15,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 from utils import load_graph, section, DATA, BG, TOP_N, node_color_map, print_stats
 
+os.makedirs(os.path.join(HERE, 'figures'), exist_ok=True)
+
 
 def generate_er(G):
     n = G.number_of_nodes()
@@ -241,7 +243,7 @@ if __name__ == '__main__':
         ('Original',        G),
         ('Erdős–Rényi',     G_er),
         ('Barabási-Albert', G_ba),
-    ], os.path.join(HERE, 'degree_distribution.png'))
+    ], os.path.join(HERE, 'figures/degree_distribution.png'))
 
     comms_original = describe_communities(G,    'Original')
     comms_er       = describe_communities(G_er, 'Erdős–Rényi')
@@ -251,8 +253,8 @@ if __name__ == '__main__':
         ('Original',        comms_original),
         ('Erdős–Rényi',     comms_er),
         ('Barabási-Albert', comms_ba),
-    ], os.path.join(HERE, 'community_sizes.png'))
+    ], os.path.join(HERE, 'figures/community_sizes.png'))
 
-    draw_graph(G,    os.path.join(HERE, 'graph_original.png'), comms_original, 'Original network', show_labels=True)
-    draw_graph(G_er, os.path.join(HERE, 'graph_er.png'),       comms_er,       'Erdős–Rényi')
-    draw_graph(G_ba, os.path.join(HERE, 'graph_ba.png'),       comms_ba,       'Barabási-Albert')
+    draw_graph(G,    os.path.join(HERE, 'figures/graph_original.png'), comms_original, 'Original network', show_labels=True)
+    draw_graph(G_er, os.path.join(HERE, 'figures/graph_er.png'),       comms_er,       'Erdős–Rényi')
+    draw_graph(G_ba, os.path.join(HERE, 'figures/graph_ba.png'),       comms_ba,       'Barabási-Albert')

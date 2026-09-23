@@ -231,17 +231,17 @@ _Polecenie: graficzna wizualizacja każdej sieci oraz społeczności, z wybraną
 
 Rozkład stopni trzech sieci obok siebie:
 
-![Rozkład stopni - Original vs ER vs BA](degree_distribution.png)
+![Rozkład stopni - Original vs ER vs BA](figures/degree_distribution.png)
 
 Rozkład wielkości społeczności (Greedy Modularity):
 
-![Rozkład wielkości społeczności](community_sizes.png)
+![Rozkład wielkości społeczności](figures/community_sizes.png)
 
 Grafy kolorowane wg społeczności; rozmiar węzła = stopień ważony
 (wybrana własność wierzchołka):
 
-![Sieć rzeczywista (Original)](graph_original.png)
+![Sieć rzeczywista (Original)](figures/graph_original.png)
 
-![Sieć losowa Erdős–Rényi](graph_er.png)
+![Sieć losowa Erdős–Rényi](figures/graph_er.png)
 
-![Sieć losowa Barabási–Albert](graph_ba.png)
+![Sieć losowa Barabási–Albert](figures/graph_ba.png)
