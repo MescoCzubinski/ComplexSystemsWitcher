@@ -39,17 +39,7 @@
               if [ ! -d .venv ]; then
                 echo "Creating virtualenv..."
                 virtualenv .venv
-                .venv/bin/pip install \
-                  networkx \
-                  matplotlib \
-                  seaborn \
-                  numpy \
-                  pandas \
-                  scipy \
-                  python-louvain \
-                  node2vec \
-                  "setuptools<81" \
-                  umap-learn
+                .venv/bin/pip install -r requirements.txt
                 echo "Done."
               fi
               source .venv/bin/activate

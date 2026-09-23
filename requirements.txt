@@ -1,0 +1,10 @@
+networkx
+matplotlib
+seaborn
+numpy
+pandas
+scipy
+python-louvain
+node2vec
+setuptools<81
+umap-learn
